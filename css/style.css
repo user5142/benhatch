@@ -141,7 +141,6 @@ header ul li a:hover {
     margin: 2rem 0 0 0;
 }
 
-
 .hero-text {
     display: flex;
     flex-flow: column;
@@ -157,7 +156,7 @@ header ul li a:hover {
 }
 
 #projects h2 {
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .projects-grid {
@@ -208,6 +207,20 @@ header ul li a:hover {
 
 .fun-facts strong h3 {
     margin-top: 2rem;
+}
+
+/* Contact */
+
+#contact {
+    margin: 0 8rem;
+}
+
+#contact h2 {
+    padding-bottom: 2rem;
+}
+
+#contact h3 {
+    width: 50%;
 }
 
 /* Footer */

@@ -5,16 +5,17 @@ const funFacts = [
     "I pursued standup comedy for 2 years while living in Boston.",
     "I grew up in Ashland, Massachusetts.",
     "I co-managed a dog walking business in the North End of Boston.",
-    "My all-time favorite movie is the Bourne Identity.",
+    "My all-time favorite movie is The Bourne Identity.",
     "My first passion in life was freestyle skiing.",
-    "I played football, baseball, basketball and soccer growing up.",
+    "I played football, basketball, baseball and soccer growing up.",
     "I was first introduced to graphic design my freshman year of high school. Thanks Mr. Smith!",
     "My web development journey began in December of 2022.",
     "I broke my wrist playing football my freshman year of high school.",
     "My favorite band growing up was the Red Hot Chili Peppers.",
-    "My first job out of college was at HubSpot as a Business Development Representative.",
+    "My first job out of college was at HubSpot working as a Business Development Representative.",
     "My childhood dog was a collie named Laddie.",
-    "My favorite pizza topping combo is pepperoni, olive and mushroom."
+    "My favorite pizza topping combo is pepperoni, olive and mushroom.",
+    "I am 6 feet tall."
 ];
 
 const funFactButton = document.getElementById("fun-button");

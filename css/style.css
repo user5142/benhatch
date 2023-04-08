@@ -21,7 +21,6 @@ h2 {
 
 h3 {
     font-size: 1.3rem;
-    font-weight: 600;
     line-height: 1.4;
 }
 
@@ -48,6 +47,29 @@ strong {
 .div {
     margin: 0 auto;
     padding: 10rem 8rem;
+}
+
+button {
+    background-color: #0E2646;
+    color: white;
+    width: 12rem;
+    height: 2.5rem;
+    padding: .25rem .5rem;
+    margin-top: .5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    width: 12.5rem;
+    height: 3rem;
+}
+
+button:active {
+    width: 12rem;
+    height: 2.5rem;
 }
 
 /* Header */
@@ -178,6 +200,14 @@ header ul li a:hover {
     }
 }
 
+/* Fun Facts */
+
+.fun-facts {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1.5rem;
+}
 
 /* Footer */
 

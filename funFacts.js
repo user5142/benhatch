@@ -8,5 +8,6 @@ const funFacts = [
     "My all-time favorite movie is the Bourne Identity.",
     "My first passion in life was freestyle skiing.",
     "I played football, baseball and basketball and soccer growing up.",
-    "I was first introduced to graphic design in my freshman year of high school."
+    "I was first introduced to graphic design in my freshman year of high school.", 
+    "My web development journey began in December of 2022."
 ];

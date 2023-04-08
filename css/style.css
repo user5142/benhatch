@@ -63,13 +63,10 @@ button {
 
 button:hover {
     cursor: pointer;
-    width: 12.5rem;
-    height: 3rem;
 }
 
 button:active {
-    width: 12rem;
-    height: 2.5rem;
+    opacity: .7;
 }
 
 /* Header */
@@ -207,6 +204,10 @@ header ul li a:hover {
     flex-flow: column;
     align-items: center;
     gap: 1.5rem;
+}
+
+.fun-facts strong h3 {
+    margin-top: 2rem;
 }
 
 /* Footer */

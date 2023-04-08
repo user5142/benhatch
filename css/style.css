@@ -46,7 +46,7 @@ strong {
 
 .div {
     margin: 0 auto;
-    padding: 10rem 8rem;
+    padding: 10rem 10rem;
 }
 
 button {
@@ -67,6 +67,12 @@ button:hover {
 
 button:active {
     opacity: .7;
+}
+
+@media only screen and (max-width: 1425px) {
+    .div {
+        padding: 8rem 5rem;
+    }
 }
 
 /* Header */
@@ -112,6 +118,12 @@ header ul li a:hover {
     color: #0E2646;
 }
 
+@media only screen and (max-width: 1425px) {
+    header {
+        padding: 0 5rem;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .logo-desktop {
         display: none;
@@ -146,13 +158,19 @@ header ul li a:hover {
     flex-flow: column;
     gap: 2rem;
     width: 50%;
-    padding: 8rem 0 5rem 10rem;
+    padding: 8rem 0 0 10rem;
+}
+
+@media only screen and (max-width: 1425px) {
+    .hero-text {
+        padding: 8rem 0 5rem 5rem;
+    }
 }
 
 /* Projects */
 
 #projects {
-    margin: 0 8rem;
+    margin: 0 10rem;
 }
 
 #projects h2 {
@@ -194,6 +212,10 @@ header ul li a:hover {
     .cover-image {
         width: 35rem;
     }
+
+    #projects {
+        margin: 0 5rem;
+    }
 }
 
 /* Fun Facts */
@@ -212,7 +234,7 @@ header ul li a:hover {
 /* Contact */
 
 #contact {
-    margin: 0 8rem;
+    margin: 0 10rem;
 }
 
 #contact h2 {
@@ -221,6 +243,12 @@ header ul li a:hover {
 
 #contact h3 {
     width: 50%;
+}
+
+@media only screen and (max-width: 1425px) {
+    #contact {
+        margin: 0 5rem;
+    }
 }
 
 /* Footer */

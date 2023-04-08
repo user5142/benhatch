@@ -15,7 +15,8 @@ const funFacts = [
     "My first job out of college was at HubSpot working as a Business Development Representative.",
     "My childhood dog was a collie named Laddie.",
     "My favorite pizza topping combo is pepperoni, olive and mushroom.",
-    "I am 6 feet tall."
+    "I am 6 feet tall.",
+    "I was very into extreme sports growing up, including skiing, scootering, aggressive inline and skateboarding."
 ];
 
 const funFactButton = document.getElementById("fun-button");

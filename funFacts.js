@@ -1,5 +1,5 @@
 const funFacts = [
-    "I received my undergraduate degree in Business Administration with a focus on Corporate Social Responsibility from the University of Vermont.",
+    "I received my undergraduate degree in Business Administration from the University of Vermont.",
     "My favorite sport is disc golf.",
     "My favorite app is Todoist.",
     "I pursued standup comedy for 2 years while living in Boston.",

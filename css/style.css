@@ -109,11 +109,20 @@ header ul li a:hover {
 /* Hero */
 
 .hero {
+    background-image: url(../images/bh-hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42rem;
+}
+
+
+.hero-text {
     display: flex;
     flex-flow: column;
     gap: 2rem;
     width: 50%;
-    margin: 5rem 0 5rem 5rem;
+    padding: 5rem 0 5rem 5rem;
 }
 
 /* Footer */

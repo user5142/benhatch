@@ -3,24 +3,35 @@
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p {
     font-family: 'Arial';
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: bold;
+    color: #0E2646;
     line-height: 1.2;
 }
 
 h2 {
     font-size: 2.2rem;
     font-weight: 600;
+    color: #0E2646;
     line-height: 1.3;
 }
 
 h3 {
     font-size: 1.3rem;
+    color: black;
+    line-height: 1.4;
+}
+
+h4 {
+    font-size: 1.2rem;
     line-height: 1.4;
 }
 
@@ -194,7 +205,7 @@ header ul li a:hover {
     }
 }
 
-@media only screen and (max-width: 1530px) {
+@media only screen and (max-width: 1600px) {
     .projects-grid {
         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     }
@@ -216,6 +227,28 @@ header ul li a:hover {
     #projects {
         margin: 0 5rem;
     }
+}
+
+/* Project Feature */
+
+.project-feature {
+    margin: 8rem 10rem;
+}
+
+.project-title h1 {
+    padding-bottom: 1rem;
+}
+
+.project-tools {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.tool {
+    border: 1px solid #D2D3D7;
+    border-radius: 10px;
+    padding: 2px 10px;
 }
 
 /* Fun Facts */

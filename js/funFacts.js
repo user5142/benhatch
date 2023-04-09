@@ -1,3 +1,4 @@
+// Generate a random fun fact on button click
 const funFacts = [
     "I received my undergraduate degree in Business Administration from the University of Vermont.",
     "My favorite sport is disc golf.",

@@ -1,3 +1,4 @@
+// Display and hide mobile hamburger menu on click
 function burgerMenu() {
     let burger = document.getElementById("burger-links");
     if (burger.style.display === "block") {

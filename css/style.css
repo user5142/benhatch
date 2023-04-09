@@ -31,7 +31,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.4;
 }
 
@@ -129,11 +129,47 @@ header ul li a:hover {
     color: #0E2646;
 }
 
+#hamburger-icon {
+    display: none;
+}
+
+#burger-links {
+    display: none;
+    background-color: #0E2646;
+}
+
+#burger-links a {
+    font-family: Arial;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #D2D3D7;
+}
+
 @media only screen and (max-width: 1425px) {
     header {
         padding: 0 5rem;
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    header {
+        padding: 0 2rem;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: inline;
+        width: 2.2rem;
+    }
+}
+
 
 @media only screen and (max-width: 500px) {
     .logo-desktop {
@@ -145,11 +181,11 @@ header ul li a:hover {
     }
 
     .logo {
-        width: 2.5rem;
+        width: 3.5rem;
     }
 
-    header ul {
-        gap: 2rem;
+    header {
+        padding: 0 1rem;
     }
 }
 
@@ -232,7 +268,14 @@ header ul li a:hover {
 /* Project Feature */
 
 .project-feature {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
     margin: 8rem 10rem;
+}
+
+.project-title {
+    padding-bottom: 2rem;
 }
 
 .project-title h1 {
@@ -245,10 +288,20 @@ header ul li a:hover {
     flex-wrap: wrap;
 }
 
+.project-tools h4 {
+    color: #696969;
+}
+
 .tool {
     border: 1px solid #D2D3D7;
     border-radius: 10px;
     padding: 2px 10px;
+}
+
+@media only screen and (max-width: 1425px) {
+    .project-feature {
+        margin: 8rem 5rem;
+    }
 }
 
 /* Fun Facts */

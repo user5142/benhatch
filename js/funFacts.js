@@ -17,7 +17,11 @@ const funFacts = [
     "My childhood dog was a collie named Laddie.",
     "My favorite pizza topping combo is pepperoni, olive and mushroom.",
     "I am 6 feet tall.",
-    "I was very into extreme sports growing up, including skiing, scootering, aggressive inline and skateboarding."
+    "I was very into extreme sports growing up, including skiing, scootering, aggressive inline and skateboarding.",
+    "I have never met a celebrity.",
+    "I built my first website in 2013.",
+    "My favorite fruit is pineapple.",
+    "My favorite design tool is Adobe Illustrator."
 ];
 
 const funFactButton = document.getElementById("fun-button");
@@ -27,4 +31,5 @@ funFactButton.addEventListener("click", function() {
     const randomNum = Math.floor(Math.random() * funFacts.length);
     let funFact = funFacts[randomNum];
     funFactDisplay.innerHTML = funFact;
+    funFactDisplay.style.padding = '1.5rem 0 0 0';
 });

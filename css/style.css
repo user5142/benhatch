@@ -314,7 +314,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1600px) {
     #projects {
-        margin: 0 20rem;
+        margin: 0 18rem;
     }
 }
 
@@ -341,7 +341,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    margin: 8rem 10rem 0 10rem;
+    margin: 8rem 20rem 0 20rem;
 }
 
 .project-title {
@@ -370,13 +370,13 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1425px) {
     .project-feature {
-        margin: 8rem 5rem 0 5rem;
+        margin: 8rem 12rem 0 12rem;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     .project-feature {
-        margin: 8rem 2rem 0 2rem;
+        margin: 8rem 5rem 0 5rem;
     }
 }
 
@@ -444,7 +444,7 @@ footer {
 }
 
 .footer-home {
-    margin-top: 25rem;
+    margin-top: 20rem;
 }
 
 .copyright {

@@ -90,7 +90,7 @@ button:active {
 
 @media only screen and (min-width: 1600px) {
     .div {
-        padding: 8rem 20rem;
+        padding: 8rem 18rem;
     }
 }
 
@@ -193,7 +193,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1600px) {
     header {
-        padding: 0 20rem;
+        padding: 0 18rem;
     }
 }
 
@@ -257,7 +257,7 @@ header ul li a:hover {
     }
 
     .hero-text {
-        padding: 8rem 0 0 20rem;
+        padding: 8rem 0 0 18rem;
     }
 }
 
@@ -368,6 +368,12 @@ header ul li a:hover {
     padding: 2px 10px;
 }
 
+@media only screen and (min-width: 1600px) {
+    .project-feature {
+        margin: 8rem 25rem 0 25rem;
+    }
+}
+
 @media only screen and (max-width: 1425px) {
     .project-feature {
         margin: 8rem 12rem 0 12rem;
@@ -412,7 +418,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1600px) {
     #contact {
-        margin: 0 20rem;
+        margin: 0 18rem;
     }
 }
 

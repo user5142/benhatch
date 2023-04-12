@@ -288,6 +288,10 @@ header ul li a:hover {
 }
 
 #projects h2 {
+    padding-bottom: 2rem;
+}
+
+#projects h3 {
     padding-bottom: 3rem;
 }
 

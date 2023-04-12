@@ -299,6 +299,11 @@ header ul li a:hover {
     gap: 2rem;
 }
 
+.project-cover:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
 .project-cover img {
     max-width: 100%;
 }

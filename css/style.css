@@ -167,6 +167,10 @@ header ul li a:hover {
     display: none;
 }
 
+#x-icon {
+    display: none;
+}
+
 #burger-links {
     display: none;
     background-color: #0E2646;

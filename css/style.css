@@ -461,9 +461,14 @@ footer {
 
 .articles {
     display: flex;
+    justify-content: center;
+}
+
+.articles-container {
+    display: flex;
     flex-flow: column;
     gap: 1.5rem;
-    padding: 8rem 25rem 0 25rem;
+    padding: 8rem 0 0 0;
 }
 
 .year strong {

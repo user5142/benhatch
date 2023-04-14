@@ -447,7 +447,7 @@ footer {
 
 @media only screen and (max-width: 1000px) {
     .project-feature {
-        margin: 8rem 5rem 0 5rem;
+        margin: 8rem 4rem 0 4rem;
     }
 }
 
@@ -462,6 +462,7 @@ footer {
 .articles {
     display: flex;
     justify-content: center;
+    padding: 0 2rem;
 }
 
 .articles-container {

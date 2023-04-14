@@ -288,7 +288,7 @@ header ul li a:hover {
 }
 
 #projects h2 {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 #projects h3 {
@@ -335,6 +335,71 @@ header ul li a:hover {
     }
 }
 
+/* Fun Facts */
+
+.fun-facts {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 2rem;
+}
+
+/* Contact */
+
+#contact {
+    margin: 0 10rem;
+}
+
+#contact h2 {
+    padding-bottom: 1rem;
+}
+
+#contact h3 {
+    width: 50%;
+}
+
+@media only screen and (min-width: 1600px) {
+    #contact {
+        margin: 0 18rem;
+    }
+}
+
+@media only screen and (max-width: 1425px) {
+    #contact {
+        margin: 0 5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #contact h3 {
+        width: 100%;
+    }
+
+    #contact {
+        margin: 0 2rem;
+    }
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    padding-top: 8rem;
+}
+
+.footer-home {
+    margin-top: 20rem;
+}
+
+.copyright {
+    color: #696969;
+}
+
 /* Project Features */
 
 .project-feature {
@@ -345,7 +410,7 @@ header ul li a:hover {
 }
 
 .project-title {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .project-title h1 {
@@ -392,67 +457,16 @@ header ul li a:hover {
     }
 }
 
-/* Fun Facts */
+/* Blog */
 
-.fun-facts {
+.articles {
     display: flex;
     flex-flow: column;
-    align-items: center;
     gap: 1.5rem;
-    padding: 0 2rem;
+    padding: 8rem 25rem 0 25rem;
 }
 
-/* Contact */
-
-#contact {
-    margin: 0 10rem;
-}
-
-#contact h2 {
-    padding-bottom: 2rem;
-}
-
-#contact h3 {
-    width: 50%;
-}
-
-@media only screen and (min-width: 1600px) {
-    #contact {
-        margin: 0 18rem;
-    }
-}
-
-@media only screen and (max-width: 1425px) {
-    #contact {
-        margin: 0 5rem;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    #contact h3 {
-        width: 100%;
-    }
-
-    #contact {
-        margin: 0 2rem;
-    }
-}
-
-/* Footer */
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 6rem;
-    width: 100%;
-    padding-top: 8rem;
-}
-
-.footer-home {
-    margin-top: 20rem;
-}
-
-.copyright {
-    color: #696969;
+.year strong {
+    font-size: 1.5rem;
+    color: #0E2646;
 }

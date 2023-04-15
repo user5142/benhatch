@@ -281,7 +281,7 @@ header ul li a:hover {
 @media only screen and (max-width: 500px) {
     .hero-text {
         width: auto;
-        padding: 8rem 1rem 0 1rem;
+        padding: 5rem 1rem 0 1rem;
     }
 }
 
@@ -514,6 +514,10 @@ footer {
     .articles {
         padding: 0 1rem;
     }
+
+    .articles-container {
+        padding: 5rem 0 0 0;
+    }
 }
 
 /* Article */
@@ -616,6 +620,6 @@ code {
 
 @media only screen and (max-width: 500px) {
     .article {
-        padding: 4rem 1rem 0 1rem;
+        padding: 5rem 1rem 0 1rem;
     }
 }

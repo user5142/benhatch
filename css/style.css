@@ -485,7 +485,7 @@ footer {
 
 .year strong {
     font-size: 1.5rem;
-    color: #0E2646;
+    color: black;
 }
 
 /* Article */
@@ -501,17 +501,42 @@ footer {
     padding: 8rem 0 0 0;
 }
 
-.date {
+.author-info p {
     color: #696969;
+}
+
+.author-card {
+    display: flex;
+    gap: .75rem;
+}
+
+.author-image {
+    width: 2.5rem;
+}
+
+.author-image img {
+    max-width: 100%;
+}
+
+.author-info p {
+    font-size: .85rem;
 }
 
 .article h1 {
     color: black;
 }
 
+.article h2 {
+    font-size: 1.75rem;
+}
+
 .article h3 {
     color: black;
     font-weight: bold;
+}
+
+.article i {
+    font-style: italic;
 }
 
 span {

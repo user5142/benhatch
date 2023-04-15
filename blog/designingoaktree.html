@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ben Hatch</title>
+    <link rel="icon" type="image/x-icon" href="../images/bh-favicon.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta charset="UTF-8">
+    <script src="../js/main.js" async></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a class="logo-desktop" href="../index.html"><img class="logo" src="../images/bh-logo.svg"></a>
+        <a class="logo-mobile" href="../index.html"><img class="logo" src="../images/bh-logo-small.svg"></a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="/benhatch.com/#projects">Projects</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="/benhatch.com/#contact">Contact</a></li>
+        </ul>
+        <a id="hamburger-icon" href="javascript:void(0);" onclick="burgerMenu()">
+            <img id="burger-icon" src="../images/bh-hamburger.svg" alt="hamburger icon"><img id="x-icon"
+                src="images/bh-x.svg">
+        </a>
+    </header>
+    <div id="burger-links">
+        <a href="index.html">Home</a>
+        <a href="/benhatch.com/#projects">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="/benhatch.com/#contact">Contact</a>
+    </div>
+
+    <section class="article">
+        <h1 class="title">Designing a Cybersecurity Brand Using AI, Adobe Illustrator, HTML and CSS</h1>
+        <div class="author-card">
+            <div class="author-image">
+                <img src="blog-images/ben-hatch.png" alt="Ben Hatch">
+            </div>
+            <div class="author-info">
+                <p><a href="https://twitter.com/hatch2k3" target="_blank">Ben Hatch</a></p>
+                <p>Feb 19, 2023</p>
+            </div>
+        </div>
+        <h2>Overview</h2>
+            <p>I recently completed a project called Company Home Page with Flexbox as part of <a href="https://www.codecademy.com/career-journey/full-stack-engineer" target="_blank">Codecademy’s Full Stack Engineer Career Path</a>. The project assignment was to design and build a home landing page for a business using HTML and CSS, with an emphasis on CSS Flexbox techniques.</p>
+            <p>I chose to spin up a fictitious cybersecurity consulting business called OAKTREE to use as the basis for my website. This article covers the tools, processes and techniques I utilized to build the OAKTREE brand and landing page.</p>
+            <p>You can check out the <a href="https://user5142.github.io/OAKTREE/" target="_blank">website</a> and <a href="https://github.com/user5142/OAKTREE" target="_blank">Github repository</a> of my finished project to go along with this article.</p>
+            <h2>Execution</h2>
+            <h3>Part I: Brand</h3>
+            <h3>Company</h3>
+            <p>The fictitious cybersecurity consulting company that I created for this project was largely inspired by the philosophies of Dan Geer.</p>
+            <p>Geer is a security analyst, writer and CIO of In-Q-Tel, the non-profit venture arm of the CIA. He is a security industry veteran and <a href="https://www.wired.com/brandlab/2015/06/dan-geers-10-cybersecurity-best-practices/" target="_blank">thought leader</a>, and places particular emphasis on designing “off-the-grid” backups to keep our critical infrastructure running when the internet goes down.</p>
+            <p>I thought it would be cool to devise a cybersecurity consulting business that specializes in these “off-the-grid” backup strategies, and thus OAKTREE (Offline Alternatives Known To Rectify Entropic Events) was born.</p>
+            <h3>Colors</h3>
+            <p>I first discovered <a href="https://colorhunt.co/" target="_blank">Color Hunt</a> from one of Shantanu Kumar’s awesome <a href="https://www.youtube.com/watch?v=TF4_T7yMTOA" target="_blank">design videos</a>, and it has since become my favorite tool for finding crisp and cohesive color palettes.</p>
+            <p>I felt that a clean, calm and professional color scheme would fit best with the OAKTREE brand. I used the Random feature on Color Hunt and scrolled through palettes until I found a nice blue/green/off-white combination that fit the bill.</p>
+            <div class="blog-image">
+                <img src="blog-images/colorhunt-screenshot.png" alt="Color Hunt palette screenshot">
+            </div>
+            <h3>Logo</h3>
+            <p>I employed the use of <a href="https://openai.com/dall-e-2/" target="_blank">DALL•E 2</a> to expedite my logo design process. DALL•E 2 is an artificial intelligence tool created by <a href="https://openai.com/" target="_blank">OpenAI</a> that can generate images based off of written prompts.</p>
+            <p>Here is a breakdown of the process I followed to create the OAKTREE logo utilizing the amazing capabilities of DALL•E 2 and Adobe Illustrator:</p>
+            <p>1) Define the vision</p>
+            <p>I first decided on what kind of logo mark I was looking for: a simple acorn vector.</p>
+            <p>2) Enter prompts</p>
+            <p>It can take a few tries and some tinkering to come up with a prompt that yields pleasing results from DALL•E.</p>
+            <p>On my sixth prompt attempt, DALL•E generated a result that I was happy with: a simple and visually appealing image of an acorn that would fit perfectly as a logo mark for the OAKTREE brand.</p>
+            <div class="blog-image">
+                <img src="blog-images/DALL-E-acorn-screenshot.png" alt="DALL•E 2 generated acorns">
+            </div>
+            <p>3) Vectorize</p>
+            <p>This step requires access to Adobe Illustrator, but could be performed using a variety of other tools and techniques.</p>
+            <p>I imported the DALL•E generated acorn PNG file into Adobe Illustrator, then performed Image Trace to vectorize it.</p>
+            <div class="blog-image">
+                <img src="blog-images/acorn-image-trace.png" alt="acorn image trace">
+            </div>
+            <div class="blog-image">
+                <img src="blog-images/acorn-image-trace2.png" alt="acorn image trace">
+            </div>
+            <p>I then deleted all unnecessary vector components, stylized the acorn with the brand colors, picked a font and added the OAKTREE text, and that’s all she wrote. The logo was completed from start to finish in under 20 minutes.</p>
+            <div class="blog-image">
+                <img src="blog-images/oaktree-logo-screenshot.png" alt="OAKTREE logo">
+            </div>
+            <h3>Part II: Landing Page</h3>
+            <h3>Design</h3>
+            <p>I used Adobe Illustrator to create a mockup of the OAKTREE landing page, working off of the color scheme and brand logo created in Part I. </p>
+            <p>I focused only on a desktop sized mockup and did not worry about the design of smaller screen sizes. I also did not create any sort of style guide and instead selected fonts, layouts and component styles on the fly to save time.</p>
+            <div class="blog-image">
+                <img src="blog-images/OAKTREE-website-mockup.png" alt="OAKTREE website mockup">
+            </div>
+            <p>I utilized simple Google Image searches to find visually appealing photos for the first two sections of the site.</p>
+            <p>One of the requirements for this project was to include photos of company employees on the website. To accomplish this in a quick and effective manner, I again turned to artificial intelligence and leveraged a website called <a href="https://thispersondoesnotexist.com/" target="_blank">This Person Does Not Exist.</a></p>
+            <p>Created by <a href="https://lucidrains.github.io/" target="_blank">Phil Wang</a>, TPDNE utilizes generative AI to render hyper-realistic images of people who do not actually exist. Simply visit the website and refresh the page, and a new AI generated human will appear.</p>
+            <p>Using TPDNE, I was able to quickly gather six high quality images of people who looked like they might work for a cybersecurity consulting firm, assign them a name and title, and the task was complete. It’s a bit eerie how realistic and believable these AI generated humans can appear to be.</p>
+            <div class="blog-image">
+                <img src="blog-images/leadership-team-screenshot.png" alt="OAKTREE leadership team">
+            </div>
+            <h3>Development</h3>
+            <p>With the mockup design complete, I was ready to dive into the development phase. I utilized the handy Live Server plugin within VSCode to launch live previews of the landing page as I built out the HTML and CSS code.</p>
+            <p>Per the project guidelines, I relied heavily on CSS Flexbox techniques in the development of the site. I also utilized media queries to optimize the site across screen sizes.</p>
+            <p>You can view the final result of the OAKTREE <a href="https://user5142.github.io/OAKTREE/" target="_blank">landing page</a> and check out the site’s <a href="https://github.com/user5142/OAKTREE" target="_blank">source code</a> on GitHub.</p>
+            <h2>Insights</h2>
+            <p>This project was a great opportunity to practice converting a design mockup to a developed website. Putting in the extra effort to create a fictitious brand with a highly realistic look and feel was very worthwhile. It made the project feel like a real world web developer assignment.</p>
+            <p>I continue to be amazed by AI tools like DALL•E 2 and TPDNE and find them extremely useful to incorporate into my design processes.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-home">
+        <p class="copyright">© 2023 Ben Hatch</p>
+    </footer>
+</body>
+
+</html>

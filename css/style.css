@@ -61,10 +61,6 @@ strong {
 }
 
 .div-mobile {
-    margin: 0 auto;
-    margin: 5rem 2rem;
-    height: 1px;
-    background: #0E2646;
     display: none;
 }
 
@@ -107,20 +103,24 @@ button:active {
 }
 
 @media only screen and (max-width: 500px) {
-    h1 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.1rem;
-    }
-
     .div {
         display: none;
     }
 
     .div-mobile {
         display: block;
+        margin: 0 auto;
+        margin: 5rem 1rem;
+        height: 1px;
+        background: #0E2646;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
     }
 }
 
@@ -219,6 +219,10 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 500px) {
+    header {
+        padding: 0 1rem;
+    }
+
     .logo-desktop {
         display: none;
     }
@@ -277,7 +281,7 @@ header ul li a:hover {
 @media only screen and (max-width: 500px) {
     .hero-text {
         width: auto;
-        padding: 8rem 2rem 0 2rem;
+        padding: 8rem 1rem 0 1rem;
     }
 }
 
@@ -335,6 +339,12 @@ header ul li a:hover {
     }
 }
 
+@media only screen and (max-width: 500px) {
+    #projects {
+        margin: 0 1rem;
+    }
+}
+
 /* Fun Facts */
 
 .fun-facts {
@@ -343,6 +353,12 @@ header ul li a:hover {
     align-items: center;
     gap: 1.5rem;
     padding: 0 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .fun-facts {
+        padding: 0 1rem;
+    }
 }
 
 /* Contact */
@@ -378,6 +394,12 @@ header ul li a:hover {
 
     #contact {
         margin: 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #contact {
+        margin: 0 1rem;
     }
 }
 
@@ -453,7 +475,7 @@ footer {
 
 @media only screen and (max-width: 500px) {
     .project-feature {
-        margin: 5rem 2rem 0 2rem;
+        margin: 5rem 1rem 0 1rem;
     }
 }
 
@@ -486,6 +508,12 @@ footer {
 .year strong {
     font-size: 1.5rem;
     color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    .articles {
+        padding: 0 1rem;
+    }
 }
 
 /* Article */
@@ -583,5 +611,11 @@ code {
         max-width: 100%;
         margin: 0;
         padding: 4rem 2rem 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .article {
+        padding: 4rem 1rem 0 1rem;
     }
 }

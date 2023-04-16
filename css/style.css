@@ -27,7 +27,7 @@ h2 {
 h3 {
     font-size: 1.3rem;
     color: black;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 h4 {
@@ -441,7 +441,7 @@ footer {
 
 .project-tools {
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
     flex-wrap: wrap;
 }
 

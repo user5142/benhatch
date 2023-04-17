@@ -244,7 +244,6 @@ header ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 42rem;
-    margin: 2rem 0 0 0;
 }
 
 .hero-text {
@@ -261,7 +260,8 @@ header ul li a:hover {
     }
 
     .hero-text {
-        padding: 8rem 0 0 18rem;
+        width: 42%;
+        padding: 10rem 0 0 18rem;
     }
 }
 
@@ -351,7 +351,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
     padding: 0 2rem;
 }
 
@@ -555,7 +555,10 @@ footer {
     font-size: .85rem;
 }
 
-.article h1 {
+.article h1,
+.article h2,
+.article h3,
+.article h4 {
     color: black;
 }
 

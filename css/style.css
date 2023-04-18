@@ -496,7 +496,7 @@ footer {
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
-    padding: 8rem 0 0 0;
+    padding: 6rem 0 0 0;
 }
 
 .articles a {

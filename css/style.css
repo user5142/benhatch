@@ -45,12 +45,12 @@ p {
 }
 
 a {
-    color: #145496;
+    color: #2074B4;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #2074B4;
+    color: #145496;
     cursor: pointer;
     text-decoration: none;
 }

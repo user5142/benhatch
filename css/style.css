@@ -255,7 +255,12 @@ header ul li a:hover {
     flex-flow: column;
     gap: 2rem;
     width: 50%;
-    padding: 8rem 0 0 10rem;
+    padding: 7rem 0 0 10rem;
+}
+
+.hero-text h3 {
+    color: #292929;
+    font-size: 1.75rem;
 }
 
 @media only screen and (min-width: 1600px) {
@@ -265,13 +270,13 @@ header ul li a:hover {
 
     .hero-text {
         width: 42%;
-        padding: 10rem 0 0 18rem;
+        padding: 7rem 0 0 18rem;
     }
 }
 
 @media only screen and (max-width: 1425px) {
     .hero-text {
-        padding: 8rem 0 0 5rem;
+        padding: 6rem 0 0 5rem;
     }
 }
 
@@ -279,6 +284,12 @@ header ul li a:hover {
     .hero-text {
         width: 75%;
         padding-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .hero-text h3 {
+        font-size: 1.3rem;
     }
 }
 

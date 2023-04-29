@@ -432,7 +432,7 @@ footer {
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    margin: 8rem 20rem 0 20rem;
+    margin: 8rem 30rem 0 10rem;
 }
 
 .project-title {
@@ -462,19 +462,19 @@ footer {
 
 @media only screen and (min-width: 1600px) {
     .project-feature {
-        margin: 8rem 25rem 0 25rem;
+        margin: 8rem 40rem 0 18rem;
     }
 }
 
 @media only screen and (max-width: 1425px) {
     .project-feature {
-        margin: 8rem 12rem 0 12rem;
+        margin: 8rem 25rem 0 5rem;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     .project-feature {
-        margin: 8rem 4rem 0 4rem;
+        margin: 8rem 8rem 0 2rem;
     }
 }
 

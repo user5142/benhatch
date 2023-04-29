@@ -552,8 +552,8 @@ footer {
     gap: 1.5rem;
     width: 42rem;
     max-width: 90%;
-    margin: 0 auto;
-    padding: 6rem 0 0 0;
+    /* margin: 0 auto; */
+    padding: 6rem 0rem 0 10rem;
 }
 
 .author-info p {
@@ -633,6 +633,24 @@ code {
 
 .line-break {
     border: 1px solid #D2D3D7;
+}
+
+@media only screen and (min-width: 1600px) {
+    .article {
+        padding-left: 18rem;
+    }
+}
+
+@media only screen and (max-width: 1425px) {
+    .article {
+        padding-left: 5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .article {
+        padding-left: 2rem;
+    }
 }
 
 @media only screen and (max-width: 770px) {

@@ -265,6 +265,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1600px) {
     .hero {
+        background-position: right;
         background-size: contain;
     }
 

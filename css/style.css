@@ -289,7 +289,7 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 770px) {
-    .hero-text h3 {
+    .hero-text h1 {
         font-size: 1.3rem;
     }
 }
@@ -449,12 +449,8 @@ footer {
     padding: 8rem 2rem 0 2rem;
 }
 
-.project-title {
-    padding-bottom: 1rem;
-}
-
 .project-title h1 {
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
 }
 
 .project-tools {

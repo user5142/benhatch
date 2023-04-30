@@ -18,7 +18,7 @@ h1 {
     font-size: 2.4rem;
     font-weight: bold;
     color: #0E2646;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
 h3 {
     font-size: 1.3rem;
     color: black;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 h4 {
@@ -258,7 +258,7 @@ header ul li a:hover {
     padding: 7rem 0 0 10rem;
 }
 
-.hero-text h3 {
+.hero-text h1 {
     color: #292929;
     font-size: 1.7rem;
 }

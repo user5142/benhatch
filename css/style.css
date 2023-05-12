@@ -325,10 +325,10 @@ header ul li a:hover {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     justify-content: center;
     justify-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .project-cover:hover {
@@ -357,16 +357,22 @@ header ul li a:hover {
     #projects {
         margin: 0 2rem;
     }
+}
 
+@media only screen and (max-width: 770px) {
     .projects-grid {
-        display: flex;
-        flex-flow: column;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     }
 }
 
 @media only screen and (max-width: 500px) {
     #projects {
         margin: 0 1rem;
+    }
+
+    .projects-grid {
+        display: flex;
+        flex-flow: column;
     }
 }
 

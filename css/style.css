@@ -175,6 +175,12 @@ header ul li a:hover {
     color: #0E2646;
 }
 
+#home, #blog {
+    background-image: linear-gradient(180deg, transparent 70%,rgba(32, 116, 180, 0.4) 0);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
 #hamburger-icon {
     display: none;
 }

@@ -15,7 +15,7 @@ const funFacts = [
     "My favorite band growing up was the Red Hot Chili Peppers.",
     "My first job out of college was at HubSpot working as a Business Development Representative.",
     "My childhood dog was a collie named Laddie.",
-    "My favorite pizza topping combo is pepperoni, olive and mushroom.",
+    "My favorite pizza topping combo is pepper and onion.",
     "I am 6 feet tall.",
     "I was very into extreme sports growing up, including skiing, scootering, aggressive inline and skateboarding.",
     "I have never met a celebrity.",

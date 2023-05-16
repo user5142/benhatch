@@ -467,7 +467,7 @@ footer {
     gap: 2rem;
     width: 50%;
     margin: 0 auto;
-    padding: 8rem 2rem 0 2rem;
+    padding: 7rem 2rem 0 2rem;
 }
 
 .project-title h1 {
@@ -531,7 +531,7 @@ footer {
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
-    padding: 8rem 2rem 0 2rem;
+    padding: 7rem 2rem 0 2rem;
 }
 
 .articles a {

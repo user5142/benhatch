@@ -139,13 +139,13 @@ header {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    height: 4.5rem;
+    height: 5.5rem;
     max-width: 100%;
     padding: 0 10rem;
 }
 
 .logo {
-    width: 10rem;
+    width: 3.5rem;
 }
 
 .logo:hover {

@@ -285,6 +285,12 @@ header ul li a:hover {
     }
 }
 
+@media only screen and (max-width: 1600px) and (min-width: 1425px) {
+    .hero-text {
+        width: 45%;
+    }
+}
+
 @media only screen and (max-width: 1425px) {
     .hero-text {
         padding: 6rem 0 0 5rem;

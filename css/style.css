@@ -501,6 +501,15 @@ footer {
     border-radius: 15px;
 }
 
+#launch-button {
+    display: block;
+    margin: 0 auto;
+}
+
+#launch-button-link {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1425px) {
     .project-feature {
         width: 60%;

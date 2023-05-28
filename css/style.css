@@ -4,6 +4,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #FCF9F5;
+}
+
 h1,
 h2,
 h3,

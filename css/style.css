@@ -179,8 +179,9 @@ header ul li a:hover {
     color: #0E2646;
 }
 
-#home, #blog {
-    background-image: linear-gradient(180deg, transparent 70%,rgba(32, 116, 180, 0.4) 0);
+#home,
+#blog {
+    background-image: linear-gradient(180deg, transparent 70%, rgba(32, 116, 180, 0.4) 0);
     background-position: bottom;
     background-repeat: no-repeat;
 }
@@ -554,12 +555,12 @@ footer {
 }
 
 .articles a {
-    color: #145496;
+    color: #2074B4;
     text-decoration: none;
 }
 
 .articles a:hover {
-    color: #2074B4;
+    color: #145496;
     text-decoration: underline;
     cursor: pointer;
 }

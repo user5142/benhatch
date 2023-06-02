@@ -506,6 +506,18 @@ footer {
     border-radius: 15px;
 }
 
+.project-feature ul {
+    list-style: disc;
+    padding-left: 2rem;
+}
+
+.project-feature ul li {
+    font-family: Arial;
+    color: black;
+    font-size: 1.3rem;
+    line-height: 1.4;  
+}
+
 #launch-button {
     display: block;
     margin: 0 auto;

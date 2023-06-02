@@ -1,5 +1,3 @@
 # benhatch.com
 
-<a href="https://benhatch.com/" target="_blank">benhatch.com</a> is my personal website.
-
-The site is built with HTML, CSS and JavaScript and features my projects, articles, contact information and other resources.
+My <a href="https://benhatch.com/" target="_blank">personal website</a>, built with HTML, CSS and JavaScript and featuring my projects, articles, contact info and other resources.

@@ -475,7 +475,7 @@ footer {
 .project-feature {
     display: flex;
     flex-flow: column;
-    gap: 2rem;
+    gap: 1.5rem;
     width: 50%;
     margin: 0 auto;
     padding: 7rem 2rem 0 2rem;
@@ -514,13 +514,14 @@ footer {
 .project-feature ul li {
     font-family: Arial;
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.05rem;
     line-height: 1.4;  
 }
 
 #launch-button {
     display: block;
     margin: 0 auto;
+    margin-bottom: 1rem;
 }
 
 #launch-button-link {

@@ -1,4 +1,4 @@
-// Display and hide mobile hamburger menu on click
+// Display and hide hamburger menu on click
 const burgerMenu = () => {
   const burgerMenu = document.getElementById("burger-links");
   const xIcon = document.getElementById("x-icon");
@@ -56,4 +56,6 @@ burgerIcon.addEventListener("click", burgerMenu);
 
 // Random fun facts
 const funButton = document.getElementById("fun-button");
-funButton.addEventListener("click", randomFunFact);
+if (funButton != null) {
+  funButton.addEventListener("click", randomFunFact)
+};

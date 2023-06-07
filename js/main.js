@@ -13,7 +13,7 @@ const burgerMenu = () => {
     burgerIcon.style.display = "none";
     xIcon.style.display = "inline";
   }
-}
+};
 
 // Generate a random fun fact on button click
 const randomFunFact = () => {
@@ -47,15 +47,17 @@ const randomFunFact = () => {
   let funFact = funFacts[randomNum];
   funFactDisplay.innerHTML = funFact;
   funFactDisplay.style.padding = '1.5rem 0 0 0';
-}
+};
 
 // Event listeners
 // Hamburger menu
 const burgerIcon = document.getElementById("hamburger-icon");
+if (burgerIcon != null) {
 burgerIcon.addEventListener("click", burgerMenu);
+};
 
 // Random fun facts
 const funButton = document.getElementById("fun-button");
 if (funButton != null) {
-  funButton.addEventListener("click", randomFunFact)
+  funButton.addEventListener("click", randomFunFact);
 };

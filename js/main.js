@@ -1,4 +1,4 @@
-// Display and hide mobile hamburger menu on click
+// Display and hide hamburger menu on click
 const burgerMenu = () => {
   const burgerMenu = document.getElementById("burger-links");
   const xIcon = document.getElementById("x-icon");

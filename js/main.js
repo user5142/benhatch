@@ -56,4 +56,6 @@ burgerIcon.addEventListener("click", burgerMenu);
 
 // Random fun facts
 const funButton = document.getElementById("fun-button");
-funButton.addEventListener("click", randomFunFact);
+if (funButton != null) {
+  funButton.addEventListener("click", randomFunFact)
+};

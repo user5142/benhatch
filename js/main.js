@@ -1,8 +1,8 @@
 // Display and hide mobile hamburger menu on click
 const burgerMenu = () => {
-  let burgerMenu = document.getElementById("burger-links");
-  let xIcon = document.getElementById("x-icon");
-  let burgerIcon = document.getElementById("burger-icon");
+  const burgerMenu = document.getElementById("burger-links");
+  const xIcon = document.getElementById("x-icon");
+  const burgerIcon = document.getElementById("burger-icon");
 
   if (burgerMenu.style.display === "block") {
     burgerMenu.style.display = "none";
@@ -48,3 +48,12 @@ const randomFunFact = () => {
   funFactDisplay.innerHTML = funFact;
   funFactDisplay.style.padding = '1.5rem 0 0 0';
 }
+
+// Event listeners
+// Hamburger menu
+const burgerIcon = document.getElementById("hamburger-icon");
+burgerIcon.addEventListener("click", burgerMenu);
+
+// Random fun facts
+const funButton = document.getElementById("fun-button");
+funButton.addEventListener("click", randomFunFact);

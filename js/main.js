@@ -1,8 +1,8 @@
 // Display and hide hamburger menu on click
 const burgerMenu = () => {
-  const burgerMenu = document.getElementById("burger-links");
-  const xIcon = document.getElementById("x-icon");
-  const burgerIcon = document.getElementById("burger-icon");
+  const burgerMenu = document.querySelector("#burger-links");
+  const xIcon = document.querySelector("#x-icon");
+  const burgerIcon = document.querySelector("#burger-icon");
 
   if (burgerMenu.style.display === "block") {
     burgerMenu.style.display = "none";
@@ -42,7 +42,7 @@ const randomFunFact = () => {
     "My favorite design tool is Adobe Illustrator."
   ];
 
-  const funFactDisplay = document.getElementById("dynamic-fun");
+  const funFactDisplay = document.querySelector("#dynamic-fun");
   const randomNum = Math.floor(Math.random() * funFacts.length);
   let funFact = funFacts[randomNum];
   funFactDisplay.innerHTML = funFact;
@@ -51,13 +51,13 @@ const randomFunFact = () => {
 
 // Event listeners
 // Hamburger menu
-const burgerIcon = document.getElementById("hamburger-icon");
+const burgerIcon = document.querySelector("#hamburger-icon");
 if (burgerIcon != null) {
 burgerIcon.addEventListener("click", burgerMenu);
 };
 
 // Random fun facts
-const funButton = document.getElementById("fun-button");
+const funButton = document.querySelector("#fun-button");
 if (funButton != null) {
   funButton.addEventListener("click", randomFunFact);
 };

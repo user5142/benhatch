@@ -170,18 +170,18 @@ header ul li a:hover {
 
 header ul li a:hover,
 header ul li a.active {
-    background-color: #E2E2E2;
+    background-color: #EFEFEF;
     padding: 8px 15px;
     margin: -8px -15px;
-    border-radius: .8rem;
+    border-radius: .9rem;
 }
 
 #home,
 #blog {
-    background-color: #E2E2E2;
+    background-color: #EFEFEF;
     padding: 8px 15px;
     margin: -8px -15px;
-    border-radius: .8rem;
+    border-radius: .9rem;
 }
 
 #hamburger-icon {

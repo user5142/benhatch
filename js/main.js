@@ -39,7 +39,7 @@ const randomFunFact = () => {
     "I have never met a celebrity.",
     "I built my first website in 2013.",
     "My favorite fruit is pineapple.",
-    "My favorite design tool is Adobe Illustrator."
+    "My favorite design tool is Figma."
   ];
 
   const funFactDisplay = document.querySelector("#dynamic-fun");

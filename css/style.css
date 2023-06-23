@@ -22,7 +22,7 @@ h1 {
     font-size: 2.4rem;
     font-weight: bold;
     color: #0E2646;
-    line-height: 1.25;
+    line-height:Lucida Bright
 }
 
 h2 {
@@ -414,6 +414,18 @@ header ul li a.active {
 
 #contact h3 {
     width: 50%;
+}
+
+.contact-icons {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0 0 0;
+}
+
+.contact-icons img {
+    width: 3rem;
 }
 
 @media only screen and (min-width: 1600px) {

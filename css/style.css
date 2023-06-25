@@ -98,9 +98,9 @@ button:active,
 
 @media only screen and (min-width: 1600px) {
     .spacer {
-        margin: 8rem 18rem;
+        margin: 8rem auto;
+        width: 75rem;
     }
-
 }
 
 @media only screen and (max-width: 1425px) {
@@ -216,7 +216,9 @@ header ul li a.active {
 
 @media only screen and (min-width: 1600px) {
     header {
-        padding: 0 18rem;
+        margin: 0 auto;
+        padding: 0;
+        width: 75rem;
     }
 }
 
@@ -284,7 +286,9 @@ header ul li a.active {
 
 @media only screen and (min-width: 1600px) {
     .hero {
-        padding: 5rem 18rem 0 18rem;
+        margin: 0 auto;
+        padding: 5rem 0 0 0;
+        width: 75rem;
     }
 }
 
@@ -359,7 +363,9 @@ header ul li a.active {
 
 @media only screen and (min-width: 1600px) {
     #projects {
-        margin: 0 18rem;
+        margin: 0 auto;
+        padding: 5rem 0 0 0;
+        width: 75rem;
     }
 }
 
@@ -438,7 +444,9 @@ header ul li a.active {
 
 @media only screen and (min-width: 1600px) {
     #contact {
-        margin: 0 18rem;
+        margin: 0 auto;
+        padding: 0;
+        width: 75rem;
     }
 }
 
@@ -541,6 +549,14 @@ footer {
     text-decoration: none;
 }
 
+@media only screen and (min-width: 1600px) {
+    .project-feature {
+        margin: 0 auto;
+        padding: 7rem 0 0 0;
+        width: 50rem;
+    }
+}
+
 @media only screen and (max-width: 1425px) {
     .project-feature {
         width: 60%;
@@ -604,7 +620,9 @@ footer {
 
 @media only screen and (min-width: 1600px) {
     .shop-all {
-        margin: 0 18rem;
+        margin: 0 auto;
+        padding: 0;
+        width: 75rem;
     }
 }
 
@@ -656,7 +674,9 @@ footer {
 
 @media only screen and (min-width: 1600px) {
     .product-feature {
-        margin: 7rem 18rem;
+        margin: 0 auto;
+        padding: 7rem 0 0 0;
+        width: 75rem;
     }
 }
 
@@ -753,6 +773,15 @@ footer {
 
 .article img {
     border-radius: 15px;
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .articles-container {
+        margin: 0 auto;
+        padding: 7rem 0 0 0;
+        max-width: 60rem;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -855,6 +884,14 @@ code {
 
 .line-break {
     border: 1px solid #D2D3D7;
+}
+
+@media only screen and (min-width: 1600px) {
+    .article {
+        margin: 0 auto;
+        padding: 6rem 0 0 0;
+        max-width: 60rem;
+    }
 }
 
 @media only screen and (max-width: 770px) {

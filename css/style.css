@@ -364,7 +364,6 @@ header ul li a.active {
 @media only screen and (min-width: 1600px) {
     #projects {
         margin: 0 auto;
-        padding: 5rem 0 0 0;
         width: 75rem;
     }
 }

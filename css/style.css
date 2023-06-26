@@ -433,12 +433,12 @@ header ul li a.active {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 2.5rem;
     padding: 2rem 0 0 0;
 }
 
 .contact-icons img {
-    width: 3rem;
+    width: 2.5rem;
 }
 
 @media only screen and (min-width: 1600px) {

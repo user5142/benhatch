@@ -12,21 +12,23 @@
 
 <body>
     <!-- Header -->
-    <header>
-        <a class="logo-desktop" href="https://benhatch.com/"><img class="logo" src="../images/bh-logo-test.svg"></a>
-        <a class="logo-mobile" href="https://benhatch.com/"><img class="logo" src="../images/bh-logo-test.svg"></a>
-        <ul>
-            <li><a href="https://benhatch.com/">Home</a></li>
-            <li><a href="https://benhatch.com/#projects">Projects</a></li>
-            <li><a href="https://benhatch.com/shop">Shop</a></li>
-            <li><a href="https://benhatch.com/blog">Blog</a></li>
-            <li><a href="https://benhatch.com/#contact">Contact</a></li>
-        </ul>
-        <a id="hamburger-icon">
-            <img id="burger-icon" src="../images/bh-hamburger.svg" alt="hamburger icon"><img id="x-icon"
-                src="../images/bh-x.svg">
-        </a>
-    </header>
+    <div class="fixed-header">
+        <header>
+            <a class="logo-desktop" href="https://benhatch.com/"><img class="logo" src="../images/bh-logo-test.svg"></a>
+            <a class="logo-mobile" href="https://benhatch.com/"><img class="logo" src="../images/bh-logo-test.svg"></a>
+            <ul>
+                <li><a href="https://benhatch.com/">Home</a></li>
+                <li><a href="https://benhatch.com/#projects">Projects</a></li>
+                <li><a href="https://benhatch.com/shop">Shop</a></li>
+                <li><a href="https://benhatch.com/blog">Blog</a></li>
+                <li><a href="https://benhatch.com/#contact">Contact</a></li>
+            </ul>
+            <a id="hamburger-icon">
+                <img id="burger-icon" src="../images/bh-hamburger.svg" alt="hamburger icon"><img id="x-icon"
+                    src="../images/bh-x.svg">
+            </a>
+        </header>
+    </div>
     <div id="burger-links">
         <a href="https://benhatch.com/">Home</a>
         <a href="https://benhatch.com/#projects">Projects</a>
@@ -83,7 +85,8 @@
             section of style.css:</p>
         <pre><code>vertical-align: middle;</code></pre>
         <p>4) The Features Section images are not linked properly in index.html. Correct the Features Section
-            <span>&lt;img&gt;</span> elements:</p>
+            <span>&lt;img&gt;</span> elements:
+        </p>
         <pre><code>&lt;img src="./resources/images/feature-1.png"/&gt;
         &lt;img src="./resources/images/feature-2.png"/&gt;
         </code></pre>
@@ -118,7 +121,8 @@
             Mono. Click into the font and scroll down until you find the Regular 400 style. Click the <strong>Select
                 Regular 400</strong> link, then follow the instructions on the pop-out window to add the code to
             index.html and style.css. The CSS code should be added to the <span>header .logo</span> ruleset within the
-            <span>/* Header */</span> section.</p>
+            <span>/* Header */</span> section.
+        </p>
         <p>Next, add the following code to the <span>header .logo</span> ruleset to update the font-size and color of
             the logo, and to enhance its alignment within the nav bar:</p>
         <pre><code>font-size: 1.5rem;
@@ -130,7 +134,8 @@
         <pre><code>z-index: 100;</code></pre>
         <p>/* Sign Up Section */</p>
         <p>1) To populate the background banner image, add the following declarations to the
-            <span>#sign-up-section</span> ruleset:</p>
+            <span>#sign-up-section</span> ruleset:
+        </p>
         <pre><code>background-image: url(../images/banner-landingpage.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -159,14 +164,17 @@
         </code></pre>
         <p>/* Filters Section */</p>
         <p>1) To make the images display next to each other on the same row, add the following declaration to the
-            <span>#filters-section .images-container</span> ruleset:</p>
+            <span>#filters-section .images-container</span> ruleset:
+        </p>
         <pre><code>display: flex;</code></pre>
         <p>2) To create a bit more spacing between the text elements, add the following declaration to the
-            <span>#filters-section .content h3</span> ruleset:</p>
+            <span>#filters-section .content h3</span> ruleset:
+        </p>
         <pre><code>padding-top: .75rem;</code></pre>
         <p>/* Quotes Section */</p>
         <p>1) Cut the padding declaration from the <span>#quotes-section .content</span> rule, then paste it into the
-            <span>#quotes-section</span> ruleset.</p>
+            <span>#quotes-section</span> ruleset.
+        </p>
         <pre><code>#quotes-section {
         &nbsp;&nbsp;&nbsp;&nbsp;background-color: #f3f3f3;
         &nbsp;&nbsp;&nbsp;&nbsp;padding: 5rem 0;
@@ -209,7 +217,8 @@
         <p>3) The Join Us button is missing from the tablet navigation bar. Follow these steps to make the Join Us
             button appear on tablet-sized screens:</p>
         <p>In index.html, add the following code as a fourth <span>li</span> element to the <span>ul</span> within
-            <span>&lt;nav class=”desktop”&gt;</span>:</p>
+            <span>&lt;nav class=”desktop”&gt;</span>:
+        </p>
         <pre><code>&lt;li class=”tablet”&gt&lt;a href="#" class="button"&gtJoin us&lt;/a&gt&lt;/li&gt</code></pre>
         <p>To hide the Join Us button on large screens, add the following rule to the <span>/* Header */</span> section
             within style.css: </p>
@@ -247,17 +256,20 @@
         <p>/* Sign Up Section */</p>
         <p>1) To align the top of the main content with the bottom of the nav bar, navigate to <span>/* Universal Styles
                 */</span> and find the <span>max-width: 760px</span> tablet media query. Then, update the
-            <span>top</span> declaration to match the tablet adjusted height of the nav bar:</p>
+            <span>top</span> declaration to match the tablet adjusted height of the nav bar:
+        </p>
         <pre><code>top: 4.5rem;</code></pre>
         <p>2) To align the text in the center of the section, add the following declarations to the
-            <span>#sign-up-cta</span> ruleset within the tablet media query:</p>
+            <span>#sign-up-cta</span> ruleset within the tablet media query:
+        </p>
         <pre><code>margin: 0;
         padding: 0;
         </code></pre>
         <p>/* Features Section */</p>
         <p>1) To align the feature containers next to each other, delete all declarations from the
             <span>#features-section</span> ruleset within the tablet media query, then add in the following
-            declarations:</p>
+            declarations:
+        </p>
         <pre><code>padding: 1rem;
         gap: 1rem;
         </code></pre>
@@ -292,7 +304,8 @@
             ruleset to the following:</p>
         <pre><code>margin-bottom: 4rem;</code></pre>
         <p>3) Update the <span>font-size</span> and <span>font-weight</span> declarations within the
-            <span>#filters-section .content h3</span> ruleset to the following:</p>
+            <span>#filters-section .content h3</span> ruleset to the following:
+        </p>
         <pre><code>font-size: 2rem;
         font-weight: bold;
         </code></pre>

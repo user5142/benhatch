@@ -46,7 +46,7 @@ const randomFunFact = () => {
   const randomNum = Math.floor(Math.random() * funFacts.length);
   let funFact = funFacts[randomNum];
   funFactDisplay.innerHTML = funFact;
-  funFactDisplay.style.padding = '1rem 2rem';
+  funFactDisplay.style.padding = '.75rem 2rem';
 };
 
 // Event listeners

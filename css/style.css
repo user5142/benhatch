@@ -554,7 +554,9 @@ footer {
 }
 
 #launch-button-link {
+    display: inline-block;
     text-decoration: none;
+    color: #FDFDFC;
 }
 
 @media only screen and (min-width: 1600px) {

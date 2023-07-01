@@ -96,7 +96,7 @@ button:active,
     opacity: .5;
 }
 
-.four-zero-four {
+section .four-zero-four {
     display: flex;
     flex-flow: column;
     align-items: center;

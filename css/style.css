@@ -96,6 +96,18 @@ button:active,
     opacity: .5;
 }
 
+.four-zero-four {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem 2rem 0 2rem;
+}
+
+.four-zero-four h1 {
+    font-size: 8rem;
+}
+
 @media only screen and (min-width: 1600px) {
     .spacer {
         margin: 8rem auto;
@@ -127,6 +139,10 @@ button:active,
 
     h3 {
         font-size: 1.1rem;
+    }
+
+    .four-zero-four h1 {
+        font-size: 5rem;
     }
 }
 

@@ -52,8 +52,10 @@ const randomFunFact = () => {
 // Event listeners
 // Hamburger menu
 const burgerIcon = document.querySelector("#hamburger-icon");
+const projectsNav = document.querySelector("#burger-links");
 if (burgerIcon != null) {
 burgerIcon.addEventListener("click", burgerMenu);
+projectsNav.addEventListener("click", burgerMenu);
 };
 
 // Random fun facts

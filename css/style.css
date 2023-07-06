@@ -300,7 +300,7 @@ header ul li a.active {
 .hero-text {
     display: flex;
     flex-flow: column;
-    gap: 1.5rem;
+    gap: 1rem;
     padding: 0 5rem 0 0;
 }
 

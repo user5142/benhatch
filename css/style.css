@@ -10,6 +10,7 @@ body {
     background-color: #F7F7F5;
 }
 
+h3,
 h4,
 h5,
 h6,
@@ -34,7 +35,6 @@ h2 {
 }
 
 h3 {
-    font-family: 'DM Sans', sans-serif;
     font-size: 1.3rem;
     color: black;
     line-height: 1.4;
@@ -788,6 +788,7 @@ footer {
 }
 
 .article-card h3 a {
+    font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     color: #0E2646;
     text-decoration: none;

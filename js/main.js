@@ -28,7 +28,7 @@ const randomFunFact = () => {
     "My first passion in life was freestyle skiing.",
     "I played football, basketball, baseball and soccer growing up.",
     "I was first introduced to graphic design my freshman year of high school. Thanks Mr. Smith!",
-    "My web development journey began in December of 2022.",
+    "I began my journey of learning to code in December of 2022.",
     "I broke my wrist playing football my freshman year of high school.",
     "My favorite band growing up was the Red Hot Chili Peppers.",
     "My first job out of college was at HubSpot working as a Business Development Representative.",

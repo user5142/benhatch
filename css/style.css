@@ -772,7 +772,7 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     justify-content: center;
     justify-items: center;
-    gap: 4rem;
+    gap: 3rem;
     padding: 7rem 10rem 0 10rem;
 }
 

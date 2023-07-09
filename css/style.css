@@ -10,7 +10,6 @@ body {
     background-color: #F7F7F5;
 }
 
-h3,
 h4,
 h5,
 h6,
@@ -35,6 +34,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'DM Sans', sans-serif;
     font-size: 1.3rem;
     color: black;
     line-height: 1.4;
@@ -765,57 +765,68 @@ footer {
     }
 }
 
-
 /* Blog */
 
-.articles {
-    display: flex;
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     justify-content: center;
+    justify-items: center;
+    gap: 4rem;
+    padding: 7rem 10rem 0 10rem;
 }
 
-.articles-container {
+.article-card {
     display: flex;
     flex-flow: column;
-    gap: 1.5rem;
-    padding: 7rem 2rem 0 2rem;
+    gap: .6rem;
 }
 
-.articles a {
-    color: #2074B4;
+.article-card p {
+    color: #696969;
+    font-size: .9rem;
+}
+
+.article-card h3 a {
+    font-weight: bold;
+    color: #0E2646;
     text-decoration: none;
 }
 
-.articles a:hover {
-    color: #145496;
-    text-decoration: underline;
+.article-card img:hover {
     cursor: pointer;
+    opacity: .8;
 }
 
-.year strong {
-    font-size: 1.5rem;
-    color: black;
-}
-
-.article img {
+.article-card img {
+    max-width: 100%;
     border-radius: 15px;
 }
 
-
 @media only screen and (min-width: 1600px) {
-    .articles-container {
+    .articles-grid {
         margin: 0 auto;
-        padding: 7rem 0 0 0;
-        max-width: 60rem;
+        width: 75rem;
+    }
+}
+
+@media only screen and (max-width: 1425px) {
+    .articles-grid {
+        padding: 5rem 5rem 0 5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .articles-grid {
+        padding: 5rem 2rem 0 2rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .articles {
-        padding: 0 2rem;
-    }
-
-    .articles-container {
-        padding: 5rem 0 0 0;
+    .articles-grid {
+        display: flex;
+        flex-flow: column;
+        gap: 2rem;
     }
 }
 
@@ -857,7 +868,7 @@ footer {
 .article h2,
 .article h3,
 .article h4 {
-    color: black;
+    color: #0E2646;
 }
 
 .article h2 {

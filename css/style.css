@@ -343,6 +343,10 @@ header ul li a.active {
         padding: 5rem 10rem 0 10rem;
     }
 
+    .hero-text {
+        padding: 0;
+    }
+
     .hero-image img {
         max-width: 100%;
         border-radius: 15px;

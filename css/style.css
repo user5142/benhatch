@@ -164,7 +164,12 @@ header {
     right: 0;
     background-color: #F7F7F5;
     z-index: 999;
+    transition: box-shadow 0.1s ease-in-out;
 }
+
+.shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
 
 .logo {
     width: 3.5rem;

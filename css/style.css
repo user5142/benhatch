@@ -311,7 +311,7 @@ header ul li a.active {
 .hero-image img {
     width: 40rem;
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 @media only screen and (min-width: 1600px) {
@@ -354,7 +354,7 @@ header ul li a.active {
 
     .hero-image img {
         max-width: 100%;
-        border-radius: 15px;
+        border-radius: 10px;
     }
 }
 
@@ -399,7 +399,7 @@ header ul li a.active {
 
 .project-cover img {
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 @media only screen and (min-width: 1600px) {
@@ -564,7 +564,7 @@ footer {
 }
 
 .project-feature img {
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .project-feature ul {
@@ -652,7 +652,7 @@ footer {
 
 .product-cover img {
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .product-cover h2,
@@ -705,7 +705,7 @@ footer {
 .product-images img {
     max-width: 100%;
     width: 40rem;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .product-info {
@@ -933,7 +933,7 @@ code {
 
 .blog-image img {
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .line-break {

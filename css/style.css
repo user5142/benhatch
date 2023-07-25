@@ -818,7 +818,7 @@ footer {
 
 .article-card img {
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 @media only screen and (min-width: 1600px) {

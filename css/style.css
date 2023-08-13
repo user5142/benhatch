@@ -635,14 +635,14 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 24rem));
     justify-content: left;
     justify-items: center;
-    gap: 1rem;
+    gap: 4rem;
     margin: 7rem 0 0 0;
 }
 
 .product-cover {
     display: flex;
     flex-flow: column;
-    gap: .7rem;
+    gap: 1.5rem;
 }
 
 .product-cover:hover {
@@ -658,6 +658,10 @@ footer {
 .product-cover h2,
 .product-cover h4 {
     text-align: center;
+}
+
+.product-cover h2 {
+    font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 1600px) {
@@ -709,9 +713,21 @@ footer {
 }
 
 .product-info {
+    max-width: 50%;
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
+}
+
+.button-container {
+    display: flex;
+    flex-flow: row;
+    gap: 1rem;
+}
+
+.product-button a {
+    color: white;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 1600px) {

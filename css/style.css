@@ -764,6 +764,7 @@ footer {
 
     .product-info {
         padding: 0 7rem;
+        max-width: 100%;
     }
 }
 

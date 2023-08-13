@@ -294,11 +294,11 @@ header ul li a.active {
 
 .hero {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    padding: 5rem 10rem 0 10rem;
+    align-items: left;
+    gap: 1.2rem;
+    padding: 8rem 10rem 4rem 10rem;
 }
 
 .hero-text {
@@ -309,23 +309,23 @@ header ul li a.active {
 }
 
 .hero-image img {
-    width: 40rem;
+    width: 3.5rem;
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 @media only screen and (min-width: 1600px) {
     .hero {
         margin: 0 auto;
-        padding: 5rem 0 0 0;
+        padding: 8rem 0 4rem 0;
         width: 75rem;
     }
 }
 
 @media only screen and (max-width: 1425px) {
     .hero {
-        gap: 2rem;
-        padding: 5rem 5rem 0 5rem;
+        gap: 1rem;
+        padding: 8rem 5rem 4rem 5rem;
     }
 
     .hero-text {
@@ -344,8 +344,8 @@ header ul li a.active {
 @media only screen and (max-width: 1000px) {
     .hero {
         flex-flow: column;
-        gap: 3rem;
-        padding: 5rem 10rem 0 10rem;
+        gap: 1rem;
+        padding: 5rem 2rem 4rem 2rem;
     }
 
     .hero-text {
@@ -354,19 +354,18 @@ header ul li a.active {
 
     .hero-image img {
         max-width: 100%;
-        border-radius: 10px;
     }
 }
 
 @media only screen and (max-width: 770px) {
     .hero {
-        padding: 5rem 5rem 0 5rem;
+        padding: 5rem 2rem 4rem 2rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .hero {
-        padding: 5rem 2rem 0 2rem;
+        padding: 5rem 2rem 4rem 2rem;
     }
 }
 

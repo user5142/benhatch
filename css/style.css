@@ -298,14 +298,13 @@ header ul li a.active {
     justify-content: center;
     align-items: left;
     gap: 1.2rem;
-    padding: 8rem 10rem 4rem 10rem;
+    padding: 8rem 40rem 4rem 10rem;
 }
 
 .hero-text {
     display: flex;
     flex-flow: column;
     gap: 1.2rem;
-    padding: 0 5rem 0 0;
 }
 
 .hero-image img {
@@ -320,6 +319,10 @@ header ul li a.active {
         padding: 8rem 0 4rem 0;
         width: 75rem;
     }
+
+    .hero-text {
+        padding: 0 30rem 0 0;
+    }
 }
 
 @media only screen and (max-width: 1425px) {
@@ -330,14 +333,14 @@ header ul li a.active {
 
     .hero-text {
         gap: 1rem;
-        padding: 0 8rem 0 0;
+        padding: 0 28rem 0 0;
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .hero-text {
         gap: 1rem;
-        padding: 0 4rem 0 0;
+        padding: 0 20rem 0 0;
     }
 }
 

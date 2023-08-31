@@ -447,7 +447,7 @@ header ul li a.active {
 }
 
 #dynamic-fun {
-    background-color: #FDFDFC;
+    border: 1px solid #0E2646;
     border-radius: 1rem;
     margin: 1rem 0 0 0;
 }

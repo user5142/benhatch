@@ -1,13 +1,13 @@
 /* Universal */
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600;700&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #F7F7F5;
+    background-color: #171717;
 }
 
 h3,
@@ -15,28 +15,29 @@ h4,
 h5,
 h6,
 p {
-    font-family: 'Arial';
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
 }
 
 h1 {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
     font-size: 2.4rem;
-    color: #0E2646;
+    color: #EDEDED;
     line-height: 1.2;
 }
 
 h2 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 2rem;
-    font-weight: 700;
-    color: #0E2646;
+    font-weight: 600;
+    color: #EDEDED;
     line-height: 1.1;
 }
 
 h3 {
     font-size: 1.3rem;
-    color: black;
+    color: #EDEDED;
     line-height: 1.4;
 }
 
@@ -69,8 +70,8 @@ strong {
     display: block;
     margin: 0 auto;
     margin: 10rem 10rem;
-    height: 2px;
-    background: #0E2646;
+    height: 1px;
+    background: #EDEDED;
 }
 
 button {
@@ -107,25 +108,11 @@ button:active,
     font-size: 8rem;
 }
 
-@media only screen and (min-width: 1600px) {
-    .spacer {
-        margin: 8rem auto;
-        width: 75rem;
-    }
-}
+@media only screen and (min-width: 1600px) {}
 
-@media only screen and (max-width: 1425px) {
-    .spacer {
-        margin: 8rem 5rem;
-    }
-}
+@media only screen and (max-width: 1425px) {}
 
-@media only screen and (max-width: 1000px) {
-    .spacer {
-        height: 1px;
-        margin: 5rem 2rem;
-    }
-}
+@media only screen and (max-width: 1000px) {}
 
 @media only screen and (max-width: 500px) {
     h1 {
@@ -154,7 +141,7 @@ header {
     align-items: center;
     height: 5.5rem;
     max-width: 100%;
-    padding: 0 10rem;
+    padding: 0 4rem;
 }
 
 .fixed-header {
@@ -162,25 +149,13 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #F7F7F5;
+    background-color: #171717;
     z-index: 999;
     transition: box-shadow 0.1s ease-in-out;
 }
 
 .shadow {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
-
-.logo {
-    width: 3.5rem;
-}
-
-.logo:hover {
-    opacity: .75;
-}
-
-.logo-mobile {
-    display: none;
 }
 
 header ul {
@@ -190,33 +165,23 @@ header ul {
 }
 
 header ul li a {
-    font-family: Arial;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
     font-size: 1rem;
-    color: black;
+    color: #EDEDED;
     text-decoration: none;
 }
 
 header ul li a:hover {
-    font-family: Arial;
+    font-family: 'Outfit', sans-serif;
     font-size: 1rem;
-    color: black;
+    color: #EDEDED;
+    opacity: .8;
 }
 
-header ul li a:hover,
-header ul li a.active {
-    background-color: #EFEFEF;
-    padding: 8px 15px;
-    margin: -8px -15px;
-    border-radius: .9rem;
-}
-
-#home,
-#blog,
-#shop {
-    background-color: #EFEFEF;
-    padding: 8px 15px;
-    margin: -8px -15px;
-    border-radius: .9rem;
+.contact-icons img {
+    width: 1.3rem;
+    padding: 0 .5rem;
 }
 
 #hamburger-icon {
@@ -229,31 +194,22 @@ header ul li a.active {
 
 #burger-links {
     display: none;
-    background-color: #0E2646;
+    background-color: #171717;
 }
 
 #burger-links a {
-    font-family: Arial;
-    color: white;
+    font-family: 'Outfit', sans-serif;
+    color: #EDEDED;
     padding: 1rem 2rem;
     text-decoration: none;
     font-size: 1.1rem;
     display: block;
     text-align: center;
-    border-bottom: 1px solid #D2D3D7;
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1425px) {
     header {
-        margin: 0 auto;
-        padding: 0;
-        width: 75rem;
-    }
-}
-
-@media only screen and (max-width: 1425px) {
-    header {
-        padding: 0 5rem;
+        padding: 0 2rem;
     }
 }
 
@@ -266,6 +222,10 @@ header ul li a.active {
         display: none;
     }
 
+    .blank-div {
+        display: none;
+    }
+
     #hamburger-icon {
         display: inline;
         width: 2.2rem;
@@ -274,7 +234,7 @@ header ul li a.active {
 
 @media only screen and (max-width: 500px) {
     header {
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 
     .logo-desktop {
@@ -297,50 +257,37 @@ header ul li a.active {
     flex-flow: column;
     justify-content: center;
     align-items: left;
-    gap: 1.2rem;
-    padding: 8rem 40rem 4rem 10rem;
+    gap: 1.4rem;
+    padding: 4rem 0 6rem 0;
+    margin: 0 auto;
+}
+
+.hero-pfp {
+    width: 4rem;
 }
 
 .hero-text {
     display: flex;
     flex-flow: column;
-    gap: 1.2rem;
+    gap: 1.4rem;
 }
 
-.hero-image img {
-    width: 3.5rem;
-    max-width: 100%;
-    border-radius: 50px;
-}
-
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1425px) {
     .hero {
-        margin: 0 auto;
-        padding: 8rem 0 4rem 0;
-        width: 75rem;
-    }
-
-    .hero-text {
-        padding: 0 30rem 0 0;
+        width: 50rem;
     }
 }
 
 @media only screen and (max-width: 1425px) {
     .hero {
-        gap: 1rem;
-        padding: 8rem 5rem 4rem 5rem;
-    }
-
-    .hero-text {
-        gap: 1rem;
-        padding: 0 28rem 0 0;
+        padding: 4rem 15rem 6rem 15rem;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    .hero-text {
+    .hero {
         gap: 1rem;
-        padding: 0 20rem 0 0;
+        padding: 4rem 10rem 6rem 10rem;
     }
 }
 
@@ -368,14 +315,14 @@ header ul li a.active {
 
 @media only screen and (max-width: 500px) {
     .hero {
-        padding: 5rem 2rem 4rem 2rem;
+        padding: 5rem 1rem 4rem 1rem;
     }
 }
 
 /* Projects */
 
 #projects {
-    margin: 0 10rem;
+    margin: 0 2rem;
 }
 
 #projects h2 {
@@ -388,7 +335,7 @@ header ul li a.active {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
     justify-content: center;
     justify-items: center;
     gap: 1rem;
@@ -401,19 +348,13 @@ header ul li a.active {
 
 .project-cover img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1425px) {
     #projects {
         margin: 0 auto;
-        width: 75rem;
-    }
-}
-
-@media only screen and (max-width: 1425px) {
-    #projects {
-        margin: 0 5rem;
+        padding: 0 2rem;
     }
 }
 
@@ -425,11 +366,14 @@ header ul li a.active {
 
 @media only screen and (max-width: 770px) {
     .projects-grid {
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     }
 }
 
 @media only screen and (max-width: 500px) {
+    #projects {
+        margin: 0 1rem;
+    }
     .projects-grid {
         display: flex;
         flex-flow: column;
@@ -457,62 +401,6 @@ header ul li a.active {
     }
 }
 
-/* Contact */
-
-#contact {
-    margin: 0 10rem;
-}
-
-#contact h2 {
-    padding-bottom: 1rem;
-}
-
-#contact h3 {
-    width: 50%;
-}
-
-.contact-icons {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    gap: 2.5rem;
-    padding: 2rem 0 0 0;
-}
-
-.contact-icons img {
-    width: 2.5rem;
-}
-
-@media only screen and (min-width: 1600px) {
-    #contact {
-        margin: 0 auto;
-        padding: 0;
-        width: 75rem;
-    }
-}
-
-@media only screen and (max-width: 1425px) {
-    #contact {
-        margin: 0 5rem;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    #contact h3 {
-        width: 100%;
-    }
-
-    #contact {
-        margin: 0 2rem;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    #contact {
-        margin: 0 2rem;
-    }
-}
-
 /* Footer */
 
 footer {
@@ -525,11 +413,11 @@ footer {
 }
 
 .footer-home {
-    margin-top: 20rem;
+    margin-top: 10rem;
 }
 
 .copyright {
-    color: #696969;
+    color: #D2D3D7;
 }
 
 /* Project Features */
@@ -574,7 +462,7 @@ footer {
 }
 
 .project-feature ul li {
-    font-family: Arial;
+    font-family: 'Outfit', sans-serif;
     color: black;
     font-size: 1.05rem;
     line-height: 1.4;

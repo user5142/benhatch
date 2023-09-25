@@ -179,6 +179,10 @@ header ul li a:hover {
     opacity: .8;
 }
 
+.blank-div {
+    width: 4.6rem;
+}
+
 .contact-icons img {
     width: 1.3rem;
     padding: 0 .5rem;
@@ -522,7 +526,7 @@ footer {
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 24rem));
-    justify-content: left;
+    justify-content: center;
     justify-items: center;
     gap: 4rem;
     margin: 7rem 0 0 0;
@@ -541,7 +545,7 @@ footer {
 
 .product-cover img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .product-cover h2,
@@ -551,14 +555,6 @@ footer {
 
 .product-cover h2 {
     font-size: 1.5rem;
-}
-
-@media only screen and (min-width: 1600px) {
-    .shop-all {
-        margin: 0 auto;
-        padding: 0;
-        width: 75rem;
-    }
 }
 
 @media only screen and (max-width: 1425px) {
@@ -576,10 +572,15 @@ footer {
 @media only screen and (max-width: 770px) {
     .products-grid {
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 2rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
+    .shop-all {
+        margin: 0 1rem;
+    }
+    
     .products-grid {
         display: flex;
         flex-flow: column;

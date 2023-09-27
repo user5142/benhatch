@@ -712,14 +712,14 @@ footer {
 }
 
 .article-card p {
-    color: #696969;
+    color: #EDEDED;
     font-size: .9rem;
 }
 
 .article-card h3 a {
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
-    color: #0E2646;
+    color: #EDEDED;
     text-decoration: none;
 }
 
@@ -774,7 +774,7 @@ footer {
 }
 
 .author-info p {
-    color: #696969;
+    color: #EDEDED;
 }
 
 .author-card {
@@ -798,7 +798,7 @@ footer {
 .article h2,
 .article h3,
 .article h4 {
-    color: #0E2646;
+    color: #EDEDED;
 }
 
 .article h2 {
@@ -806,7 +806,7 @@ footer {
 }
 
 .article h3 {
-    color: black;
+    color: #EDEDED;
     font-weight: bold;
 }
 

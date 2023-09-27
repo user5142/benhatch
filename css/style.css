@@ -42,23 +42,24 @@ h3 {
 }
 
 h4 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #EDEDED;
     line-height: 1.4;
 }
 
 p {
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     line-height: 1.5;
+    color: #EDEDED;
 }
 
 a {
-    color: #2074B4;
+    color: #44B9DE;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #145496;
+    color: #44B9DE;
     cursor: pointer;
     text-decoration: none;
 }
@@ -448,12 +449,12 @@ footer {
 }
 
 .project-tools h4 {
-    color: #696969;
+    color: #EDEDED;
     font-size: .9rem;
 }
 
 .tool {
-    border: 1px solid #D2D3D7;
+    border: 1px solid #EDEDED;
     border-radius: 10px;
     padding: 2px 10px;
 }
@@ -469,7 +470,7 @@ footer {
 
 .project-feature ul li {
     font-family: 'Outfit', sans-serif;
-    color: black;
+    color: #EDEDED;
     font-size: 1.05rem;
     line-height: 1.4;
 }

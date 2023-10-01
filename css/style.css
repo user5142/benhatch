@@ -455,12 +455,12 @@ footer {
 
 .tool {
     border: 1px solid #EDEDED;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 2px 10px;
 }
 
 .project-feature img {
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .project-feature ul {
@@ -602,7 +602,7 @@ footer {
 .product-images img {
     max-width: 100%;
     width: 40rem;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .product-info {
@@ -730,7 +730,7 @@ footer {
 
 .article-card img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 @media only screen and (min-width: 1600px) {
@@ -820,7 +820,7 @@ span {
     font-size: .85rem;
     font-weight: 500;
     background-color: #eee;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: 0.3rem 0.4rem 0.1rem;
     vertical-align: middle;
     white-space: nowrap;
@@ -830,7 +830,7 @@ pre {
     text-align: left;
     white-space: pre-line;
     background-color: #eee;
-    border-radius: 0.5rem;
+    border-radius: 5px;
     line-height: 1.2;
     padding: 0.5rem 0.75rem;
     overflow: auto;
@@ -845,7 +845,7 @@ code {
 
 .blog-image img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .line-break {

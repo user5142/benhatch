@@ -486,7 +486,7 @@ footer {
 @media only screen and (max-width: 500px) {
     .project-feature {
         width: auto;
-        padding: 5rem 2rem 0 2rem;
+        padding: 5rem 1rem 0 1rem;
     }
 }
 
@@ -545,7 +545,7 @@ footer {
 @media only screen and (max-width: 770px) {
     .products-grid {
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-        gap: 2rem;
+        gap: 4rem;
     }
 }
 

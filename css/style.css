@@ -557,6 +557,7 @@ footer {
     .products-grid {
         display: flex;
         flex-flow: column;
+        margin: 4rem 0 0 0;
     }
 }
 

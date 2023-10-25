@@ -241,7 +241,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     header {
-        padding: 0 1rem;
+        padding: 0 1.5rem;
     }
 
     .logo-desktop {
@@ -292,7 +292,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     .hero {
-        padding: 3rem 1rem 4rem 1rem;
+        padding: 3rem 1.5rem 4rem 1.5rem;
     }
 }
 
@@ -349,7 +349,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     #projects {
-        margin: 0 1rem;
+        margin: 0 1.5rem;
     }
     .projects-grid {
         display: flex;
@@ -486,7 +486,7 @@ footer {
 @media only screen and (max-width: 500px) {
     .project-feature {
         width: auto;
-        padding: 5rem 1rem 0 1rem;
+        padding: 5rem 1.5rem 0 1.5rem;
     }
 }
 
@@ -551,7 +551,7 @@ footer {
 
 @media only screen and (max-width: 500px) {
     .shop-all {
-        margin: 0 1rem;
+        margin: 0 1.5rem;
     }
     
     .products-grid {
@@ -661,7 +661,7 @@ footer {
     .product-feature {
         display: flex;
         flex-flow: column;
-        margin: 4rem 1rem;
+        margin: 4rem 1.5rem;
     }
 }
 
@@ -728,7 +728,7 @@ footer {
         display: flex;
         flex-flow: column;
         gap: 2rem;
-        padding: 5rem 1rem 0 1rem;
+        padding: 5rem 1.5rem 0 1.5rem;
     }
 }
 
@@ -843,6 +843,6 @@ code {
 
 @media only screen and (max-width: 500px) {
     .article {
-        padding: 5rem 1rem 0 1rem;
+        padding: 5rem 1.5rem 0 1.5rem;
     }
 }

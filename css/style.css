@@ -1,13 +1,14 @@
 /* Universal */
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #171717;
+    background-color: #151515;
 }
 
 h3,
@@ -15,12 +16,12 @@ h4,
 h5,
 h6,
 p {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
 }
 
 h1 {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 2.4rem;
     color: #F5F5F5;
@@ -28,7 +29,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 2rem;
     font-weight: 600;
     color: #F5F5F5;
@@ -36,7 +37,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #F5F5F5;
     line-height: 1.4;
 }
@@ -60,7 +61,7 @@ a {
 
 a:hover {
     color: #44B9DE;
-    cursor: pointer;
+    cursor: poInter;
     text-decoration: none;
 }
 
@@ -71,7 +72,15 @@ strong {
 .spacer {
     display: block;
     margin: 0 auto;
-    margin: 10rem 10rem;
+    margin: 5rem 0rem;
+    height: 1px;
+    background: #F5F5F5;
+}
+
+.spacer-2 {
+    display: block;
+    margin: 0 auto;
+    margin: 1rem 0rem;
     height: 1px;
     background: #F5F5F5;
 }
@@ -89,14 +98,14 @@ button {
 }
 
 button:hover {
-    cursor: pointer;
+    cursor: poInter;
     background-color: #F5F5F5;
     color: #171717;
 }
 
 
 .contact-icons img:hover {
-    cursor: pointer;
+    cursor: poInter;
     opacity: .8;
 }
 
@@ -168,7 +177,7 @@ header ul {
 }
 
 header ul li a {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     color: #F5F5F5;
@@ -176,7 +185,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
     color: #F5F5F5;
     opacity: .8;
@@ -205,7 +214,7 @@ header ul li a:hover {
 }
 
 #burger-links a {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #F5F5F5;
     padding: 1rem 2rem;
     text-decoration: none;
@@ -319,7 +328,7 @@ header ul li a:hover {
 }
 
 .project-cover:hover {
-    cursor: pointer;
+    cursor: poInter;
     opacity: .8;
 }
 
@@ -402,8 +411,8 @@ footer {
 .project-feature {
     display: flex;
     flex-flow: column;
-    gap: 1.5rem;
-    width: 50%;
+    gap: 5rem;
+    width: 72rem;
     margin: 0 auto;
     padding: 7rem 2rem 0 2rem;
 }
@@ -429,20 +438,56 @@ footer {
     padding: 2px 10px;
 }
 
-.project-feature img {
-    border-radius: 5px;
-}
-
 .project-feature ul {
     list-style: disc;
     padding-left: 2rem;
 }
 
 .project-feature ul li {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #F5F5F5;
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     line-height: 1.4;
+}
+
+.project-header {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+
+.project-feature img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.disclaimer {
+    display: inline-block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: .5rem 1rem;
+    border: 1px solid;
+    border-radius: 5px; 
+}
+
+.two-column {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.two-column-left {
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    width: 40%;
+}
+
+.two-column-right {
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    width: 40%;
 }
 
 #launch-button {
@@ -461,19 +506,28 @@ footer {
     .project-feature {
         margin: 0 auto;
         padding: 7rem 0 0 0;
-        width: 50rem;
+        width: 72rem;
     }
 }
 
 @media only screen and (max-width: 1425px) {
     .project-feature {
-        width: 60%;
+        width: 75%;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     .project-feature {
-        width: 70%;
+        width: 80%;
+    }
+
+    .two-column {
+        flex-flow: column;
+        gap: 2rem;
+    }
+
+    .two-column-right, .two-column-left {
+        width: 100%;
     }
 }
 
@@ -512,7 +566,7 @@ footer {
 }
 
 .product-cover:hover {
-    cursor: pointer;
+    cursor: poInter;
     opacity: .8;
 }
 
@@ -695,7 +749,7 @@ footer {
 }
 
 .article-card img:hover {
-    cursor: pointer;
+    cursor: poInter;
     opacity: .8;
 }
 

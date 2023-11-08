@@ -151,7 +151,7 @@ header {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    height: 5.5rem;
+    height: 5rem;
     max-width: 100%;
     padding: 0 4rem;
 }
@@ -272,7 +272,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 1.4rem;
-    padding: 4rem 0 8rem 0;
+    padding: 2rem 0 6rem 0;
     margin: 0 auto;
 }
 
@@ -291,7 +291,7 @@ header ul li a:hover {
     .hero {
         flex-flow: column;
         gap: 1rem;
-        padding: 5rem 2rem 4rem 2rem;
+        padding: 2.5rem 2rem 4rem 2rem;
     }
 
     .hero-image img {
@@ -301,7 +301,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     .hero {
-        padding: 3rem 1.5rem 4rem 1.5rem;
+        padding: 2.5rem 1.5rem 4rem 1.5rem;
     }
 }
 

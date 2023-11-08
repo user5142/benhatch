@@ -100,7 +100,7 @@ button {
 button:hover {
     cursor: poInter;
     background-color: #F5F5F5;
-    color: #171717;
+    color: #151515;
 }
 
 
@@ -161,7 +161,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #171717;
+    background-color: #151515;
     z-index: 999;
     transition: box-shadow 0.1s ease-in-out;
 }
@@ -210,7 +210,7 @@ header ul li a:hover {
 
 #burger-links {
     display: none;
-    background-color: #171717;
+    background-color: #151515;
 }
 
 #burger-links a {

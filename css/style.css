@@ -284,13 +284,6 @@ header ul li a:hover {
     width: 3.75rem;
 }
 
-.hero-content {
-    display: flex;
-    flex-flow: column;
-    gap: 1.4rem;
-    margin: 0 auto;
-}
-
 @media only screen and (min-width: 1425px) {
     .hero {
         padding: 0 10rem;
@@ -301,7 +294,11 @@ header ul li a:hover {
     .hero {
         flex-flow: column;
         gap: 1rem;
-        padding: 2.5rem 2rem 4rem 2rem;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .hero-content {
+        padding: 2rem 0 4rem 0;
     }
 
     .hero-image img {
@@ -317,7 +314,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     .hero {
-        padding: 2.5rem 1.5rem 4rem 1.5rem;
+        padding: 0 1.5rem 0 1.5rem;
     }
 }
 

@@ -284,6 +284,52 @@ header ul li a:hover {
     width: 3.75rem;
 }
 
+.inline-bg {
+    display: inline-block;
+    background-color: #232426;
+    padding: .05rem .5rem;
+    border-radius: 40px;
+    width: fit-content;
+}
+
+.availability-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #00ff00;
+    /* Green color */
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgba(0, 255, 0, 0.5);
+    /* Glow effect */
+    animation: fadeInOut 2.5s infinite alternate;
+    /* Animation for fading in and out */
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        /* Dot is completely transparent */
+    }
+
+    100% {
+        opacity: 1;
+        /* Dot is fully visible */
+    }
+}
+
+.open-for-freelance {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: .6rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.freelance-text {
+    font-size: .85rem;
+    color: #c8c4c4;
+}
+
 @media only screen and (min-width: 1425px) {
     .hero {
         padding: 0 10rem;
@@ -373,6 +419,7 @@ header ul li a:hover {
     #projects {
         margin: 0 1.5rem;
     }
+
     .projects-grid {
         display: flex;
         flex-flow: column;
@@ -480,7 +527,7 @@ footer {
     width: fit-content;
     padding: .5rem 1rem;
     border: 1px solid;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .two-column {
@@ -539,7 +586,8 @@ footer {
         gap: 2rem;
     }
 
-    .two-column-right, .two-column-left {
+    .two-column-right,
+    .two-column-left {
         width: 100%;
     }
 }
@@ -620,7 +668,7 @@ footer {
     .shop-all {
         margin: 0 1.5rem;
     }
-    
+
     .products-grid {
         display: flex;
         flex-flow: column;

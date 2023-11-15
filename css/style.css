@@ -293,26 +293,21 @@ header ul li a:hover {
 }
 
 .availability-dot {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: #00ff00;
-    /* Green color */
     border-radius: 50%;
     box-shadow: 0 0 10px 5px rgba(0, 255, 0, 0.5);
-    /* Glow effect */
     animation: fadeInOut 2.5s infinite alternate;
-    /* Animation for fading in and out */
 }
 
 @keyframes fadeInOut {
     0% {
         opacity: 0;
-        /* Dot is completely transparent */
     }
 
     100% {
         opacity: 1;
-        /* Dot is fully visible */
     }
 }
 
@@ -548,6 +543,12 @@ footer {
     flex-flow: column;
     gap: 1.5rem;
     width: 40%;
+}
+
+.case-study-paragraph {
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
 }
 
 #launch-button {

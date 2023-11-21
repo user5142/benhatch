@@ -563,6 +563,20 @@ footer {
     color: #FDFDFC;
 }
 
+.stat-container {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+}
+
+.big-stat {
+    font-size: 3.4rem;
+}
+
+.stat-descriptor {
+    font-size: 1rem;
+}
+
 @media only screen and (min-width: 1600px) {
     .project-feature {
         margin: 0 auto;

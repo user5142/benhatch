@@ -225,7 +225,8 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1425px) {
     header {
-        padding: 0 12rem;
+        width: 70rem;
+        margin: 0 auto;
     }
 }
 
@@ -272,7 +273,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    padding: 6rem 8rem 10rem 8rem;
+    padding: 6rem 10rem 10rem 10rem;
     border-radius: 0.625rem;
     background: linear-gradient(104deg, #EBF2F6 -7.77%, #F7F4EC 103.38%);
 }
@@ -290,8 +291,9 @@ header ul li a:hover {
 }
 
 @media only screen and (min-width: 1425px) {
-    .hero {
-        padding: 0 4rem;
+    .hero-bio {
+        width: 70rem;
+        margin: 0 auto;
     }
 }
 
@@ -394,13 +396,20 @@ header ul li a:hover {
     border-bottom: 1px solid #0D0D0E;
 }
 
+@media only screen and (min-width: 1425px) {
+    .services-container {
+        width: 70rem;
+        margin: 14rem auto;
+    }
+}
+
 /* Footer */
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 12rem;
+    padding: 0 0 2.5rem 0;
 }
 
 .footer-home {
@@ -408,7 +417,7 @@ footer {
 }
 
 .footer-name-and-title h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .footer-nav {
@@ -438,6 +447,12 @@ footer ul li a:hover {
     opacity: .8;
 }
 
+@media only screen and (min-width: 1425px) {
+    footer {
+        width: 78rem;
+        margin: 0 auto;
+    }
+}
 
 /* Project Features */
 

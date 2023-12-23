@@ -154,6 +154,7 @@ header ul {
     align-items: center;
     height: 4.5rem;
     max-width: 100%;
+    padding: 0 10rem;
 }
 
 .nav-email {
@@ -223,10 +224,14 @@ header ul li a:hover {
     text-align: center;
 }
 
-@media only screen and (min-width: 1425px) {
+@media only screen and (min-width: 1510px) {
     header {
         width: 70rem;
         margin: 0 auto;
+    }
+
+    header ul {
+        padding: 0;
     }
 }
 
@@ -273,7 +278,8 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    padding: 6rem 10rem 10rem 10rem;
+    padding: 6rem 8rem 10rem 8rem;
+    margin: 0 2rem;
     border-radius: 0.625rem;
     background: linear-gradient(104deg, #EBF2F6 -7.77%, #F7F4EC 103.38%);
 }
@@ -290,10 +296,11 @@ header ul li a:hover {
     width: fit-content;
 }
 
-@media only screen and (min-width: 1425px) {
+@media only screen and (min-width: 1510px) {
     .hero-bio {
         width: 70rem;
         margin: 0 auto;
+        padding: 6rem 10rem 10rem 10rem;
     }
 }
 
@@ -301,7 +308,7 @@ header ul li a:hover {
     .hero {
         flex-flow: column;
         gap: 1rem;
-        padding: 0 2rem 0 2rem;
+        padding: 0 2rem;
     }
 
     .hero-bio {

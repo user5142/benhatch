@@ -207,7 +207,7 @@ header ul li a:hover {
 
 #burger-links {
     display: none;
-    background-color: #080806;
+    background-color: #FDFDFD;
 }
 
 #burger-links a {
@@ -537,7 +537,7 @@ footer ul li a:hover {
     .footer-nav {
         display: flex;
         flex-flow: row;
-        justify-content: space-between;
+        gap: 4rem;
     }
 }
 

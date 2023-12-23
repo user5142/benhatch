@@ -360,12 +360,40 @@ header ul li a:hover {
     gap: 1rem;
 }
 
+@media only screen and (max-width: 1200px) {
+    .feature-image-container {
+        display: flex;
+        flex-flow: column;
+        gap: 1.2rem;
+        width: 50rem;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .projects-container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        gap: 2rem;
+        margin: 0 1rem;
+        width: auto;
+    }
+
+    .feature-image-container {
+        display: flex;
+        flex-flow: column;
+        gap: 1.2rem;
+        width: 100%;
+    }
+}
+
 /* Services */
 
 .services-container {
     border-radius: 0.625rem;
     background: linear-gradient(104deg, #EBF2F6 -7.77%, #F7F4EC 103.38%);
-    margin: 14rem 12rem;
+    margin: 14rem 6rem;
     padding: 2rem 4rem 4rem 4rem;
 }
 
@@ -374,7 +402,7 @@ header ul li a:hover {
     flex-flow: row;
     justify-content: space-between;
     gap: 6rem;
-    padding: 4rem 0 0 0;
+    padding: 3rem 0 0 0;
 }
 
 .services-stack {
@@ -406,13 +434,44 @@ header ul li a:hover {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .services-container {
+        margin: 14rem 4rem;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .services-grid {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        gap: 1.5rem;
+        padding: 3rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .services-container {
+        margin: 6rem 1rem;
+        padding: 2rem 3rem 4rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .services-container {
+        border-radius: 0;
+        margin: 6rem 0rem;
+        padding: 2rem 1.5rem 4rem 1.5rem;
+    }
+}
+
 /* Footer */
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0 2.5rem 0;
+    padding: 0 2rem 2.5rem 2rem;
 }
 
 .footer-home {
@@ -454,6 +513,31 @@ footer ul li a:hover {
     footer {
         width: 78rem;
         margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    footer {
+        padding: 0 1rem 2.5rem 1rem;
+    }
+
+    .footer-home {
+        margin-top: 15rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    footer {
+        flex-flow: column;
+        flex-direction: column-reverse;
+        gap: 2.5rem;
+        padding: 0 1rem 2.5rem 1rem;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
     }
 }
 

@@ -208,6 +208,7 @@ header ul li a:hover {
 #burger-links {
     display: none;
     background-color: #FDFDFD;
+    padding-bottom: 1rem;
 }
 
 #burger-links a {
@@ -217,7 +218,7 @@ header ul li a:hover {
     text-decoration: none;
     font-size: 1.1rem;
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 @media only screen and (min-width: 1510px) {
@@ -257,11 +258,19 @@ header ul li a:hover {
     #hamburger-icon {
         width: 2.2rem;
     }
+
+    #burger-links a {
+        padding: 1rem 4rem;
+    }
 }
 
 @media only screen and (max-width: 770px) {
     header {
         padding: 0 1.5rem;
+    }
+
+    #burger-links a {
+        padding: 1rem 1.5rem;
     }
 }
 

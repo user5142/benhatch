@@ -353,7 +353,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 1.2rem;
-    width: 72rem;
+    width: 55rem;
     margin: 0 auto;
 }
 
@@ -367,6 +367,12 @@ header ul li a:hover {
     flex-flow: row;
     align-content: center;
     gap: 1rem;
+}
+
+@media only screen and (min-width: 1600px) {
+    .feature-image-container {
+        width: 65rem;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -403,7 +409,7 @@ header ul li a:hover {
     border-radius: 0.625rem;
     background: linear-gradient(104deg, #EBF2F6 -7.77%, #F7F4EC 103.38%);
     margin: 14rem 6rem;
-    padding: 2rem 4rem 4rem 4rem;
+    padding: 3rem 4rem 4rem 4rem;
 }
 
 .services-grid {

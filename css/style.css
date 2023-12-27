@@ -280,7 +280,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    padding: 6rem 8rem 10rem 8rem;
+    padding: 5rem 8rem 8rem 8rem;
     margin: 0 2rem;
     border-radius: 0.625rem;
     background: linear-gradient(104deg, #EBF2F6 -7.77%, #F7F4EC 103.38%);
@@ -302,7 +302,7 @@ header ul li a:hover {
     .hero-bio {
         width: 70rem;
         margin: 0 auto;
-        padding: 6rem 10rem 10rem 10rem;
+        padding: 5rem 10rem 8rem 10rem;
     }
 }
 
@@ -391,7 +391,8 @@ header ul li a:hover {
         flex-flow: column;
         justify-content: center;
         gap: 2rem;
-        margin: 0 1rem;
+        /*margin: 0 1rem;*/
+        padding: 2rem 1rem;
         width: auto;
     }
 

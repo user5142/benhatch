@@ -55,8 +55,8 @@ const randomFunFact = () => {
 const burgerIcon = document.querySelector("#hamburger-icon");
 const projectsNav = document.querySelector("#burger-links");
 if (burgerIcon != null) {
-burgerIcon.addEventListener("click", burgerMenu);
-projectsNav.addEventListener("click", burgerMenu);
+  burgerIcon.addEventListener("click", burgerMenu);
+  projectsNav.addEventListener("click", burgerMenu);
 };
 
 // Random fun facts
@@ -66,10 +66,10 @@ if (funButton != null) {
 };
 
 // Nav bar drop shadow
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
   const navbar = document.querySelector('.fixed-header');
   const scrolled = window.scrollY;
-  
+
   if (scrolled > 0) {
     navbar.classList.add('shadow');
   } else {

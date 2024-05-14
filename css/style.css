@@ -312,7 +312,6 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     .hero-bio {
-        width: 70rem;
         margin: 0 auto;
         padding: 5rem 10rem 8rem 10rem;
     }

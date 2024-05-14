@@ -22,11 +22,16 @@ p {
 
 h1 {
     font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 2.4rem;
-    color: #69696F;
+    color: #080806;
     line-height: 1.2;
     letter-spacing: 1px;
+}
+
+.grey {
+    font-weight: 400;
+    color: #69696F;
 }
 
 h2 {
@@ -281,13 +286,20 @@ header ul li a:hover {
     flex-flow: column;
     gap: 2rem;
     padding: 5rem 8rem 8rem 8rem;
-    margin: 0 2rem;
+    margin: 0 auto;
     border-radius: 0.625rem;
-    background: linear-gradient(104deg, #EBF2F6 -7.77%, #F7F4EC 103.38%);
+    max-width: 28rem;
+    /*background: linear-gradient(104deg, #EBF2F6 -7.77%, #F7F4EC 103.38%);*/
 }
 
 .hero-pfp {
     width: 3.75rem;
+}
+
+.hero-text {
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
 }
 
 .inline-bg {
@@ -315,7 +327,6 @@ header ul li a:hover {
 @media only screen and (max-width: 1000px) {
     .hero-bio {
         padding: 2rem 3rem 4rem 3rem;
-        margin: 0 1rem;
     }
 
     h1 {
@@ -326,7 +337,6 @@ header ul li a:hover {
 @media only screen and (max-width: 770px) {
     .hero-bio {
         padding: 2rem 1.5rem 4rem 1.5rem;
-        margin: 0;
         border-radius: 0%;
     }
 }

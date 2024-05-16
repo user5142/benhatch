@@ -285,7 +285,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    padding: 5rem 8rem 8rem 8rem;
+    padding: 14rem 8rem 8rem 8rem;
     margin: 0 auto;
     border-radius: 0.625rem;
     max-width: 36rem;
@@ -313,19 +313,19 @@ header ul li a:hover {
 @media only screen and (min-width: 1510px) {
     .hero-bio {
         margin: 0 auto;
-        padding: 5rem 10rem 8rem 10rem;
+        padding: 14rem 10rem 8rem 10rem;
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .hero-bio {
-        padding: 4rem 6rem 8rem 6rem;
+        padding: 12rem 6rem 8rem 6rem;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     .hero-bio {
-        padding: 2rem 3rem 4rem 3rem;
+        padding: 12rem 3rem 4rem 3rem;
     }
 
     h1 {
@@ -335,7 +335,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 770px) {
     .hero-bio {
-        padding: 2rem 1.5rem 4rem 1.5rem;
+        padding: 12rem 1.5rem 4rem 1.5rem;
         border-radius: 0%;
     }
 }

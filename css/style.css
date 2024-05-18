@@ -156,17 +156,12 @@ button:active,
 header ul {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
+    gap: 4rem;
     height: 4.5rem;
     max-width: 100%;
     padding: 0 12rem;
-}
-
-.nav-email {
-    border: 1px solid #69696F;
-    border-radius: 10px;
-    padding: .3rem .6rem;
 }
 
 .fixed-header {

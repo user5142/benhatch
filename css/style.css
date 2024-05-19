@@ -160,12 +160,11 @@ button:active,
 header ul {
     display: flex;
     flex-flow: row;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
-    gap: 4rem;
     height: 4.5rem;
     max-width: 100%;
-    padding: 0 12rem;
+    padding: 0 14rem;
 }
 
 .fixed-header {
@@ -180,6 +179,12 @@ header ul {
 
 .shadow {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-pages {
+    display: flex;
+    flex-flow: row;
+    gap: 4rem;
 }
 
 header ul li a {
@@ -228,7 +233,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     header {
-        padding: 0 12rem;
+        padding: 0 14rem;
     }
 
     header ul {
@@ -293,6 +298,7 @@ header ul li a:hover {
     flex-flow: column;
     gap: 2rem;
     max-width: 36rem;
+    padding: 1.4rem 2rem;
 }
 
 .article-card {
@@ -396,7 +402,13 @@ header ul li a:hover {
     gap: .8rem;
 }
 
-.article-date {
+.article-info {
+    display: flex;
+    flex-flow: column;
+    gap: .2rem;
+}
+
+.article-info p {
     font-size: 1rem;
     font-weight: 500;
 }

@@ -397,6 +397,11 @@ header ul li a:hover {
         min-width: 0;
         padding: 0;
     }
+
+    .article-card:hover {
+        cursor: pointer;
+        background-color: #f4f3f0;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -424,6 +429,18 @@ header ul li a:hover {
     font-weight: 600;
 }
 
+@media only screen and (max-width: 1000px) {
+    .all-articles {
+        padding: 6rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .all-articles {
+        padding: 4rem 1.5rem 0 1.5rem;
+    }
+}
+
 /* Article */
 
 .article {
@@ -433,7 +450,7 @@ header ul li a:hover {
     width: 42rem;
     max-width: 90%;
     margin: 0 auto;
-    padding: 6rem 2rem 0 2rem;
+    padding: 6rem 0 0 0;
 }
 
 .article-header {
@@ -456,12 +473,8 @@ header ul li a:hover {
 .article-body {
     display: flex;
     flex-flow: column;
-    align-content: space-between;
     gap: 1.5rem;
-    width: 42rem;
-    max-width: 90%;
     margin: 0 auto;
-    padding: 6rem 2rem 0 2rem;
 }
 
 .blog-image img {
@@ -482,10 +495,9 @@ header ul li a:hover {
         flex-flow: column;
         align-content: space-between;
         gap: 1.5rem;
-        width: 42rem;
         max-width: 60rem;
         margin: 0 auto;
-        padding: 0rem 0 0 0;
+        padding: 0 0 0 0;
     }
 }
 

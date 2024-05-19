@@ -164,7 +164,7 @@ header ul {
     align-items: center;
     height: 4.5rem;
     max-width: 100%;
-    padding: 0 14rem;
+    padding: 0 4rem;
 }
 
 .fixed-header {
@@ -217,7 +217,7 @@ header ul li a:hover {
 
 #burger-links {
     display: none;
-    background-color: #FDFDFD;
+    background-color: #f4f3f0;
     padding-bottom: 1rem;
 }
 
@@ -233,7 +233,8 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     header {
-        padding: 0 14rem;
+        margin: 0 auto;
+        width: 86rem;
     }
 
     header ul {
@@ -241,15 +242,21 @@ header ul li a:hover {
     }
 }
 
+@media only screen and (max-width: 1330px) {
+    header ul {
+        padding: 0 6rem;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     header ul {
-        padding: 0 8rem;
+        padding: 0 4rem;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     header {
-        padding: 0 4rem;
+        padding: 0 3rem;
     }
 
     header ul {
@@ -290,13 +297,14 @@ header ul li a:hover {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10rem 8rem 0rem 8rem;
+    padding: 10rem 2rem 0rem 2rem;
 }
 
 .hero-bio {
     display: flex;
     flex-flow: column;
     gap: 2rem;
+    min-width: 36rem;
     max-width: 36rem;
     padding: 1.4rem 2rem;
 }
@@ -305,6 +313,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 1.2rem;
+    min-width: 36rem;
     max-width: 36rem;
     padding: 1.4rem 2rem;
     border-radius: .6rem;
@@ -337,31 +346,56 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     .hero {
+        gap: 10rem;
         margin: 0 auto;
-        padding: 10rem 12rem 0rem 12rem;
+        width: 90rem;
+        padding: 10rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .hero {
+        flex-flow: column;
+        gap: 4rem;
+        padding: 4rem 2rem 0rem 2rem;
+    }
+
+    .hero-bio {
+        max-width: 100%;
+    }
+
+    .article-card {
+        max-width: 67rem;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    .hero-bio {
-        padding: 10rem 6rem 0rem 6rem;
-    }
+
 }
 
 @media only screen and (max-width: 1000px) {
-    .hero-bio {
-        padding: 10rem 3rem 0rem 3rem;
-    }
-
     h1 {
         font-size: 2rem;
+    }
+
+    .hero {
+        padding: 2rem 1rem 0 1rem;
     }
 }
 
 @media only screen and (max-width: 770px) {
     .hero-bio {
-        padding: 12rem 1.5rem 0rem 1.5rem;
+        padding: 2rem 0 0 0;
         border-radius: 0%;
+    }
+
+    .hero-bio {
+        min-width: 0;
+    }
+
+    .article-card {
+        min-width: 0;
+        padding: 0;
     }
 }
 
@@ -435,7 +469,7 @@ header ul li a:hover {
     border-radius: 5px;
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1510px) {
     .article {
         gap: 2rem;
         margin: 0 auto;
@@ -575,7 +609,7 @@ header ul li a:hover {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1510px) {
     .product-feature {
         margin: 0 auto;
         padding: 7rem 0 0 0;

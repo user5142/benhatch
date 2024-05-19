@@ -376,8 +376,14 @@ header ul li a:hover {
 .all-articles {
     display: flex;
     flex-flow: column;
+    align-items: center;
+    padding: 10rem 0 0 0;
+}
+
+.articles-block {
+    display: flex;
+    flex-flow: column;
     gap: 1.4rem;
-    padding: 10rem 0 0 12rem;
 }
 
 .article-year {

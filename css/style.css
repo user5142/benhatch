@@ -301,7 +301,6 @@ header ul li a:hover {
     gap: 1.2rem;
     max-width: 36rem;
     padding: 1.4rem 2rem;
-    border: 1px solid rgb(235, 235, 233);
     border-radius: .6rem;
 }
 
@@ -313,7 +312,11 @@ header ul li a:hover {
 
 .article-card:hover {
     cursor: pointer;
-    background-color: rgb(235, 235, 233); 
+    background-color: rgb(235, 235, 233);
+}
+
+.hero-articles a:hover {
+    text-decoration: none;
 }
 
 .hero-pfp {

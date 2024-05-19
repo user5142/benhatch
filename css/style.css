@@ -62,12 +62,12 @@ p {
 }
 
 a {
-    color: #44B9DE;
+    color: #1895e8;
     text-decoration: none;
 }
 
 a:hover {
-    color: #44B9DE;
+    color: #1895e8;
     cursor: pointer;
     text-decoration: underline;
 }

@@ -8,6 +8,7 @@ html {
 
 body {
     /*background-color: #FDFDFD;*/
+    /*background-color: #F9F8F4;*/
     background-color: #f4f3f0;
 }
 
@@ -37,7 +38,7 @@ h1 {
 
 h2 {
     font-family: 'DM Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: #080806;
     line-height: 1.1;
@@ -327,7 +328,7 @@ header ul li a:hover {
 
 .article-card:hover {
     cursor: pointer;
-    background-color: rgb(235, 235, 233);
+    background-color: rgb(236, 236, 233);
 }
 
 .hero-articles a:hover {

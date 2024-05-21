@@ -201,6 +201,7 @@ header ul li a:hover {
     font-size: 1rem;
     color: #69696F;
     opacity: .8;
+    text-decoration: none;
 }
 
 .contact-icons img {
@@ -220,6 +221,13 @@ header ul li a:hover {
     display: none;
     background-color: #f4f3f0;
     padding-bottom: 1rem;
+}
+
+.mobile-nav a {
+    font-family: 'DM Sans', sans-serif;
+    color: #69696F;
+    text-decoration: none;
+    font-size: 1.1rem;
 }
 
 #burger-links a {
@@ -287,7 +295,7 @@ header ul li a:hover {
     }
 
     #burger-links a {
-        padding: 1rem 1.5rem;
+        padding: 1.4rem 1.5rem;
     }
 }
 

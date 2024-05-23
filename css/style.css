@@ -321,7 +321,7 @@ header ul li a:hover {
 .article-card {
     display: flex;
     flex-flow: column;
-    gap: 1.2rem;
+    gap: 1rem;
     min-width: 36rem;
     max-width: 36rem;
     padding: 1.4rem 2rem;

@@ -341,10 +341,10 @@ header ul li a:hover {
     max-width: 28rem;
 }
 
-.formkit-form[data-uid="4dc2efc10b"] .formkit-fields {
+/*.formkit-form[data-uid="4dc2efc10b"] .formkit-fields {
     flex-wrap: nowrap;
     flex-flow: column;
-}
+}*/
 
 .article-card {
     display: flex;

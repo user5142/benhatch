@@ -318,6 +318,16 @@ header ul li a:hover {
     padding: 1.4rem 2rem;
 }
 
+.hero-pfp {
+    width: 4rem;
+}
+
+.hero-text {
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+
 .article-card {
     display: flex;
     flex-flow: column;
@@ -343,14 +353,16 @@ header ul li a:hover {
     text-decoration: none;
 }
 
-.hero-pfp {
-    width: 4rem;
+.article-card .read-more {
+    display: flex;
+    flex-flow: row;
+    gap: .5rem;
+    justify-content: end;
+    padding: .5rem 0 0 0;
 }
 
-.hero-text {
-    display: flex;
-    flex-flow: column;
-    gap: .5rem;
+.read-more p {
+    font-size: .8rem;
 }
 
 @media only screen and (min-width: 1510px) {

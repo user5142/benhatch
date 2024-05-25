@@ -531,6 +531,11 @@ header ul li a:hover {
     border: none;
 }
 
+.article .email-subscribe {
+    margin: 0 auto;
+    padding: 4rem 0 0 0;
+}
+
 @media only screen and (min-width: 1510px) {
     .article {
         gap: 2rem;

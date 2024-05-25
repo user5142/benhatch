@@ -345,7 +345,6 @@ header ul li a:hover {
     flex-wrap: nowrap;
     flex-flow: column;
 }
-
 .article-card {
     display: flex;
     flex-flow: column;

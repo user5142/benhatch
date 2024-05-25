@@ -458,7 +458,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     .all-articles {
-        padding: 4rem 1.5rem 0 1.5rem;
+        padding: 4rem 1rem 0 1rem;
     }
 }
 
@@ -533,7 +533,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     .article {
-        padding: 4rem 1.5rem 0 1.5rem;
+        padding: 4rem 1rem 0 1rem;
     }
 }
 

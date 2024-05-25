@@ -342,15 +342,8 @@ header ul li a:hover {
 }
 
 .formkit-form[data-uid="4dc2efc10b"] .formkit-fields {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
     flex-wrap: nowrap;
     flex-flow: column;
-    margin: 0 auto;
 }
 
 .article-card {

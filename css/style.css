@@ -341,6 +341,10 @@ header ul li a:hover {
     max-width: 28rem;
 }
 
+.formkit-form[data-uid="4dc2efc10b"] .formkit-fields {
+    flex-wrap: none;
+}
+
 .article-card {
     display: flex;
     flex-flow: column;
@@ -497,7 +501,8 @@ header ul li a:hover {
     gap: .2rem;
 }
 
-.article-info p, .image-text {
+.article-info p,
+.image-text {
     font-size: 1rem;
     font-weight: 200;
 }

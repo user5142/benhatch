@@ -390,9 +390,7 @@ header ul li a:hover {
     }
 }
 
-@media only screen and (max-width: 1200px) {
-
-}
+@media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 1000px) {
     h1 {
@@ -501,6 +499,12 @@ header ul li a:hover {
 .blog-image img {
     max-width: 100%;
     border-radius: 5px;
+}
+
+.div-line {
+    height: 1px;
+    background: #080806;
+    border: none;
 }
 
 @media only screen and (min-width: 1510px) {

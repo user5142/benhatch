@@ -306,7 +306,7 @@ header ul li a:hover {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    padding: 8rem 2rem 0rem 2rem;
+    padding: 6rem 2rem 0rem 2rem;
 }
 
 .hero-bio {
@@ -387,7 +387,7 @@ header ul li a:hover {
         gap: 10rem;
         margin: 0 auto;
         width: 90rem;
-        padding: 8rem 0 0 0;
+        padding: 6rem 0 0 0;
     }
 }
 

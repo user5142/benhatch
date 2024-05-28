@@ -98,12 +98,12 @@ i {
 }
 
 button {
-    background-color: transparent;
-    color: #69696F;
+    background-color: #688CA0;
+    color: #FDFDFD;
     height: 2.5rem;
     padding: .25rem 1rem;
     margin-top: .5rem;
-    border: 1px solid #69696F;
+    border: none;
     border-radius: 5px;
     font-weight: bold;
     font-size: 1rem;
@@ -111,8 +111,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: #69696F;
-    color: #080806;
+    background-color: #5a7a8a;
 }
 
 
@@ -136,6 +135,7 @@ button:active,
 
 .four-zero-four h1 {
     font-size: 8rem;
+    color: #688CA0;
 }
 
 @media only screen and (max-width: 500px) {

@@ -76,5 +76,3 @@ window.addEventListener('scroll', function () {
     navbar.classList.remove('shadow');
   }
 });
-
-// Projects slider

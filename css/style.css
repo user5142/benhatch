@@ -214,7 +214,8 @@ header ul li a:hover {
 }
 
 .mobile-nav img {
-    width: 3rem;
+    width: 2rem;
+    max-width: 100%;
 }
 
 #x-icon {

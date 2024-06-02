@@ -48,8 +48,8 @@ if (header2 != undefined) {
             <div class="mobile-nav">
                 <a href="https://benhatch.com/">home</a>
                 <a id="hamburger-icon">
-                    <img id="burger-icon" src="../images/bh-hamburger.svg" alt="hamburger icon"><img id="x-icon"
-                        src="../images/bh-x.svg">
+                    <img id="burger-icon" src="../images/bh-hamburger-2.svg" alt="hamburger icon"><img id="x-icon"
+                        src="../images/bh-x-2.svg">
                 </a>
             </div>
         </header>

@@ -1,5 +1,7 @@
-// Header component
-header.innerHTML = `
+// Header components
+const header = document.querySelector("#header");
+if (header != undefined) {
+  header.innerHTML = `
 <div class="fixed-header">
         <header>
             <ul>
@@ -26,6 +28,59 @@ header.innerHTML = `
         </div>
     </div>
 `
+}
+
+const header2 = document.querySelector("#header2");
+if (header2 != undefined) {
+  header2.innerHTML = `
+<div class="fixed-header">
+        <header>
+            <ul>
+                <div class="nav-pages">
+                    <li id="home"><a href="https://benhatch.com/">home</a></li>
+                    <li><a href="https://benhatch.com/blog">blog</a></li>
+                </div>
+                <div class="nav-contact">
+                    <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg"
+                                alt="X icon"></a></li>
+                </div>
+            </ul>
+            <div class="mobile-nav">
+                <a href="https://benhatch.com/">home</a>
+                <a id="hamburger-icon">
+                    <img id="burger-icon" src="../images/bh-hamburger.svg" alt="hamburger icon"><img id="x-icon"
+                        src="../images/bh-x.svg">
+                </a>
+            </div>
+        </header>
+        <div id="burger-links">
+            <a href="https://benhatch.com/blog">blog</a>
+            <a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg" alt="X icon"></a>
+        </div>
+    </div>
+`
+}
+
+// Header drop shadow
+window.addEventListener('scroll', function () {
+  const navbar = document.querySelector('.fixed-header');
+  const scrolled = window.scrollY;
+
+  if (scrolled > 0) {
+    navbar.classList.add('shadow');
+  } else {
+    navbar.classList.remove('shadow');
+  }
+});
+
+// Event listeners
+// Hamburger menu
+const burgerIcon = document.querySelector("#hamburger-icon");
+const projectsNav = document.querySelector("#burger-links");
+if (burgerIcon != null) {
+  burgerIcon.addEventListener("click", burgerMenu);
+  projectsNav.addEventListener("click", burgerMenu);
+};
 
 // Display and hide hamburger menu on click
 const burgerMenu = () => {
@@ -43,27 +98,6 @@ const burgerMenu = () => {
     xIcon.style.display = "inline";
   }
 };
-
-// Event listeners
-// Hamburger menu
-const burgerIcon = document.querySelector("#hamburger-icon");
-const projectsNav = document.querySelector("#burger-links");
-if (burgerIcon != null) {
-  burgerIcon.addEventListener("click", burgerMenu);
-  projectsNav.addEventListener("click", burgerMenu);
-};
-
-// Nav bar drop shadow
-window.addEventListener('scroll', function () {
-  const navbar = document.querySelector('.fixed-header');
-  const scrolled = window.scrollY;
-
-  if (scrolled > 0) {
-    navbar.classList.add('shadow');
-  } else {
-    navbar.classList.remove('shadow');
-  }
-});
 
 // Random fun facts
 const funButton = document.querySelector("#fun-button");

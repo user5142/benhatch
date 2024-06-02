@@ -73,7 +73,6 @@ window.addEventListener('scroll', function () {
   }
 });
 
-// Event listeners
 // Hamburger menu
 const burgerIcon = document.querySelector("#hamburger-icon");
 const projectsNav = document.querySelector("#burger-links");

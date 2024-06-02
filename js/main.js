@@ -73,14 +73,6 @@ window.addEventListener('scroll', function () {
   }
 });
 
-// Hamburger menu
-const burgerIcon = document.querySelector("#hamburger-icon");
-const projectsNav = document.querySelector("#burger-links");
-if (burgerIcon != null) {
-  burgerIcon.addEventListener("click", burgerMenu);
-  projectsNav.addEventListener("click", burgerMenu);
-};
-
 // Display and hide hamburger menu on click
 const burgerMenu = () => {
   const burgerMenu = document.querySelector("#burger-links");
@@ -96,6 +88,14 @@ const burgerMenu = () => {
     burgerIcon.style.display = "none";
     xIcon.style.display = "inline";
   }
+};
+
+// Hamburger menu
+const burgerIcon = document.querySelector("#hamburger-icon");
+const projectsNav = document.querySelector("#burger-links");
+if (burgerIcon != null) {
+  burgerIcon.addEventListener("click", burgerMenu);
+  projectsNav.addEventListener("click", burgerMenu);
 };
 
 // Random fun facts

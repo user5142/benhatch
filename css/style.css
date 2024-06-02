@@ -213,6 +213,10 @@ header ul li a:hover {
     display: none;
 }
 
+.mobile-nav img {
+    width: 3rem;
+}
+
 #x-icon {
     display: none;
 }

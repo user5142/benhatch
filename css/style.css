@@ -159,7 +159,7 @@ button:active,
 /* Header */
 
 #header, #header2 {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -214,7 +214,7 @@ header ul li a:hover {
 }
 
 .mobile-nav img {
-    width: 2rem;
+    width: 1.8rem;
     max-width: 100%;
 }
 
@@ -311,7 +311,7 @@ header ul li a:hover {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem 2rem 0rem 2rem;
+    padding: 9.5rem 2rem 0rem 2rem;
 }
 
 .hero-left {
@@ -404,7 +404,7 @@ header ul li a:hover {
         gap: 10rem;
         margin: 0 auto;
         width: 90rem;
-        padding: 6rem 0 0 0;
+        padding: 10.5rem 0 0 0;
     }
 }
 
@@ -412,7 +412,7 @@ header ul li a:hover {
     .hero {
         flex-flow: column;
         gap: 4rem;
-        padding: 4rem 2rem 0rem 2rem;
+        padding: 9.5rem 2rem 0rem 2rem;
     }
 
     .hero-left {
@@ -432,7 +432,7 @@ header ul li a:hover {
     }
 
     .hero {
-        padding: 2rem 1rem 0 1rem;
+        padding: 6.5rem 1rem 0 1rem;
     }
 }
 

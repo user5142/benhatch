@@ -466,7 +466,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 10rem 0 0 0;
+    padding: 12rem 0 0 0;
 }
 
 .articles-block {
@@ -481,13 +481,13 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1000px) {
     .all-articles {
-        padding: 6rem 0 0 0;
+        padding: 10rem 0 0 0;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .all-articles {
-        padding: 4rem 1rem 0 1rem;
+        padding: 8rem 1rem 0 1rem;
     }
 }
 
@@ -500,7 +500,7 @@ header ul li a:hover {
     width: 42rem;
     max-width: 90%;
     margin: 0 auto;
-    padding: 6rem 0 0 0;
+    padding: 10.5rem 0 0 0;
 }
 
 .article-header {
@@ -554,7 +554,7 @@ header ul li a:hover {
     .article {
         gap: 2rem;
         margin: 0 auto;
-        padding: 6rem 0 0 0;
+        padding: 10.5rem 0 0 0;
         max-width: 60rem;
     }
 
@@ -574,13 +574,13 @@ header ul li a:hover {
         width: auto;
         max-width: 100%;
         margin: 0;
-        padding: 4rem 2rem 0 2rem;
+        padding: 8.5rem 2rem 0 2rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .article {
-        padding: 4rem 1rem 0 1rem;
+        padding: 8.5rem 1rem 0 1rem;
     }
 }
 

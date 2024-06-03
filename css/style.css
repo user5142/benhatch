@@ -98,20 +98,20 @@ i {
 }
 
 button {
-    background-color: #688CA0;
+    background-color: #586F86;
     color: #FDFDFD;
     height: 2.5rem;
-    padding: .25rem 1rem;
+    padding: .25rem 1.5rem;
     margin-top: .5rem;
     border: none;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: .95rem;
 }
 
 button:hover {
     cursor: pointer;
-    background-color: #5a7a8a;
+    background-color: #46596c;
 }
 
 
@@ -311,7 +311,7 @@ header ul li a:hover {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    padding: 9.5rem 2rem 0rem 2rem;
+    padding: 9.5rem 2rem 8rem 2rem;
 }
 
 .hero-left {
@@ -404,7 +404,7 @@ header ul li a:hover {
         gap: 10rem;
         margin: 0 auto;
         width: 90rem;
-        padding: 12rem 0 0 0;
+        padding: 12rem 0 8rem 0;
     }
 }
 
@@ -421,6 +421,7 @@ header ul li a:hover {
 
     .article-card {
         max-width: 36rem;
+        padding: 0 0 2.5rem 0;
     }
 }
 
@@ -445,7 +446,7 @@ header ul li a:hover {
 
     .article-card {
         min-width: 0;
-        padding: 0;
+        padding: 0 0 2.5rem 0;
     }
 
     .article-card:hover {
@@ -457,6 +458,32 @@ header ul li a:hover {
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 1.8rem;
+    }
+}
+
+/* Fun Facts */
+
+.fun-facts {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 8rem 2rem 10rem 2rem;
+}
+
+#dynamic-fun {
+    display: none;
+    padding: 1rem 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .fun-facts {
+        align-items: start;
+        padding: 4rem 2rem 5rem 2rem;
+    }
+
+    #dynamic-fun {
+        padding: 1rem 0;
     }
 }
 
@@ -543,6 +570,15 @@ header ul li a:hover {
     height: 1px;
     background: #080806;
     border: none;
+}
+
+.spacer {
+    height: 1px;
+    background: #69696F;
+    opacity: 50%;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .article .email-subscribe {

@@ -98,12 +98,6 @@ if (burgerIcon != null) {
   projectsNav.addEventListener("click", burgerMenu);
 };
 
-// Random fun facts
-const funButton = document.querySelector("#fun-button");
-if (funButton != null) {
-  funButton.addEventListener("click", randomFunFact);
-};
-
 // Generate a random fun fact on button click
 const randomFunFact = () => {
   const funFacts = [
@@ -116,7 +110,6 @@ const randomFunFact = () => {
     "My all-time favorite movie is The Bourne Identity.",
     "My first passion in life was freestyle skiing.",
     "I played football, basketball, baseball and soccer growing up.",
-    "I was first introduced to graphic design my freshman year of high school. Thanks Mr. Smith!",
     "I began my journey of learning to code in December of 2022.",
     "I broke my wrist playing football my freshman year of high school.",
     "My favorite band growing up was the Red Hot Chili Peppers.",
@@ -134,7 +127,12 @@ const randomFunFact = () => {
   const funFactDisplay = document.querySelector("#dynamic-fun");
   const randomNum = Math.floor(Math.random() * funFacts.length);
   let funFact = funFacts[randomNum];
+  funFactDisplay.style.display = `inline`;
   funFactDisplay.innerHTML = funFact;
-  funFactDisplay.style.padding = '.75rem 2rem';
-  funFactDisplay.style.border = '1px solid #0E2646';
+};
+
+// Random fun facts
+const funButton = document.querySelector("#fun-button");
+if (funButton != null) {
+  funButton.addEventListener("click", randomFunFact);
 };

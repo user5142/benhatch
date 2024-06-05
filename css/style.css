@@ -82,12 +82,14 @@ i {
 }
 
 .spacer {
-    display: block;
-    margin: 0 auto;
-    margin: 5rem 0rem;
     height: 1px;
     background: #69696F;
+    opacity: 50%;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
 }
+
 
 .spacer-2 {
     display: block;
@@ -136,6 +138,12 @@ button:active,
 .four-zero-four h1 {
     font-size: 8rem;
     color: #688CA0;
+}
+
+@media only screen and (min-width: 1510px) {
+    .spacer {
+        max-width: 86rem;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -570,15 +578,6 @@ header ul li a:hover {
     height: 1px;
     background: #080806;
     border: none;
-}
-
-.spacer {
-    height: 1px;
-    background: #69696F;
-    opacity: 50%;
-    border: none;
-    width: 90%;
-    margin: 0 auto;
 }
 
 .article .email-subscribe {

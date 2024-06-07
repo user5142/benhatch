@@ -102,7 +102,6 @@ if (burgerIcon != null) {
 const randomFunFact = () => {
   const funFacts = [
     "I received my undergraduate degree in Business Administration from the University of Vermont.",
-    "My favorite sport is disc golf.",
     "My favorite app is Todoist.",
     "I pursued standup comedy for 2 years while living in Boston.",
     "I grew up in Ashland, Massachusetts.",
@@ -121,7 +120,8 @@ const randomFunFact = () => {
     "I have never met a celebrity.",
     "I built my first website in 2013.",
     "My favorite fruit is pineapple.",
-    "My favorite design tool is Figma."
+    "My favorite design tool is Figma.",
+    "This website is built from scratch with HTML, CSS and JavaScript."
   ];
 
   const funFactDisplay = document.querySelector("#dynamic-fun");

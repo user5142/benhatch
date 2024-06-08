@@ -127,7 +127,7 @@ const randomFunFact = () => {
   const funFactDisplay = document.querySelector("#dynamic-fun");
   const randomNum = Math.floor(Math.random() * funFacts.length);
   let funFact = funFacts[randomNum];
-  funFactDisplay.style.display = `inline`;
+  funFactDisplay.style.color = `#080806`;
   funFactDisplay.innerHTML = funFact;
 };
 

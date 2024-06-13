@@ -494,6 +494,65 @@ header ul li a:hover {
     }
 }
 
+/* About */
+
+.about {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    gap: 2rem;
+    max-width: 42rem;
+    padding: 12rem 1.5rem 6rem 1.5rem;
+}
+
+.about .email-subscribe {
+    margin: 0 auto;
+    padding: 4rem 0 0 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .about {
+        padding: 8.5rem 1.5rem 6rem 1.5rem;
+    }
+}
+
+/* Now */
+
+.now {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    gap: 2rem;
+    max-width: 42rem;
+    padding: 12rem 1.5rem 6rem 1.5rem;
+}
+
+.now-update-time {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.now h3 {
+    font-weight: 500;
+}
+
+.now-block {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+
+.now .email-subscribe {
+    margin: 0 auto;
+    padding: 4rem 0 0 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .now {
+        padding: 8.5rem 1.5rem 6rem 1.5rem;
+    }
+}
+
 /* Blog */
 
 .all-articles {

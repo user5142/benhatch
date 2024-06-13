@@ -8,6 +8,8 @@ if (header != undefined) {
                 <div class="nav-pages">
                     <li id="home"><a href="https://benhatch.com/">home</a></li>
                     <li><a href="https://benhatch.com/blog">blog</a></li>
+                    <li><a href="https://benhatch.com/about">about</a></li>
+                    <li><a href="https://benhatch.com/now">now</a></li>
                 </div>
                 <div class="nav-contact">
                     <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="images/x-icon.svg"
@@ -24,6 +26,8 @@ if (header != undefined) {
         </header>
         <div id="burger-links">
             <a href="https://benhatch.com/blog">blog</a>
+            <a href="https://benhatch.com/about">about</a>
+            <a href="https://benhatch.com/now">now</a>
             <a href="https://twitter.com/hatch2k3" target="_blank"><img src="images/x-icon.svg" alt="X icon"></a>
         </div>
     </div>
@@ -39,6 +43,8 @@ if (header2 != undefined) {
                 <div class="nav-pages">
                     <li id="home"><a href="https://benhatch.com/">home</a></li>
                     <li><a href="https://benhatch.com/blog">blog</a></li>
+                    <li><a href="https://benhatch.com/about">about</a></li>
+                    <li><a href="https://benhatch.com/now">now</a></li>
                 </div>
                 <div class="nav-contact">
                     <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg"
@@ -55,6 +61,8 @@ if (header2 != undefined) {
         </header>
         <div id="burger-links">
             <a href="https://benhatch.com/blog">blog</a>
+            <a href="https://benhatch.com/about">about</a>
+            <a href="https://benhatch.com/now">now</a>
             <a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg" alt="X icon"></a>
         </div>
     </div>

@@ -11,7 +11,9 @@ if (header != undefined) {
                     <li><a href="https://benhatch.com/about">about</a></li>
                     <li><a href="https://benhatch.com/now">now</a></li>
                 </div>
-                <div class="nav-contact">
+                <div class="nav-socials">
+                    <li><a href="https://www.youtube.com/@hatch2k3" target="_blank"><img src="images/youtube-icon.svg"
+                                alt="YouTube icon"></a></li>
                     <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="images/x-icon.svg"
                                 alt="X icon"></a></li>
                 </div>
@@ -28,6 +30,7 @@ if (header != undefined) {
             <a href="https://benhatch.com/blog">blog</a>
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>
+            <a href="https://www.youtube.com/@hatch2k3" target="_blank"><img src="images/youtube-icon.svg" alt="YouTube icon"></a>
             <a href="https://twitter.com/hatch2k3" target="_blank"><img src="images/x-icon.svg" alt="X icon"></a>
         </div>
     </div>
@@ -46,7 +49,9 @@ if (header2 != undefined) {
                     <li><a href="https://benhatch.com/about">about</a></li>
                     <li><a href="https://benhatch.com/now">now</a></li>
                 </div>
-                <div class="nav-contact">
+                <div class="nav-socials">
+                    <li><a href="https://www.youtube.com/@hatch2k3" target="_blank"><img src="../images/youtube-icon.svg"
+                                alt="YouTube icon"></a></li>
                     <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg"
                                 alt="X icon"></a></li>
                 </div>
@@ -63,6 +68,7 @@ if (header2 != undefined) {
             <a href="https://benhatch.com/blog">blog</a>
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>
+            <a href="https://www.youtube.com/@hatch2k3" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a>
             <a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg" alt="X icon"></a>
         </div>
     </div>

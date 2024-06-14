@@ -130,7 +130,7 @@ button:active,
     flex-flow: column;
     align-items: center;
     gap: 1.5rem;
-    padding: 5rem 2rem 0 2rem;
+    padding: 16rem 2rem 12rem 2rem;
 }
 
 .four-zero-four h1 {
@@ -143,6 +143,13 @@ button:active,
         max-width: 86rem;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .four-zero-four {
+        padding: 10rem 2rem 12rem 2rem;
+    }
+}
+
 
 @media only screen and (max-width: 500px) {
     h1 {

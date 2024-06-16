@@ -320,11 +320,11 @@ header ul li a:hover {
 
 @media only screen and (max-width: 770px) {
     header {
-        padding: 0 1.5rem;
+        padding: 0 1rem;
     }
 
     #burger-links a {
-        padding: 1.4rem 1.5rem;
+        padding: 1.4rem 1rem;
     }
 }
 
@@ -529,7 +529,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 800px) {
     .about {
-        padding: 8.5rem 1.5rem 6rem 1.5rem;
+        padding: 8.5rem 1rem 6rem 1rem;
     }
 }
 
@@ -566,7 +566,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 800px) {
     .now {
-        padding: 8.5rem 1.5rem 6rem 1.5rem;
+        padding: 8.5rem 1rem 6rem 1rem;
     }
 }
 
@@ -755,7 +755,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     .shop-all {
-        margin: 0 1.5rem;
+        margin: 0 1rem;
     }
 
     .products-grid {
@@ -865,7 +865,7 @@ header ul li a:hover {
     .product-feature {
         display: flex;
         flex-flow: column;
-        margin: 4rem 1.5rem;
+        margin: 4rem 1rem;
     }
 }
 

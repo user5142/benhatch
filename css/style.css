@@ -591,13 +591,13 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1000px) {
     .all-articles {
-        padding: 10rem 0 0 0;
+        padding: 10rem 0 30rem 0;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .all-articles {
-        padding: 8rem 1rem 0 1rem;
+        padding: 8rem 1rem 30rem 1rem;
     }
 }
 

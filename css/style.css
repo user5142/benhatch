@@ -638,6 +638,11 @@ header ul li a:hover {
     margin: 0 auto;
 }
 
+.article-body h3 {
+    font-weight: 500;
+    padding: 1.5rem 0 .5rem 0;
+}
+
 .blog-image {
     display: flex;
     flex-flow: column;

@@ -407,6 +407,12 @@ header ul li a:hover {
     background-color: rgb(237, 237, 236);
 }
 
+.hero-articles {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+
 .hero-articles a:hover {
     text-decoration: none;
 }
@@ -466,6 +472,10 @@ header ul li a:hover {
         padding: 2rem 0 0 0;
         border-radius: 0%;
         min-width: 0;
+    }
+
+    .hero-articles {
+        gap: 2rem;
     }
 
     .article-card {

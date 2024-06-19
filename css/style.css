@@ -592,11 +592,17 @@ header ul li a:hover {
 .articles-block {
     display: flex;
     flex-flow: column;
-    gap: 1.4rem;
+    gap: 2rem;
 }
 
 .article-year {
     font-weight: 600;
+}
+
+.article-titles {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
 }
 
 @media only screen and (max-width: 1000px) {

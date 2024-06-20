@@ -404,7 +404,7 @@ header ul li a:hover {
 
 .article-card:hover {
     cursor: pointer;
-    background-color: rgb(237, 237, 236);
+    background-color: rgba(234, 233, 231, 0.5);
 }
 
 .hero-articles {

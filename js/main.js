@@ -16,6 +16,7 @@ if (header != undefined) {
                                 alt="YouTube icon"></a></li>
                     <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="images/x-icon.svg"
                                 alt="X icon"></a></li>
+                    <li><button id="contact-button" onclick="copyEmail()">contact</button><p id="notification">Email address copied to clipboard!</p></li>            
                 </div>
             </ul>
             <div class="mobile-nav">
@@ -150,3 +151,19 @@ const funButton = document.querySelector("#fun-button");
 if (funButton != null) {
   funButton.addEventListener("click", randomFunFact);
 };
+
+// Copy email to clipboard
+function copyEmail() {
+  const email = "hatch2k3@proton.me";
+  navigator.clipboard.writeText(email).then(() => {
+      // Show notification
+      const notification = document.getElementById('notification');
+      notification.style.display = 'block';
+      // Hide the notification after 3 seconds
+      setTimeout(() => {
+          notification.style.display = 'none';
+      }, 3000);
+  }).catch(err => {
+      console.error('Failed to copy: ', err);
+  });
+}

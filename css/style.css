@@ -114,6 +114,26 @@ button:hover {
     background-color: #46596c;
 }
 
+#contact-button {
+    height: 2rem;
+    margin-top: 0;
+    padding: .25rem 1rem;
+}
+
+#notification {
+    display: none;
+    font-size: .8rem;
+    font-weight: 500;
+    color: #69696F;
+    text-align: center;
+    padding: .6rem .8rem;
+    position: fixed;
+    top: 4rem;
+    right: 4%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    z-index: 1;
+}
 
 .contact-icons img:hover {
     cursor: pointer;
@@ -205,6 +225,7 @@ header ul {
 .nav-socials {
     display: flex;
     flex-flow: row;
+    align-items: center;
     gap: 2rem;
 }
 

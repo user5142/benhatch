@@ -124,12 +124,13 @@ button:hover {
     display: none;
     font-size: .8rem;
     font-weight: 500;
-    color: #69696F;
+    background-color: rgb(25, 170, 25);
+    color: #FDFDFD;
     text-align: center;
-    padding: .6rem .8rem;
+    padding: .5rem .8rem;
     position: fixed;
-    top: 4rem;
-    right: 4%;
+    bottom: 2rem;
+    left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
     z-index: 1;

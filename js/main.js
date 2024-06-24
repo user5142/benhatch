@@ -130,7 +130,7 @@ if (burgerIcon != null) {
   projectsNav.addEventListener("click", burgerMenu);
 };
 
-// Generate a random fun fact on button click
+// Random fun facts
 const randomFunFact = () => {
   const funFacts = [
     "I received my undergraduate degree in Business Administration from the University of Vermont.",
@@ -163,7 +163,7 @@ const randomFunFact = () => {
   funFactDisplay.innerHTML = funFact;
 };
 
-// Random fun facts
+// Generate a random fun fact on button click
 const funButton = document.querySelector("#fun-button");
 if (funButton != null) {
   funButton.addEventListener("click", randomFunFact);

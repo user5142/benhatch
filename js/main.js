@@ -77,6 +77,22 @@ if (header2 != undefined) {
 `
 }
 
+// Copy email to clipboard
+function copyEmail() {
+  const email = "hatch2k3@proton.me";
+  navigator.clipboard.writeText(email).then(() => {
+    // Show notification
+    const notification = document.getElementById('notification');
+    notification.style.display = 'block';
+    // Hide the notification after 3 seconds
+    setTimeout(() => {
+      notification.style.display = 'none';
+    }, 3000);
+  }).catch(err => {
+    console.error('Failed to copy: ', err);
+  });
+}
+
 // Header drop shadow
 window.addEventListener('scroll', function () {
   const navbar = document.querySelector('.fixed-header');
@@ -152,19 +168,3 @@ const funButton = document.querySelector("#fun-button");
 if (funButton != null) {
   funButton.addEventListener("click", randomFunFact);
 };
-
-// Copy email to clipboard
-function copyEmail() {
-  const email = "hatch2k3@proton.me";
-  navigator.clipboard.writeText(email).then(() => {
-    // Show notification
-    const notification = document.getElementById('notification');
-    notification.style.display = 'block';
-    // Hide the notification after 3 seconds
-    setTimeout(() => {
-      notification.style.display = 'none';
-    }, 3000);
-  }).catch(err => {
-    console.error('Failed to copy: ', err);
-  });
-}

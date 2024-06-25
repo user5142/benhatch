@@ -118,6 +118,10 @@ button:hover {
     height: 2rem;
     margin-top: 0;
     padding: .25rem 1rem;
+    color: #69696F;
+    background-color: transparent;
+    font-weight: normal;
+    border: 1px solid #69696F;
 }
 
 #notification {

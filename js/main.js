@@ -16,7 +16,7 @@ if (header != undefined) {
                                 alt="YouTube icon"></a></li>
                     <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="images/x-icon.svg"
                                 alt="X icon"></a></li>
-                    <li><button id="contact-button" onclick="copyEmail()">contact</button><p id="notification">Email address copied to clipboard!</p></li>            
+                    <li><button id="contact-button" onclick="copyEmail()">hatch2k3@proton.me</button><p id="notification">Email address copied to clipboard!</p></li>            
                 </div>
             </ul>
             <div class="mobile-nav">

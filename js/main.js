@@ -16,7 +16,7 @@ if (header != undefined) {
                                 alt="YouTube icon"></a></li>
                     <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="images/x-icon.svg"
                                 alt="X icon"></a></li>
-                    <li><button id="contact-button" onclick="copyEmail()">hatch2k3@proton.me</button><p id="notification">Email address copied to clipboard!</p></li>            
+                    <li><div class="copy-to-clipboard"><img id="checkmark-icon" src="images/Checkmark Icon.svg"><img id="copy-icon" src="images/Copy to Clipboard Icon.svg"><button id="contact-button" onclick="copyEmail()"><div id="contact-button-text">hatch2k3@proton.me</div></button></div></li>            
                 </div>
             </ul>
             <div class="mobile-nav">
@@ -55,7 +55,7 @@ if (header2 != undefined) {
                                 alt="YouTube icon"></a></li>
                     <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg"
                                 alt="X icon"></a></li>
-                    <li><button id="contact-button" onclick="copyEmail()">contact</button><p id="notification">Email address copied to clipboard!</p></li>
+                    <li><div class="copy-to-clipboard"><img id="checkmark-icon" src="../images/Checkmark Icon.svg"><img id="copy-icon" src="../images/Copy to Clipboard Icon.svg"><button id="contact-button" onclick="copyEmail()"><div id="contact-button-text">hatch2k3@proton.me</div></button></div></li>  
                 </div>
             </ul>
             <div class="mobile-nav">
@@ -79,14 +79,20 @@ if (header2 != undefined) {
 
 // Copy email to clipboard
 function copyEmail() {
+  const copy = document.getElementById('copy-icon');
+  const checkmark = document.getElementById('checkmark-icon');
+  const contactButton = document.getElementById('contact-button-text');
   const email = "hatch2k3@proton.me";
   navigator.clipboard.writeText(email).then(() => {
-    // Show notification
-    const notification = document.getElementById('notification');
-    notification.style.display = 'block';
+    // Show notification;
+    copy.style.display = 'none';
+    checkmark.style.display = 'inline';
+    contactButton.innerHTML = `Email address copied`;
     // Hide the notification after 3 seconds
     setTimeout(() => {
-      notification.style.display = 'none';
+      checkmark.style.display = 'none';
+      copy.style.display = 'inline';
+      contactButton.innerHTML = `hatch2k3@proton.me`;
     }, 3000);
   }).catch(err => {
     console.error('Failed to copy: ', err);

@@ -32,7 +32,8 @@ if (header != undefined) {
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>
             <a href="https://www.youtube.com/@hatch2k3" target="_blank"><img src="images/youtube-icon.svg" alt="YouTube icon"></a>
-            <a href="https://twitter.com/hatch2k3" target="_blank"><img src="images/x-icon.svg" alt="X icon"></a>  
+            <a href="https://twitter.com/hatch2k3" target="_blank"><img src="images/x-icon.svg" alt="X icon"></a>
+            <a>hatch2k3@proton.me</a>
         </div>
     </div>
 `
@@ -72,6 +73,7 @@ if (header2 != undefined) {
             <a href="https://benhatch.com/now">now</a>
             <a href="https://www.youtube.com/@hatch2k3" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a>
             <a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg" alt="X icon"></a>
+            <a>hatch2k3@proton.me</a>
         </div>
     </div>
 `

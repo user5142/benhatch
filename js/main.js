@@ -16,7 +16,7 @@ if (header != undefined) {
                                 alt="YouTube icon"></a></li>
                     <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="images/x-icon.svg"
                                 alt="X icon"></a></li>
-                    <li><div class="copy-to-clipboard"><img id="checkmark-icon" src="images/Checkmark Icon.svg"><img id="copy-icon" src="images/Copy to Clipboard Icon.svg"><button id="contact-button" onclick="copyEmail()"><div id="contact-button-text">hatch2k3@proton.me</div></button></div></li>            
+                    <li><div class="copy-to-clipboard" onclick="copyEmail()"><img id="checkmark-icon" src="images/Checkmark Icon.svg"><img id="copy-icon" src="images/Copy to Clipboard Icon.svg"><button id="contact-button"><div id="contact-button-text">hatch2k3@proton.me</div></button></div></li>            
                 </div>
             </ul>
             <div class="mobile-nav">
@@ -56,7 +56,7 @@ if (header2 != undefined) {
                                 alt="YouTube icon"></a></li>
                     <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg"
                                 alt="X icon"></a></li>
-                    <li><div class="copy-to-clipboard"><img id="checkmark-icon" src="../images/Checkmark Icon.svg"><img id="copy-icon" src="../images/Copy to Clipboard Icon.svg"><button id="contact-button" onclick="copyEmail()"><div id="contact-button-text">hatch2k3@proton.me</div></button></div></li>  
+                    <li><div class="copy-to-clipboard" onclick="copyEmail()"><img id="checkmark-icon" src="../images/Checkmark Icon.svg"><img id="copy-icon" src="../images/Copy to Clipboard Icon.svg"><button id="contact-button"><div id="contact-button-text">hatch2k3@proton.me</div></button></div></li>  
                 </div>
             </ul>
             <div class="mobile-nav">

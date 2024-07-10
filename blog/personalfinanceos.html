@@ -35,6 +35,9 @@
             </div>
         </div>
         <div class="article-body">
+            <div class="blog-image">
+                <img src="blog-images/net-worth-monthly.png" alt="Screenshot of Net Worth chart">
+            </div>
             <p><i>The information in this article is based on my personal experience and is not professional financial
                     advice. The methods and strategies discussed may not be suitable for everyone, and your personal
                     financial situation should be taken into account.</i></p>
@@ -60,7 +63,7 @@
                 will also force me to refine and truly understand the process myself so that I can convey it
                 effectively.</p>
             <p>Without further ado, here is the exact playbook of how I manage my personal finances in 2 hours of effort
-                per month. I will also be creating a YouTube video on the process.</p>
+                per month. You can also check out the YouTube video I made on the process (coming soon).</p>
             <h2>Context</h2>
             <p>Before I dive into the nitty gritty, I think it is important to provide some context on my personal
                 situation. The amount of effort it takes to manage your finances will largely depend on the level of
@@ -113,7 +116,9 @@
                 expenses that I pay annually upfront, such as my car insurance. I break these down into a monthly amount
                 and incorporate them into my fixed monthly expenses to keep things simple. I also notate the details of
                 the annual expense (i.e. Paid annually in full, next due 5/1/2025) in the Notes column of the sheet.</p>
-            <h1>INSERT IMAGE</h1>
+            <div class="blog-image">
+                <img src="blog-images/monthly-expenses.png" alt="Screenshot of Monthly Expenses spreadsheet">
+            </div>
             <p>From a formula standpoint, the Monthly Expenses sheet is very basic. It calculates total variable monthly
                 expenses, total fixed monthly expenses, and total monthly expenses. I also throw in my after-tax income
                 (averaged out), then calculate my target monthly discretionary income (monthly after-tax income - total
@@ -133,12 +138,19 @@
                 pre-tax and after-tax income. I use the exact after-tax income amounts for my W9 job. I put 20% of all
                 my business income away for tax savings, so for the after-tax business income column, I multiply pre-tax
                 business income by 80% to arrive at this number.</p>
-            <h1>INSERT IMAGE</h1>
+            <div class="blog-image">
+                <img src="blog-images/income-tracker.png" alt="Screenshot of Income Tracker spreadsheet">
+            </div>
             <p>The Income Tracker also includes a separate tab to track total annual income, and charts for total
                 monthly income and total annual income. For the annual income data, I manually update this typically
                 after filing my taxes each year, but you could easily set up a formula to calculate the total from the
                 monthly income amounts.</p>
-            <h1>INSERT IMAGE</h1>
+            <div class="blog-image">
+                <img src="blog-images/total-monthly-income.png" alt="Screenshot of Total Monthly Income chart">
+            </div>
+            <div class="blog-image">
+                <img src="blog-images/total-annual-income.png" alt="Screenshot of Total Annual Income chart">
+            </div>
             <h3>Part IV: Expense Tracker</h3>
             <p>This is where I get into the meat and potatoes of what I actually spent for the month.</p>
             <p>The purpose of the Expense Tracker is to compile, categorize and calculate everything that I spent during
@@ -157,14 +169,12 @@
             <p>Most, if not all, credit card companies allow you to download your transaction data from your online
                 portal. For this step, I download a CSV of my credit card transactions for the month, upload this CSV to
                 Google Drive, then convert the file to a Google Sheet.</p>
-            <h1>INSERT IMAGE</h1>
             <p>On the converted Google Sheet version, I then clean up the data. On my transaction files, the data
                 includes a column with transaction date and posted date. I delete the transaction date column and keep
                 the posted date. I also delete any rows that are accounted for in my fixed monthly expenses (more on
                 that in a minute). The transaction data will also include credit card payments that I have made
                 throughout the month, so I delete these rows as well. Finally, I format the columns to match exactly how
                 the Expense Tracker columns are displayed.</p>
-            <h1>INSERT IMAGE</h1>
             <p>Once my exported credit card transaction data has been properly cleaned and formatted, I copy and paste
                 the data over to the Expense Tracker. Although my family does most of our spending through this single
                 credit card account, we do sometimes have transaction activity through our checking account. Therefore,
@@ -175,6 +185,10 @@
                 categories from the variable expenses section of the Monthly Expenses sheet from Part II. The category
                 that is assigned must be an exact match, including case sensitivity, with how the category is listed on
                 the Monthly Expenses sheet (you will see why in the next section).</p>
+            <div class="blog-image">
+                <img src="blog-images/raw-transaction-data.png"
+                    alt="Screenshot of raw transaction data within Expense Tracker spreadsheet">
+            </div>
             <p>For each transaction, I quickly assess the transaction details, then assign the proper category to it. My
                 credit card company, and many others I’m sure, will assign their own category to each of your
                 transactions and provide this in the downloaded data. I have found it useful to incorporate their
@@ -184,7 +198,6 @@
                 transactions, I will open up my Amazon order history, copy the dollar amount of the transaction, then
                 search by this transaction amount to quickly identify the details of the
                 purchase.</p>
-            <h1>INSERT IMAGE</h1>
             <p><span>Categorized Expense Data</span></p>
             <p>All of the work from the previous step pays off in this one.</p>
             <p>This section displays the fixed and variable monthly expense data from the Monthly Expenses sheet, with a
@@ -192,7 +205,10 @@
                 amount. The variable expenses section is where the magic happens. And by magic, I mean a simple SUMIF
                 formula that calculates the totals for each variable expense category from your raw, categorized
                 transaction data.</p>
-            <h1>INSERT IMAGE</h1>
+            <div class="blog-image">
+                <img src="blog-images/categorized-expense-data.png"
+                    alt="Screenshot of categorized expense data within Expense Tracker spreadsheet">
+            </div>
             <p>As mentioned previously, the category that is assigned to each expense in the previous section must be an
                 exact match with one of the categories from the variable expense category list, otherwise the SUMIF
                 formula will not work properly. Performing a quick manual audit of one of the categories from the raw
@@ -203,7 +219,10 @@
                 After-Tax Income (column K), I copy and paste my total monthly after-tax income amount from the Income
                 Tracker in Part III. Finally, Discretionary Income (column L) subtracts Total Expenses from Total
                 After-Tax Income and displays my exact discretionary income for the month.</p>
-            <h1>INSERT IMAGE</h1>
+            <div class="blog-image">
+                <img src="blog-images/discretionary-income-calculation.png"
+                    alt="Screenshot of discretionary income calculation within Expense Tracker spreadsheet">
+            </div>
             <p>This is one of the moments in the process where I either pump my fist in victory, or disperse a little
                 blast of anxiety into the pit of my stomach. The Discretionary Income calculation in column L delivers a
                 critical message each month. <i>Did I spend more than I took home? Or did I come out on top with some
@@ -227,7 +246,9 @@
             <p>The Net Worth Tracker stores the value of my financial assets and debts, and calculates the running
                 monthly
                 total of my net worth. It also has a nice chart that visualizes the monthly change over time.</p>
-            <h1>INSERT IMAGE</h1>
+            <div class="blog-image">
+                <img src="blog-images/net-worth-monthly.png" alt="Screenshot of Net Worth chart">
+            </div>
             <p>The process to fill in this sheet each month is very simple. I log into each of my financial accounts,
                 then record the value of the account in the corresponding field on the sheet. As mentioned in the Setup
                 section of this article, having all of my accounts nicely organized in a password manager and in a
@@ -238,9 +259,13 @@
                 there. Within the asset columns, I label retirement and college fund accounts in yellow to separate them
                 from non tax-advantaged accounts, which are labeled with a blue background. The debt columns on the
                 sheet are all labeled with a red background.</p>
-            <h1>INSERT IMAGE</h1>
+            <div class="blog-image">
+                <img src="blog-images/net-worth-tracker.png" alt="Screenshot of Net Worth Tracker spreadsheet">
+            </div>
             <p>The cool thing about this sheet is that it can be used for a lifetime, if you so choose. There is just
-                one row for each month, so even if you become a disciple of <a href="https://x.com/bryan_johnson" target="_blank">Bryan Johnson</a> and live to be 300 years old, the sheet will easily be able to handle 3,600 rows of data.</p>
+                one row for each month, so even if you become a disciple of <a href="https://x.com/bryan_johnson"
+                    target="_blank">Bryan Johnson</a> and live to be 300 years old, the sheet will easily be able to
+                handle 3,600 rows of data.</p>
             <p>I find that popping in to check and record my net worth once per month works well for me. It’s infrequent
                 enough that I am not obsessing over the number, but frequent enough to provide valuable data and
                 insights.</p>

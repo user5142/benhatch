@@ -71,10 +71,6 @@ a:hover {
     text-decoration: underline;
 }
 
-span {
-    font-weight: 500;
-}
-
 i {
     font-style: italic;
 }
@@ -688,6 +684,10 @@ header ul li a:hover {
 .article-body h3 {
     font-weight: 500;
     padding: .5rem 0 .5rem 0;
+}
+
+.article-body span {
+    font-weight: 500;
 }
 
 .blog-image {

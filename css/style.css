@@ -60,6 +60,10 @@ p {
     color: #080806;
 }
 
+h3 span {
+    font-weight: 500;
+}
+
 a {
     color: #1895e8;
     text-decoration: none;

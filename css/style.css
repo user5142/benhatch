@@ -758,7 +758,7 @@ header ul li a:hover {
     justify-content: center;
     justify-items: center;
     gap: 4rem;
-    margin: 7rem 0 0 0;
+    margin: 12rem 0 10rem 0;
 }
 
 .product-cover {
@@ -800,14 +800,14 @@ header ul li a:hover {
 
 @media only screen and (max-width: 770px) {
     .products-grid {
-        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 24rem));
         gap: 4rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .shop-all {
-        margin: 0 1rem;
+        margin: 8rem 1rem;
     }
 
     .products-grid {
@@ -823,7 +823,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: row;
     gap: 10rem;
-    margin: 7rem 10rem;
+    margin: 12rem 10rem;
 }
 
 .product-images img {
@@ -854,14 +854,14 @@ header ul li a:hover {
 @media only screen and (min-width: 1510px) {
     .product-feature {
         margin: 0 auto;
-        padding: 7rem 0 0 0;
+        padding: 12rem 0 0 0;
         width: 75rem;
     }
 }
 
 @media only screen and (max-width: 1425px) {
     .product-feature {
-        margin: 7rem 5rem;
+        margin: 12rem 5rem;
     }
 
     .product-info {
@@ -880,7 +880,7 @@ header ul li a:hover {
         flex-flow: column;
         align-items: center;
         gap: 2rem;
-        margin: 7rem 2rem;
+        margin: 10rem 2rem;
     }
 
     .product-info {
@@ -917,7 +917,7 @@ header ul li a:hover {
     .product-feature {
         display: flex;
         flex-flow: column;
-        margin: 4rem 1rem;
+        margin: 8rem 1rem;
     }
 }
 

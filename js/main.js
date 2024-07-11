@@ -29,6 +29,7 @@ if (header != undefined) {
             </div>
         </header>
         <div id="burger-links">
+            <a href="https://benhatch.com/shop">shop</a>
             <a href="https://benhatch.com/blog">blog</a>
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>
@@ -70,6 +71,7 @@ if (header2 != undefined) {
             </div>
         </header>
         <div id="burger-links">
+            <a href="https://benhatch.com/shop">shop</a>
             <a href="https://benhatch.com/blog">blog</a>
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>

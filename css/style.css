@@ -823,7 +823,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: row;
     gap: 10rem;
-    margin: 12rem 10rem;
+    margin: 12rem 10rem 12rem 10rem;
 }
 
 .product-images img {
@@ -854,7 +854,7 @@ header ul li a:hover {
 @media only screen and (min-width: 1510px) {
     .product-feature {
         margin: 0 auto;
-        padding: 12rem 0 0 0;
+        padding: 12rem 0 10rem 0;
         width: 75rem;
     }
 }

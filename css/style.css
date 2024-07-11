@@ -536,7 +536,7 @@ header ul li a:hover {
 @media only screen and (max-width: 500px) {
     .fun-facts {
         align-items: start;
-        padding: 4rem 2rem 5rem 2rem;
+        padding: 4rem 1rem 5rem 1rem;
     }
 
     #dynamic-fun {

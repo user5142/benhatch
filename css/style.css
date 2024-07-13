@@ -581,7 +581,7 @@ header ul li a:hover {
     padding: 12rem 1.5rem 6rem 1.5rem;
 }
 
-.now-update-time {
+.now-update-time, .disclaimer {
     font-size: 1rem;
     font-weight: 200;
 }

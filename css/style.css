@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #f4f3f0;
+    background-color: #FDFDFD;
 }
 
 h3,
@@ -207,7 +207,8 @@ button:active,
     top: 0;
     left: 0;
     right: 0;
-    background-color: #f4f3f0;
+    /*background-color: #f4f3f0;*/
+    background-color: #FDFDFD;
     z-index: 999;
     transition: box-shadow 0.1s ease-in-out;
 }
@@ -279,7 +280,7 @@ header ul li a:hover {
 
 #burger-links {
     display: none;
-    background-color: #f4f3f0;
+    background-color: #FDFDFD;
     padding-bottom: 1rem;
 }
 
@@ -361,12 +362,18 @@ header ul li a:hover {
 
 /* Hero */
 
+.hero-wrapper {
+    background-color: #f4f3f0;
+    margin: 0 1.5rem;
+}
+
 .hero {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
     padding: 9.5rem 2rem 8rem 2rem;
+    background-color: #f4f3f0;
 }
 
 .hero-left {
@@ -465,7 +472,7 @@ header ul li a:hover {
         gap: 10rem;
         margin: 0 auto;
         width: 90rem;
-        padding: 12rem 0 8rem 0;
+        /*padding: 12rem 0 8rem 0;*/
     }
 }
 
@@ -499,6 +506,10 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 770px) {
+    .hero-wrapper {
+        margin: 0 1rem;
+    }
+
     .hero-left {
         padding: 2rem 0 0 0;
         border-radius: 0%;
@@ -519,6 +530,10 @@ header ul li a:hover {
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 1.8rem;
+    }
+
+    .hero-wrapper {
+        margin: 0;
     }
 }
 
@@ -654,7 +669,7 @@ header ul li a:hover {
     width: 42rem;
     max-width: 90%;
     margin: 0 auto;
-    padding: 10.5rem 0 0 0;
+    padding: 10.5rem 0 4rem 0;
 }
 
 .article-header {
@@ -721,7 +736,7 @@ header ul li a:hover {
     .article {
         gap: 2rem;
         margin: 0 auto;
-        padding: 10.5rem 0 0 0;
+        padding: 10.5rem 0 4rem 0;
         max-width: 60rem;
     }
 
@@ -741,17 +756,22 @@ header ul li a:hover {
         width: auto;
         max-width: 100%;
         margin: 0;
-        padding: 8.5rem 2rem 0 2rem;
+        padding: 8.5rem 2rem 4rem 2rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .article {
-        padding: 8.5rem 1rem 0 1rem;
+        padding: 8.5rem 1rem 4rem 1rem;
     }
 }
 
 /* Shop */
+
+.shop-wrapper {
+    background-color: #f4f3f0;
+    margin: 0 1.5rem;
+}
 
 .shop-all {
     margin: 0 10rem;
@@ -763,7 +783,7 @@ header ul li a:hover {
     justify-content: center;
     justify-items: center;
     gap: 4rem;
-    margin: 12rem 0 10rem 0;
+    padding: 12rem 0 10rem 0;
 }
 
 .product-cover {
@@ -812,13 +832,13 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     .shop-all {
-        margin: 8rem 1rem;
+        margin: 4rem 1rem 0 1rem;
     }
 
     .products-grid {
         display: flex;
         flex-flow: column;
-        margin: 4rem 0 0 0;
+        padding: 4rem 0 4rem 0;
     }
 }
 
@@ -828,7 +848,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: row;
     gap: 10rem;
-    margin: 12rem 10rem 12rem 10rem;
+    padding: 12rem 10rem 12rem 10rem;
 }
 
 .product-images img {
@@ -866,7 +886,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1425px) {
     .product-feature {
-        margin: 12rem 5rem;
+        padding: 12rem 5rem;
     }
 
     .product-info {
@@ -885,7 +905,7 @@ header ul li a:hover {
         flex-flow: column;
         align-items: center;
         gap: 2rem;
-        margin: 10rem 2rem;
+        padding: 10rem 2rem;
     }
 
     .product-info {
@@ -922,7 +942,7 @@ header ul li a:hover {
     .product-feature {
         display: flex;
         flex-flow: column;
-        margin: 8rem 1rem;
+        padding: 8rem 1rem;
     }
 }
 

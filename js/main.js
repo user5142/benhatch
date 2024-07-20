@@ -83,6 +83,15 @@ if (header2 != undefined) {
 `
 }
 
+// Email subscribe text component
+const emailSubscribe = document.querySelector(".email-subscribe-text");
+if (emailSubscribe != undefined) {
+  emailSubscribe.innerHTML = `
+  <h3><span>Join my email list</span></h3>
+  <p>Subscribe for occasional updates on new content, projects and interesting rabbit holes I am exploring.</p>
+  `
+}
+
 // Copy email to clipboard
 function copyEmail() {
   const copy = document.getElementById('copy-icon');

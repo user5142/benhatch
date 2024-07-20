@@ -535,6 +535,7 @@ header ul li a:hover {
 .fun-facts #dynamic-fun {
     padding: 1rem 0 0 0;
     color: transparent;
+    max-width: 40rem;
 }
 
 @media only screen and (max-width: 500px) {
@@ -929,6 +930,7 @@ header ul li a:hover {
 
 footer {
     display: flex;
+    position:relative;
     justify-content: space-between;
     justify-content: center;
     padding: 10rem 1rem 2.5rem 1rem;

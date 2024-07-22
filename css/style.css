@@ -629,7 +629,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 12rem 0 30rem 0;
+    padding: 12rem 0 36rem 0;
 }
 
 .articles-block {
@@ -768,11 +768,6 @@ header ul li a:hover {
 
 /* Shop */
 
-.shop-wrapper {
-    background-color: #f4f3f0;
-    margin: 0 1.5rem;
-}
-
 .shop-all {
     margin: 0 10rem;
 }
@@ -783,7 +778,7 @@ header ul li a:hover {
     justify-content: center;
     justify-items: center;
     gap: 4rem;
-    padding: 12rem 0 10rem 0;
+    padding: 12rem 0 20rem 0;
 }
 
 .product-cover {

@@ -65,7 +65,7 @@ h3 span {
 }
 
 a {
-    color: #1895e8;
+    color: #0472e7;
     text-decoration: none;
 }
 
@@ -98,7 +98,7 @@ i {
 }
 
 button {
-    background-color: #586F86;
+    background-color: #46596c;
     color: #FDFDFD;
     height: 2.5rem;
     padding: .25rem 1.5rem;
@@ -111,7 +111,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: #46596c;
+    background-color: #364554;
 }
 
 #contact-button {
@@ -373,7 +373,7 @@ header ul li a:hover {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    padding: 9.5rem 2rem 8rem 2rem;
+    padding: 12rem 2rem 8rem 2rem;
     background-color: #f4f3f0;
 }
 

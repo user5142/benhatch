@@ -476,11 +476,17 @@ header ul li a:hover {
     }
 }
 
+@media only screen and (max-width: 1580px) {
+    .hero {
+        padding: 10rem 2rem 8rem 2rem;
+    }
+}
+
 @media only screen and (max-width: 1330px) {
     .hero {
         flex-flow: column;
         gap: 4rem;
-        padding: 9.5rem 2rem 0rem 2rem;
+        padding: 9.5rem 2rem 6rem 2rem;
     }
 
     .hero-left {
@@ -874,7 +880,7 @@ header ul li a:hover {
 @media only screen and (min-width: 1510px) {
     .product-feature {
         margin: 0 auto;
-        padding: 12rem 0 10rem 0;
+        padding: 12rem 0 14rem 0;
         width: 75rem;
     }
 }

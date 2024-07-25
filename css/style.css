@@ -482,7 +482,7 @@ header ul li a:hover {
     }
 }
 
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1398px) {
     .hero {
         flex-flow: column;
         gap: 4rem;
@@ -615,7 +615,7 @@ header ul li a:hover {
 .now-block {
     display: flex;
     flex-flow: column;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .now .email-subscribe {

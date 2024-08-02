@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #f4f3f0
+    background-color: #f4f3f0;
         /*background-color: #FDFDFD;*/
 }
 
@@ -281,7 +281,7 @@ header ul li a:hover {
 
 #burger-links {
     display: none;
-    background-color: #FDFDFD;
+    background-color: #f4f3f0;
     padding-bottom: 1rem;
 }
 

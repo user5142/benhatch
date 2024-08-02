@@ -493,28 +493,33 @@ header ul li a:hover {
     }
 }
 
-@media only screen and (max-width: 1398px) {
+@media only screen and (max-width: 1330px) {
     .hero {
         flex-flow: column;
+        align-items: start;
         gap: 4rem;
-        padding: 9.5rem 2rem 6rem 2rem;
+        padding: 9.5rem 6rem 6rem 6rem;
     }
 
     .hero-left {
-        max-width: 36rem;
+        padding: 1.4rem 0;
     }
 
     .hero-right h4 {
-        padding: 0 0 0 2rem;
+        padding: 0;
     }
 
     .article-card {
         max-width: 36rem;
-        padding: 1.4rem 2rem;
+        padding: 1.4rem 0rem;
     }
 }
 
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+    .hero {
+        padding: 9.5rem 4rem 6rem 4rem;
+    }
+}
 
 @media only screen and (max-width: 1000px) {
     h1 {
@@ -522,13 +527,17 @@ header ul li a:hover {
     }
 
     .hero {
-        padding: 6.5rem 1rem 0 1rem;
+        padding: 6.5rem 3rem 0 3rem;
     }
 }
 
 @media only screen and (max-width: 770px) {
     .hero-wrapper {
         margin: 0 1rem;
+    }
+
+    .hero {
+        padding: 6.5rem 1rem 0 1rem;
     }
 
     .hero-left {
@@ -539,12 +548,7 @@ header ul li a:hover {
 
     .article-card {
         min-width: 0;
-        padding: 1.4rem 2rem;
-    }
-
-    .article-card:hover {
-        cursor: pointer;
-        background-color: #f4f3f0;
+        padding: 1.4rem 0;
     }
 }
 

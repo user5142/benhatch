@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    background-color: #FDFDFD;
+    background-color: #f4f3f0
+        /*background-color: #FDFDFD;*/
 }
 
 h3,
@@ -22,7 +23,7 @@ p {
 
 h1 {
     font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 2.4rem;
     color: #080806;
     line-height: 1.2;
@@ -36,7 +37,7 @@ h1 {
 
 h2 {
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 500;
     color: #080806;
     line-height: 1.1;
@@ -138,7 +139,7 @@ button:hover {
     border: 1px solid #69696F;
     border-radius: 5px;
     z-index: 5;
-    
+
 }
 
 .copy-to-clipboard:hover {
@@ -187,7 +188,7 @@ button:active,
     }
 
     h2 {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 
     h3 {
@@ -208,7 +209,7 @@ button:active,
     left: 0;
     right: 0;
     /*background-color: #f4f3f0;*/
-    background-color: #FDFDFD;
+    background-color: #f4f3f0;
     z-index: 999;
     transition: box-shadow 0.1s ease-in-out;
 }
@@ -374,15 +375,15 @@ header ul li a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 12rem 2rem 8rem 2rem;
-    background-color: #f4f3f0;
+    /*background-color: #f4f3f0;*/
 }
 
 .hero-left {
     display: flex;
     flex-flow: column;
-    gap: 3rem;
-    min-width: 36rem;
-    max-width: 36rem;
+    gap: 4rem;
+    min-width: 28rem;
+    max-width: 32rem;
     padding: 1.4rem 2rem;
 }
 
@@ -417,12 +418,22 @@ header ul li a:hover {
 
 .email-subscribe p {
     font-size: 1rem;
-    max-width: 28rem;
+    max-width: 32rem;
 }
 
 .formkit-form[data-uid="4dc2efc10b"] .formkit-fields {
     flex-wrap: nowrap;
     flex-flow: column;
+}
+
+.hero-right {
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+}
+
+.hero-right h4 {
+    padding: 0 0 0 2rem;
 }
 
 .article-card {
@@ -449,7 +460,7 @@ header ul li a:hover {
 .hero-articles {
     display: flex;
     flex-flow: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .hero-articles a:hover {
@@ -493,9 +504,13 @@ header ul li a:hover {
         max-width: 36rem;
     }
 
+    .hero-right h4 {
+        padding: 0 0 0 2rem;
+    }
+
     .article-card {
         max-width: 36rem;
-        padding: 0 0 2.5rem 0;
+        padding: 1.4rem 2rem;
     }
 }
 
@@ -524,12 +539,23 @@ header ul li a:hover {
 
     .article-card {
         min-width: 0;
-        padding: 0 0 2.5rem 0;
+        padding: 1.4rem 2rem;
     }
 
     .article-card:hover {
         cursor: pointer;
         background-color: #f4f3f0;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .hero-right h4 {
+        padding: 0;
+    }
+
+    .article-card {
+        min-width: 0;
+        padding: 1rem 0;
     }
 }
 
@@ -603,7 +629,8 @@ header ul li a:hover {
     padding: 12rem 1.5rem 6rem 1.5rem;
 }
 
-.now-update-time, .disclaimer {
+.now-update-time,
+.disclaimer {
     font-size: 1rem;
     font-weight: 200;
 }
@@ -951,7 +978,7 @@ header ul li a:hover {
 
 footer {
     display: flex;
-    position:relative;
+    position: relative;
     justify-content: space-between;
     justify-content: center;
     padding: 10rem 1rem 2.5rem 1rem;

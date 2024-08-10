@@ -195,6 +195,14 @@ button:active,
         font-size: 1.2rem;
     }
 
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
     .four-zero-four h1 {
         font-size: 5rem;
     }
@@ -482,6 +490,12 @@ header ul li a:hover {
     font-weight: 500;
 }
 
+.article-card-main {
+    display: flex;
+    flex-flow: column;
+    gap: .3rem;
+}
+
 .article-teaser {
     display: flex;
     flex-flow: column;
@@ -549,6 +563,10 @@ header ul li a:hover {
         max-width: 36rem;
         padding: 1.4rem 0rem;
     }
+
+    .project-card {
+        padding: 1.4rem 0;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -600,10 +618,6 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 500px) {
-    h1 {
-        font-size: 1.8rem;
-    }
-
     .hero-wrapper {
         margin: 0;
     }

@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #080806;
     line-height: 1.4;
 }
@@ -375,7 +375,6 @@ header ul li a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 12rem 2rem 8rem 2rem;
-    /*background-color: #f4f3f0;*/
 }
 
 .hero-left {
@@ -436,6 +435,39 @@ header ul li a:hover {
     padding: 0 0 0 2rem;
 }
 
+.projects-hero-container {
+    padding: 0 0 2rem 0;
+}
+
+.projects-hero-container a:hover {
+    text-decoration: none;
+}
+
+.project-card {
+    display: flex;
+    flex-flow: row;
+    gap: 1.5rem;
+    padding: 1.4rem 2rem;
+    border-radius: .6rem;
+}
+
+.project-card:hover {
+    cursor: pointer;
+    background-color: rgba(234, 233, 231, 0.5);
+}
+
+.project-card-text h3 {
+    font-weight: 500;
+}
+
+.project-card-text h4 {
+    padding: 0;
+}
+
+.townforest-logo-mark {
+    width: 3.2rem;
+}
+
 .article-card {
     display: flex;
     flex-flow: column;
@@ -444,6 +476,10 @@ header ul li a:hover {
     max-width: 36rem;
     padding: 1.4rem 2rem;
     border-radius: .6rem;
+}
+
+.article-card h3 {
+    font-weight: 500;
 }
 
 .article-teaser {

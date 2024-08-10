@@ -216,7 +216,6 @@ button:active,
     top: 0;
     left: 0;
     right: 0;
-    /*background-color: #f4f3f0;*/
     background-color: #f4f3f0;
     z-index: 999;
     transition: box-shadow 0.1s ease-in-out;

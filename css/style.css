@@ -183,23 +183,23 @@ button:active,
 
 @media only screen and (max-width: 500px) {
     h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     h2 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     h4 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.15rem;
     }
 
     .four-zero-four h1 {

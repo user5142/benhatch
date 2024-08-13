@@ -731,6 +731,10 @@ header ul li a:hover {
     gap: 2rem;
 }
 
+.all-articles h3 {
+    font-size: 1.4rem;
+}
+
 @media only screen and (max-width: 1000px) {
     .all-articles {
         padding: 10rem 0 30rem 0;

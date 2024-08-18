@@ -515,7 +515,7 @@ header ul li a:hover {
     text-decoration: none;
 }
 
-.article-card .read-more {
+.hero-articles .read-more a {
     display: flex;
     flex-flow: row;
     gap: .5rem;

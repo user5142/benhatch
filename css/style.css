@@ -713,12 +713,15 @@ header ul li a:hover {
     flex-flow: column;
     align-items: center;
     padding: 12rem 0 36rem 0;
+    gap: 4rem;
 }
 
 .articles-block {
     display: flex;
     flex-flow: column;
     gap: 2rem;
+    min-width: 35rem;
+    max-width: 35rem;
 }
 
 .article-year {
@@ -737,7 +740,14 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1000px) {
     .all-articles {
-        padding: 10rem 0 30rem 0;
+        padding: 10rem 1rem 30rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .articles-block {
+        min-width: 100%;
+        max-width: 100%;
     }
 }
 

@@ -84,7 +84,7 @@ i {
     background: #69696F;
     opacity: 50%;
     border: none;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -815,7 +815,6 @@ header ul li a:hover {
 }
 
 .article .email-subscribe {
-    margin: 0 auto;
     padding: 4rem 0 0 0;
 }
 

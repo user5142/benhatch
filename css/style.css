@@ -412,7 +412,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 1.2rem;
-    max-width: 28rem;
+    max-width: 26rem;
 }
 
 .email-subscribe-text {

@@ -474,45 +474,13 @@ header ul li a:hover {
     width: 2.8rem;
 }
 
-.article-card {
-    display: flex;
-    flex-flow: column;
-    gap: 1rem;
-    min-width: 36rem;
-    max-width: 36rem;
-    padding: 1.4rem 2rem;
-    border-radius: .6rem;
-}
-
-.article-card h3 {
-    font-weight: 500;
-}
-
-.article-card-main {
-    display: flex;
-    flex-flow: column;
-    gap: .3rem;
-}
-
-.article-teaser {
-    display: flex;
-    flex-flow: column;
-    gap: 1rem;
-}
-
-.article-card:hover {
-    cursor: pointer;
-    background-color: rgba(234, 233, 231, 0.5);
-}
-
 .hero-articles {
     display: flex;
     flex-flow: column;
-    gap: 0;
-}
-
-.hero-articles a:hover {
-    text-decoration: none;
+    gap: 2rem;
+    min-width: 36rem;
+    max-width: 36rem;
+    padding: 1.4rem 2rem;
 }
 
 .hero-articles .read-more a {
@@ -521,6 +489,11 @@ header ul li a:hover {
     gap: .5rem;
     justify-content: end;
     padding: .5rem 0 0 0;
+}
+
+.hero-articles .read-more a:hover {
+    text-decoration: none;
+    opacity: .8;
 }
 
 .read-more p {
@@ -557,7 +530,7 @@ header ul li a:hover {
         padding: 0;
     }
 
-    .article-card {
+    .hero-articles {
         max-width: 36rem;
         padding: 1.4rem 0rem;
     }
@@ -598,7 +571,7 @@ header ul li a:hover {
         min-width: 0;
     }
 
-    .article-card {
+    .hero-articles {
         min-width: 0;
         padding: 1.4rem 0;
     }

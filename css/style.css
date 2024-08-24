@@ -488,7 +488,7 @@ header ul li a:hover {
     flex-flow: row;
     gap: .5rem;
     justify-content: end;
-    padding: .5rem 0 0 0;
+    padding: 1rem 0 0 0;
 }
 
 .hero-articles .read-more a:hover {

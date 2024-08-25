@@ -88,7 +88,7 @@ const emailSubscribe = document.querySelector(".email-subscribe-text");
 if (emailSubscribe != undefined) {
   emailSubscribe.innerHTML = `
   <h3><span>Join my email list</span></h3>
-  <p>Occassional updates on my projects, content, <br> business lessons and miscellaneous dad musings.</p>
+  <p>I share occassional updates on my projects,  <br>content, business learnings and life philosophies.</p>
   `
 }
 

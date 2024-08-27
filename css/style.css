@@ -1017,7 +1017,7 @@ footer {
     position: relative;
     justify-content: space-between;
     justify-content: center;
-    padding: 10rem 1rem 1rem 1rem;
+    padding: 10rem 1rem 1.5rem 1rem;
 }
 
 footer p {

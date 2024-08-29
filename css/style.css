@@ -308,7 +308,7 @@ header ul li a:hover {
     text-align: left;
 }
 
-@media only screen and (min-width: 1510px) {
+@media only screen and (min-width: 1580px) {
     header {
         margin: 0 auto;
         width: 86rem;
@@ -319,7 +319,7 @@ header ul li a:hover {
     }
 }
 
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1580px) {
     header ul {
         padding: 0 6rem;
     }
@@ -509,12 +509,6 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 1580px) {
-    .hero {
-        padding: 10rem 2rem 8rem 2rem;
-    }
-}
-
-@media only screen and (max-width: 1330px) {
     .hero {
         flex-flow: column;
         align-items: start;

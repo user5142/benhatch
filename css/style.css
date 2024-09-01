@@ -321,9 +321,9 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1580px) {
     header ul {
-        justify-content: center;
+        justify-content: space-between;
         gap: 4rem;
-        padding: 0 8rem;
+        padding: 0 5rem;
     }
 
     .nav-socials {
@@ -332,14 +332,8 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 1200px) {
-    header ul {
-        padding: 0 6rem;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
     header {
-        padding: 0 5rem;
+        padding: 0 3rem;
     }
 
     header ul {
@@ -518,10 +512,10 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1580px) {
     .hero {
-        flex-flow: column;
+        flex-flow: row;
         align-items: center;
         gap: 4rem;
-        padding: 9.5rem 6rem 6rem 6rem;
+        padding: 9.5rem 3rem 6rem 3rem;
     }
 
     .hero-left {
@@ -553,6 +547,12 @@ header ul li a:hover {
 
     .project-card {
         padding: 1.4rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .hero {
+        flex-flow: column;
     }
 }
 
@@ -589,11 +589,28 @@ header ul li a:hover {
 
     .hero-articles {
         min-width: 0;
-        padding: 1.4rem 0;
+        padding: 1.4rem 2rem;
     }
 }
 
 @media only screen and (max-width: 670px) {
+    .hero-bio {
+        padding: 0;
+    }
+
+    .hero-left .email-subscribe {
+        padding: 0;
+    }
+
+    .project-card {
+        padding: 1.4rem 0;
+    }
+    
+    .hero-right {
+        width: 100%;
+        min-width:auto;
+    }
+
     .hero-right h4 {
         padding: 0;
     }
@@ -601,6 +618,10 @@ header ul li a:hover {
     .article-card {
         min-width: 0;
         padding: 1rem 0;
+    }
+
+    .hero-articles {
+        padding: 1.4rem 0;
     }
 }
 

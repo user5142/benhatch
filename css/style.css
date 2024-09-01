@@ -442,7 +442,7 @@ header ul li a:hover {
     flex-flow: column;
     gap: 1.5rem;
     min-width: 32rem;
-    max-width: 32rem;
+    max-width: 36rem;
 }
 
 .hero-right h4 {

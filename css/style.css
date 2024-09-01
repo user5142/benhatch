@@ -321,19 +321,25 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1580px) {
     header ul {
-        padding: 0 6rem;
+        justify-content: start;
+        gap: 4rem;
+        padding: 0 8rem;
+    }
+
+    .nav-socials {
+        gap: 4rem;
     }
 }
 
 @media only screen and (max-width: 1200px) {
     header ul {
-        padding: 0 4rem;
+        padding: 0 6rem;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     header {
-        padding: 0 3rem;
+        padding: 0 5rem;
     }
 
     header ul {
@@ -387,7 +393,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 4rem;
-    min-width: 28rem;
+    min-width: 32rem;
     max-width: 32rem;
     padding: 1.4rem 2rem;
 }
@@ -435,6 +441,8 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
+    min-width: 32rem;
+    max-width: 32rem;
 }
 
 .hero-right h4 {
@@ -517,20 +525,20 @@ header ul li a:hover {
     }
 
     .hero-left {
-        padding: 1.4rem 0;
+        padding: 1.4rem 2rem;
     }
 
     .hero-right h4 {
-        padding: 0;
+        padding: 0 2rem;
     }
 
     .hero-articles {
         max-width: 36rem;
-        padding: 1.4rem 0rem;
+        padding: 1.4rem 2rem;
     }
 
     .project-card {
-        padding: 1.4rem 0;
+        padding: 1.4rem 2rem;
     }
 }
 

@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    background-color: #f4f3f0;
+    /*background-color: #f4f3f0;*/
+    background-color: #f9f9f7
 }
 
 h3,
@@ -215,7 +216,7 @@ button:active,
     top: 0;
     left: 0;
     right: 0;
-    background-color: #f4f3f0;
+    background-color: #f9f9f7;
     z-index: 999;
     transition: box-shadow 0.1s ease-in-out;
 }
@@ -287,7 +288,7 @@ header ul li a:hover {
 
 #burger-links {
     display: none;
-    background-color: #f4f3f0;
+    background-color: #f9f9f7;
     padding-bottom: 1rem;
 }
 
@@ -370,7 +371,7 @@ header ul li a:hover {
 /* Hero */
 
 .hero-wrapper {
-    background-color: #f4f3f0;
+    background-color: #f9f9f7;
     margin: 0 1.5rem;
     max-width: 100%;
 }

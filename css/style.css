@@ -959,7 +959,7 @@ header ul li a:hover {
 }
 
 .product-info {
-    max-width: 50%;
+    max-width: 40%;
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
@@ -981,7 +981,7 @@ header ul li a:hover {
     .product-feature {
         margin: 0 auto;
         padding: 12rem 0 14rem 0;
-        width: 75rem;
+        width: 80rem;
     }
 }
 

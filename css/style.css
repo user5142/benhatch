@@ -605,10 +605,10 @@ header ul li a:hover {
     .project-card {
         padding: 1.4rem 0;
     }
-    
+
     .hero-right {
         width: 100%;
-        min-width:auto;
+        min-width: auto;
     }
 
     .hero-right h4 {
@@ -947,7 +947,7 @@ header ul li a:hover {
 
 .product-feature {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     gap: 10rem;
     padding: 12rem 10rem 12rem 10rem;
 }
@@ -955,6 +955,12 @@ header ul li a:hover {
 .product-images img {
     max-width: 100%;
     width: 40rem;
+    border-radius: 5px;
+}
+
+.product-image-bottom-container img {
+    max-width: 100%;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -979,71 +985,72 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     .product-feature {
+        display: flex;
+        flex-flow: row;
+        gap: 10rem;
         margin: 0 auto;
-        padding: 12rem 0 14rem 0;
+        padding: 12rem 0 2rem 0;
+        width: 80rem;
+    }
+
+    .product-image-bottom-container {
+        margin: 0 auto;
+        padding: 6rem 0 6rem 0;
         width: 80rem;
     }
 }
 
-@media only screen and (max-width: 1425px) {
+@media only screen and (max-width: 1510px) {
     .product-feature {
-        padding: 12rem 5rem;
+        padding: 12rem 5rem 0 5rem;
+        gap: 5rem;
     }
 
     .product-info {
-        gap: 1rem;
+        max-width: 100%;
+    }
+
+    .product-images img {
+        max-width: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .product-image-bottom-container {
+        padding: 6rem 5rem;
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .product-feature {
+        padding: 10rem 3rem 0 3rem;
         gap: 5rem;
     }
-}
 
-@media only screen and (max-width: 1000px) {
-    .product-feature {
-        flex-flow: column;
-        align-items: center;
-        gap: 2rem;
-        padding: 10rem 2rem;
-    }
-
-    .product-info {
-        padding: 0 7rem;
-        max-width: 100%;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .product-info {
-        padding: 0 5rem;
-    }
-}
-
-@media only screen and (max-width: 850px) {
-    .product-info {
-        padding: 0 3rem;
+    .product-image-bottom-container {
+        padding: 6rem 3rem;
     }
 }
 
 @media only screen and (max-width: 770px) {
-    .product-info {
-        padding: 0 2rem;
+    .product-feature {
+        padding: 10rem 1rem 0 1rem;
+        gap: 5rem;
+    }
+
+    .product-image-bottom-container {
+        padding: 6rem 1rem;
     }
 }
 
 @media only screen and (max-width: 770px) {
-    .product-info {
-        padding: 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
     .product-feature {
-        display: flex;
-        flex-flow: column;
-        padding: 8rem 1rem;
+        padding: 8rem 1rem 0 1rem;
+        gap: 3rem;
+    }
+
+    .product-image-bottom-container {
+        padding: 3rem 1rem 6rem 1rem;
     }
 }
 

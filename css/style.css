@@ -958,6 +958,12 @@ header ul li a:hover {
     border-radius: 5px;
 }
 
+.product-image-bottom-container {
+    display: flex;
+    flex-flow: column;
+    gap: 4rem;
+}
+
 .product-image-bottom-container img {
     max-width: 100%;
     width: 100%;

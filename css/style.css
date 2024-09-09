@@ -1007,6 +1007,10 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 1510px) {
+    .product-page {
+        padding: 0 10rem;
+    }
+
     .product-feature {
         padding: 12rem 5rem 0 5rem;
         gap: 5rem;
@@ -1028,6 +1032,10 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 1200px) {
+    .product-page {
+        padding: 0;
+    }
+
     .product-feature {
         padding: 10rem 3rem 0 3rem;
         gap: 5rem;

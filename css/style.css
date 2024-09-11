@@ -443,6 +443,10 @@ header ul li a:hover {
     padding: 0 0 0 2rem;
 }
 
+.hero-right p {
+    color: #69696F;
+}
+
 .projects-hero-container {
     padding: 0 0 2rem 0;
 }
@@ -473,7 +477,7 @@ header ul li a:hover {
 }
 
 .townforest-logo-mark {
-    width: 2.8rem;
+    width: 4.2rem;
 }
 
 .hero-articles {

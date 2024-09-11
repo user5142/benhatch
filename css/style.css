@@ -461,6 +461,7 @@ header ul li a:hover {
     gap: 1.5rem;
     padding: 1.4rem 2rem;
     border-radius: .6rem;
+    align-items: center;
 }
 
 .project-card:hover {
@@ -477,7 +478,7 @@ header ul li a:hover {
 }
 
 .townforest-logo-mark {
-    width: 4.2rem;
+    width: 4.8rem;
 }
 
 .hero-articles {

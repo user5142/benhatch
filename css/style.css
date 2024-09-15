@@ -1000,6 +1000,10 @@ header ul li a:hover {
     gap: 1.5rem;
 }
 
+.product-copy h2 {
+    padding: 0 0 1rem 0;
+}
+
 @media only screen and (min-width: 1510px) {
     .product-feature {
         display: flex;

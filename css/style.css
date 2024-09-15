@@ -1041,7 +1041,8 @@ header ul li a:hover {
     }
 
     .product-info {
-        max-width: 100%;
+        margin: 0 auto;
+        max-width: 42rem;
     }
 
     .product-images img {
@@ -1056,6 +1057,8 @@ header ul li a:hover {
 
     .product-copy {
         padding: 6rem 5rem 0 5rem;
+        margin: 0 auto;
+        max-width: 42rem;
     }
 }
 

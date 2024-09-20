@@ -408,6 +408,10 @@ header ul li a:hover {
     gap: .5rem;
 }
 
+.hero-text-2, .hero-text-3, .hero-text-4 {
+    display: none;
+}
+
 .email-subscribe {
     display: flex;
     flex-flow: column;
@@ -575,6 +579,18 @@ header ul li a:hover {
     .hero {
         padding: 6.5rem 3rem 0 3rem;
     }
+
+    .hero-left {
+        width: 100%;
+    }
+
+    .hero-text {
+        display: none;
+    }
+
+    .hero-text-2 {
+        display: inline;
+    }
 }
 
 @media only screen and (max-width: 770px) {
@@ -634,6 +650,28 @@ header ul li a:hover {
     .hero-wrapper {
         margin: 0;
     }
+}
+
+@media only screen and (max-width: 440px) {
+    .hero-text, .hero-text-2 {
+        display: none;
+    }
+
+    .hero-text-3 {
+        display: inline;
+    }
+    
+}
+
+@media only screen and (max-width: 345px) {
+    .hero-text, .hero-text-2, .hero-text-3 {
+        display: none;
+    }
+
+    .hero-text-4 {
+        display: inline;
+    }
+    
 }
 
 /* Fun Facts */

@@ -881,6 +881,12 @@ header ul li a:hover {
     padding: 4rem 0 0 0;
 }
 
+.one-hundred-videos {
+    display: flex;
+    flex-flow: column;
+    gap: .6rem;
+}
+
 @media only screen and (min-width: 1510px) {
     .article {
         gap: 2rem;

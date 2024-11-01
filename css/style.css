@@ -584,9 +584,9 @@ header ul li a:hover {
         width: 100%;
     }
 
-    .hero-text {
+    /* .hero-text {
         display: none;
-    }
+    } */
 
     .hero-text-2 {
         display: inline;
@@ -653,9 +653,9 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 440px) {
-    .hero-text, .hero-text-2 {
+    /* .hero-text, .hero-text-2 {
         display: none;
-    }
+    } */
 
     .hero-text-3 {
         display: inline;
@@ -664,9 +664,9 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 345px) {
-    .hero-text, .hero-text-2, .hero-text-3 {
+    /* .hero-text, .hero-text-2, .hero-text-3 {
         display: none;
-    }
+    } */
 
     .hero-text-4 {
         display: inline;

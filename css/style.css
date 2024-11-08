@@ -405,7 +405,7 @@ header ul li a:hover {
 .hero-text {
     display: flex;
     flex-flow: column;
-    gap: .5rem;
+    gap: .2rem;
 }
 
 .hero-text-2, .hero-text-3, .hero-text-4 {

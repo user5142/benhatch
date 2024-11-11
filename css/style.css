@@ -355,7 +355,7 @@ header ul li a:hover {
     flex-flow: column;
     gap: 4rem;
     align-items: center;
-    padding: 2rem 1rem 8rem 1rem;
+    padding: 4rem 1rem 8rem 1rem;
 }
 
 .hero-left {
@@ -537,28 +537,6 @@ header ul li a:hover {
     }
 }
 
-@media only screen and (max-width: 440px) {
-    /* .hero-text, .hero-text-2 {
-        display: none;
-    } */
-
-    .hero-text-3 {
-        display: inline;
-    }
-    
-}
-
-@media only screen and (max-width: 345px) {
-    /* .hero-text, .hero-text-2, .hero-text-3 {
-        display: none;
-    } */
-
-    .hero-text-4 {
-        display: inline;
-    }
-    
-}
-
 /* Fun Facts */
 
 .fun-facts {
@@ -704,7 +682,7 @@ header ul li a:hover {
     width: 42rem;
     max-width: 90%;
     margin: 0 auto;
-    padding: 2rem 0 4rem 0;
+    padding: 4rem 0 4rem 0;
 }
 
 .article-header {
@@ -776,7 +754,7 @@ header ul li a:hover {
     .article {
         gap: 2rem;
         margin: 0 auto;
-        padding: 2rem 0 4rem 0;
+        padding: 4rem 0 4rem 0;
         max-width: 60rem;
     }
 
@@ -796,13 +774,13 @@ header ul li a:hover {
         width: auto;
         max-width: 100%;
         margin: 0;
-        padding: 2rem 2rem 4rem 2rem;
+        padding: 4rem 2rem 4rem 2rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .article {
-        padding: 2rem 1rem 4rem 1rem;
+        padding: 4rem 1rem 4rem 1rem;
     }
 }
 

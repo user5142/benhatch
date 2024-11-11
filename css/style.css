@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 400;
     color: #080806;
     line-height: 1.1;
@@ -221,35 +221,16 @@ button:active,
     transition: box-shadow 0.1s ease-in-out;
 }
 
-header ul {
+header a {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
     align-items: center;
     height: 4.5rem;
     max-width: 100%;
-    padding: 0 4rem;
 }
 
 .shadow {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.nav-pages {
-    display: flex;
-    flex-flow: row;
-    gap: 4rem;
-}
-
-.nav-socials {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    gap: 2rem;
-}
-
-.nav-socials img {
-    vertical-align: middle;
 }
 
 header ul li a {
@@ -268,6 +249,21 @@ header ul li a:hover {
     text-decoration: none;
 }
 
+.home a {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #69696F;
+    text-decoration: none;
+}
+
+.home a:hover {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: #69696F;
+    opacity: .8;
+    text-decoration: none;
+}
 .contact-icons img {
     width: 1.3rem;
     padding: 0 .5rem;
@@ -309,26 +305,10 @@ header ul li a:hover {
     text-align: left;
 }
 
-@media only screen and (min-width: 1580px) {
+@media only screen and (min-width: 1510px) {
     header {
         margin: 0 auto;
-        width: 86rem;
-    }
-
-    header ul {
-        padding: 0;
-    }
-}
-
-@media only screen and (max-width: 1580px) {
-    header ul {
-        justify-content: space-between;
-        gap: 4rem;
-        padding: 0 5rem;
-    }
-
-    .nav-socials {
-        gap: 2rem;
+        width: 60rem;
     }
 }
 
@@ -826,7 +806,7 @@ header ul li a:hover {
     width: 42rem;
     max-width: 90%;
     margin: 0 auto;
-    padding: 10.5rem 0 4rem 0;
+    padding: 2rem 0 4rem 0;
 }
 
 .article-header {
@@ -898,7 +878,7 @@ header ul li a:hover {
     .article {
         gap: 2rem;
         margin: 0 auto;
-        padding: 10.5rem 0 4rem 0;
+        padding: 2rem 0 4rem 0;
         max-width: 60rem;
     }
 

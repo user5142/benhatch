@@ -37,13 +37,14 @@ h1 {
 h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.7rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #080806;
     line-height: 1.1;
 }
 
 h3 {
     font-size: 1.5rem;
+    font-weight: 400;
     color: #080806;
     line-height: 1.4;
 }
@@ -369,18 +370,12 @@ header ul li a:hover {
 
 /* Hero */
 
-.hero-wrapper {
-    background-color: #f4f3f0;
-    margin: 0 1.5rem;
-    max-width: 100%;
-}
-
 .hero {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: space-between;
     align-items: center;
-    padding: 12rem 2rem 8rem 2rem;
+    padding: 4rem 2rem 8rem 2rem;
 }
 
 .hero-left {
@@ -389,7 +384,7 @@ header ul li a:hover {
     gap: 4rem;
     min-width: 32rem;
     max-width: 32rem;
-    padding: 1.4rem 2rem;
+    /*padding: 1.4rem 2rem;*/
 }
 
 .hero-bio {
@@ -399,7 +394,7 @@ header ul li a:hover {
 }
 
 .hero-pfp {
-    width: 4.4rem;
+    width: 4.5rem;
 }
 
 .hero-text {
@@ -443,9 +438,9 @@ header ul li a:hover {
     max-width: 36rem;
 }
 
-.hero-right h4 {
+/*.hero-right h4 {
     padding: 0 0 0 2rem;
-}
+} */
 
 .hero-right p {
     color: #69696F;
@@ -495,7 +490,7 @@ header ul li a:hover {
     gap: 2.5rem;
     min-width: 28rem;
     max-width: 36rem;
-    padding: 1.4rem 2rem;
+    /*padding: 1.4rem 2rem;*/
 }
 
 .hero-articles .read-more a {
@@ -517,7 +512,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1580px) {
     .hero {
-        gap: 10rem;
+        gap: 4rem;
         margin: 0 auto;
         width: 90rem;
     }

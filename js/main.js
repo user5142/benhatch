@@ -87,8 +87,8 @@ if (header2 != undefined) {
 const emailSubscribe = document.querySelector(".email-subscribe-text");
 if (emailSubscribe != undefined) {
   emailSubscribe.innerHTML = `
-  <h3><span>Join my email list</span></h3>
-  <p>I send occasional updates on my projects, content, business learnings and dad musings.</p>
+  <h3>Join my email list</h3>
+  <p>Let's be honest, no one wants to subscribe to any new email lists. We're all too darn subscribed already. If you don't want to join this one, I don't blame you old sport. I don't even know what I'll use this list for yet. BUT - once I do get this thing rolling, I promise not to spam your inbox, and I promise to drop some heaters (emails, not poop).</p>
   `
 }
 

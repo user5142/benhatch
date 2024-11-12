@@ -377,6 +377,12 @@ header ul li a:hover {
     width: 4.5rem;
 }
 
+.social-icons {
+    display: flex;
+    flex-flow: row;
+    gap: 1rem;
+}
+
 .hero-text {
     display: flex;
     flex-flow: column;

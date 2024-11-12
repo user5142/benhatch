@@ -417,11 +417,11 @@ header ul li a:hover {
     flex-flow: column;
     gap: 1.5rem;
     min-width: 32rem;
-    max-width: 36rem;
+    max-width: 32rem;
 }
 
 .hero-right p {
-    color: #69696F;
+    color: #080806;
 }
 
 .projects-hero-container {

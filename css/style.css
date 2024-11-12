@@ -465,7 +465,7 @@ header ul li a:hover {
 .hero-articles {
     display: flex;
     flex-flow: column;
-    gap: 2.5rem;
+    gap: 1.2rem;
     min-width: 28rem;
     max-width: 36rem;
     /*padding: 1.4rem 2rem;*/

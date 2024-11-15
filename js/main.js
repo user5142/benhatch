@@ -88,7 +88,7 @@ const emailSubscribe = document.querySelector(".email-subscribe-text");
 if (emailSubscribe != undefined) {
   emailSubscribe.innerHTML = `
   <h3>Join my email list</h3>
-  <p>What I won't do: overload your inbox with spam and TL;DR drivel. What I will do: send the occasional cheeky update on my projects, content and miscellaneous dad musings.</p>
+  <p>I send occasional cheeky updates on my projects, content and miscellaneous dad musings. No spam or TL;DR drivel.</p>
   `
 }
 

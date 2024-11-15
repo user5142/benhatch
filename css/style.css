@@ -364,7 +364,6 @@ header ul li a:hover {
     gap: 4rem;
     min-width: 32rem;
     max-width: 32rem;
-    /*padding: 1.4rem 2rem;*/
 }
 
 .hero-bio {
@@ -380,6 +379,7 @@ header ul li a:hover {
 .social-icons {
     display: flex;
     flex-flow: row;
+    align-items: center;
     gap: 1rem;
 }
 

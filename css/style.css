@@ -1031,11 +1031,6 @@ footer {
 }
 
 footer p {
+    font-size: 1rem;
     color: #69696F;
 }
-
-@media only screen and (max-width: 1000px) {}
-
-@media only screen and (max-width: 900px) {}
-
-@media only screen and (max-width: 515px) {}

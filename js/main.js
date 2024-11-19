@@ -8,7 +8,6 @@ if (header != undefined) {
                 <div class="nav-pages">
                     <li id="home"><a href="https://benhatch.com/">home</a></li>
                     <li><a href="https://benhatch.com/blog">blog</a></li>
-                    <li><a href="https://benhatch.com/about">about</a></li>
                     <li><a href="https://benhatch.com/now">now</a></li>
                     <li><a href="https://benhatch.com/subscribe">subscribe</a></li>
                     <div class="nav-socials">

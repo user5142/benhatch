@@ -309,7 +309,7 @@ header ul li a:hover {
 @media only screen and (min-width: 1510px) {
     header {
         margin: 0 auto;
-        width: 50rem;
+        width: 40rem;
     }
 }
 
@@ -356,15 +356,15 @@ header ul li a:hover {
     flex-flow: column;
     gap: 4rem;
     align-items: center;
-    padding: 8rem 1rem 8rem 1rem;
+    padding: 10rem 1rem 8rem 1rem;
 }
 
 .hero-left {
     display: flex;
     flex-flow: column;
     gap: 4rem;
-    min-width: 50rem;
-    max-width: 50rem;
+    min-width: 40rem;
+    max-width: 40rem;
 }
 
 .hero-bio {
@@ -417,8 +417,8 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
-    min-width: 50rem;
-    max-width: 50rem;
+    min-width: 40rem;
+    max-width: 40rem;
 }
 
 .hero-right p {
@@ -595,7 +595,7 @@ header ul li a:hover {
     flex-flow: column;
     margin: 0 auto;
     gap: 2rem;
-    max-width: 42rem;
+    max-width: 40rem;
     padding: 12rem 1.5rem 6rem 1.5rem;
 }
 
@@ -631,7 +631,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 12rem 0 36rem 0;
+    padding: 10rem 0 20rem 0;
     gap: 4rem;
 }
 
@@ -639,8 +639,8 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    min-width: 35rem;
-    max-width: 35rem;
+    min-width: 40rem;
+    max-width: 40rem;
 }
 
 .article-year {

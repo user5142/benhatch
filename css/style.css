@@ -221,10 +221,11 @@ button:active,
     transition: box-shadow 0.1s ease-in-out;
 }
 
-header a {
+.nav-pages {
     display: flex;
     flex-flow: row;
     align-items: center;
+    justify-content: space-between;
     height: 4.5rem;
     max-width: 100%;
 }
@@ -308,7 +309,7 @@ header ul li a:hover {
 @media only screen and (min-width: 1510px) {
     header {
         margin: 0 auto;
-        width: 60rem;
+        width: 50rem;
     }
 }
 
@@ -355,15 +356,15 @@ header ul li a:hover {
     flex-flow: column;
     gap: 4rem;
     align-items: center;
-    padding: 4rem 1rem 8rem 1rem;
+    padding: 8rem 1rem 8rem 1rem;
 }
 
 .hero-left {
     display: flex;
     flex-flow: column;
     gap: 4rem;
-    min-width: 32rem;
-    max-width: 32rem;
+    min-width: 50rem;
+    max-width: 50rem;
 }
 
 .hero-bio {
@@ -416,8 +417,8 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
-    min-width: 32rem;
-    max-width: 32rem;
+    min-width: 50rem;
+    max-width: 50rem;
 }
 
 .hero-right p {
@@ -492,7 +493,7 @@ header ul li a:hover {
     .hero {
         gap: 4rem;
         margin: 0 auto;
-        width: 90rem;
+        width: 50rem;
     }
 }
 
@@ -1027,7 +1028,7 @@ footer {
     position: relative;
     justify-content: space-between;
     justify-content: center;
-    padding: 4rem 1rem 1.5rem 1rem;
+    padding: 12rem 1rem 1.5rem 1rem;
 }
 
 footer p {

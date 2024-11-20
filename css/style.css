@@ -570,7 +570,7 @@ header ul li a:hover {
     margin: 0 auto;
     gap: 2rem;
     max-width: 42rem;
-    padding: 12rem 1.5rem 6rem 1.5rem;
+    padding: 8rem 1.5rem 6rem 1.5rem;
 }
 
 .about .email-subscribe {

@@ -633,9 +633,15 @@ header ul li a:hover {
 .articles-block {
     display: flex;
     flex-flow: column;
-    gap: 2rem;
+    gap: 4rem;
     min-width: 40rem;
     max-width: 40rem;
+}
+
+.article-year-block {
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
 }
 
 .article-year {
@@ -645,7 +651,7 @@ header ul li a:hover {
 .article-titles {
     display: flex;
     flex-flow: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .all-articles h3 {

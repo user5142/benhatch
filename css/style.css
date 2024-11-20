@@ -306,14 +306,14 @@ header ul li a:hover {
     text-align: left;
 }
 
-@media only screen and (min-width: 1510px) {
+@media only screen and (min-width: 700px) {
     header {
         margin: 0 auto;
         width: 40rem;
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 700px) {
     header {
         padding: 0 3rem;
     }
@@ -355,8 +355,8 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 4rem;
-    align-items: center;
-    padding: 10rem 1rem 8rem 1rem;
+    align-items: start;
+    padding: 8rem 1rem 8rem 1rem;
 }
 
 .hero-left {
@@ -455,21 +455,12 @@ header ul li a:hover {
     padding: 0;
 }
 
-.townforest-logo-mark {
-    width: 4rem;
-}
-
-.mrmarket-description-2 {
-    display: none;
-}
-
 .hero-articles {
     display: flex;
     flex-flow: column;
-    gap: 1.2rem;
-    min-width: 28rem;
-    max-width: 36rem;
-    /*padding: 1.4rem 2rem;*/
+    gap: 1.5rem;
+    min-width: 40rem;
+    max-width: 40rem;
 }
 
 .hero-articles .read-more a {
@@ -489,15 +480,19 @@ header ul li a:hover {
     font-size: .8rem;
 }
 
+.hero .email-subscribe {
+    padding: 2rem 0 0 0;
+}
+
 @media only screen and (min-width: 1580px) {
     .hero {
         gap: 4rem;
         margin: 0 auto;
-        width: 50rem;
+        width: 40rem;
     }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 700px) {
     .hero-bio {
         padding: 0;
     }
@@ -596,7 +591,7 @@ header ul li a:hover {
     margin: 0 auto;
     gap: 2rem;
     max-width: 40rem;
-    padding: 12rem 1.5rem 6rem 1.5rem;
+    padding: 8rem 1.5rem 6rem 1.5rem;
 }
 
 .now-update-time,
@@ -631,7 +626,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 10rem 0 20rem 0;
+    padding: 8rem 0 20rem 0;
     gap: 4rem;
 }
 

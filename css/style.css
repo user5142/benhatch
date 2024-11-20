@@ -625,8 +625,8 @@ header ul li a:hover {
 .all-articles {
     display: flex;
     flex-flow: column;
-    align-items: center;
-    padding: 8rem 0 20rem 0;
+    align-items: start;
+    padding: 8rem 0 0 0;
     gap: 4rem;
 }
 
@@ -636,6 +636,7 @@ header ul li a:hover {
     gap: 4rem;
     min-width: 40rem;
     max-width: 40rem;
+    margin: 0 auto;
 }
 
 .article-year-block {
@@ -658,9 +659,13 @@ header ul li a:hover {
     font-size: 1.4rem;
 }
 
+.all-articles .email-subscribe {
+    padding: 4rem 0 0 0;
+}
+
 @media only screen and (max-width: 1000px) {
     .all-articles {
-        padding: 10rem 1rem 30rem 1rem;
+        padding: 8rem 1rem 30rem 1rem;
     }
 }
 

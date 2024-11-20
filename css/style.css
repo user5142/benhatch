@@ -422,7 +422,7 @@ header ul li a:hover {
 }
 
 .hero-right p {
-    color: #080806;
+    color: #69696F;
 }
 
 .projects-hero-container {
@@ -484,7 +484,7 @@ header ul li a:hover {
     padding: 2rem 0 0 0;
 }
 
-@media only screen and (min-width: 1580px) {
+@media only screen and (min-width: 700px) {
     .hero {
         gap: 4rem;
         margin: 0 auto;

@@ -42,17 +42,12 @@ if (header2 != undefined) {
             <ul>
                 <div class="nav-pages">
                     <li id="home"><a href="https://benhatch.com/">home</a></li>
-                    <li><a href="https://benhatch.com/shop">shop</a></li>
                     <li><a href="https://benhatch.com/blog">blog</a></li>
                     <li><a href="https://benhatch.com/about">about</a></li>
                     <li><a href="https://benhatch.com/now">now</a></li>
-                </div>
-                <div class="nav-socials">
-                    <li><a href="https://www.youtube.com/@MrMarketStories" target="_blank"><img src="../images/youtube-icon.svg"
-                                alt="YouTube icon"></a></li>
-                    <li><a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg"
-                                alt="X icon"></a></li>
-                    <li><div class="copy-to-clipboard" onclick="copyEmail()"><img id="checkmark-icon" src="../images/Checkmark Icon.svg"><img id="copy-icon" src="../images/Copy to Clipboard Icon.svg"><button id="contact-button"><div id="contact-button-text">hatch2k3@proton.me</div></button></div></li>  
+                    <div class="nav-socials">
+                    <li><a href="https://www.youtube.com/@henbatch" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a></li>
+                    </div>
                 </div>
             </ul>
             <div class="mobile-nav">
@@ -64,13 +59,10 @@ if (header2 != undefined) {
             </div>
         </header>
         <div id="burger-links">
-            <a href="https://benhatch.com/shop">shop</a>
             <a href="https://benhatch.com/blog">blog</a>
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>
             <a href="https://www.youtube.com/@henbatch" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a>
-            <a href="https://twitter.com/hatch2k3" target="_blank"><img src="../images/x-icon.svg" alt="X icon"></a>
-            <a>hatch2k3@proton.me</a>
         </div>
     </div>
 `

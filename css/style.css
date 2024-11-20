@@ -680,7 +680,7 @@ header ul li a:hover {
     width: 42rem;
     max-width: 90%;
     margin: 0 auto;
-    padding: 4rem 0 4rem 0;
+    padding: 8rem 0 4rem 0;
 }
 
 .article-header {
@@ -748,12 +748,12 @@ header ul li a:hover {
     gap: .6rem;
 }
 
-@media only screen and (min-width: 1510px) {
+@media only screen and (min-width: 700px) {
     .article {
         gap: 2rem;
         margin: 0 auto;
-        padding: 4rem 0 4rem 0;
-        max-width: 60rem;
+        padding: 8rem 0 4rem 0;
+        max-width: 40rem;
     }
 
     .article-body {
@@ -767,18 +767,18 @@ header ul li a:hover {
     }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 700px) {
     .article {
         width: auto;
         max-width: 100%;
         margin: 0;
-        padding: 4rem 2rem 4rem 2rem;
+        padding: 8rem 1rem 4rem 1rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .article {
-        padding: 4rem 1rem 4rem 1rem;
+        padding: 8rem 1rem 4rem 1rem;
     }
 }
 

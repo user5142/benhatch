@@ -464,11 +464,15 @@ header ul li a:hover {
 }
 
 .hero-articles .read-more a {
-    display: flex;
+    display: inline-flex;
     flex-flow: row;
     gap: .5rem;
     justify-content: end;
     padding: 1rem 0 0 0;
+}
+
+.read-more {
+    text-align: end;
 }
 
 .hero-articles .read-more a:hover {

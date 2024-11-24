@@ -45,9 +45,9 @@ if (header2 != undefined) {
                     <li><a href="https://benhatch.com/blog">blog</a></li>
                     <li><a href="https://benhatch.com/about">about</a></li>
                     <li><a href="https://benhatch.com/now">now</a></li>
-                    <div class="nav-socials">
+                    <!-- <div class="nav-socials">
                     <li><a href="https://www.youtube.com/@henbatch" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a></li>
-                    </div>
+                    </div> -->
                 </div>
             </ul>
             <div class="mobile-nav">
@@ -62,7 +62,7 @@ if (header2 != undefined) {
             <a href="https://benhatch.com/blog">blog</a>
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>
-            <a href="https://www.youtube.com/@henbatch" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a>
+            <!-- <a href="https://www.youtube.com/@henbatch" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a> -->
         </div>
     </div>
 `

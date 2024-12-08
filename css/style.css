@@ -595,7 +595,7 @@ header ul li a:hover {
     margin: 0 auto;
     gap: 2rem;
     max-width: 44rem;
-    padding: 8rem 1.5rem 0 1.5rem;
+    padding: 8rem 1.5rem 18rem 1.5rem;
 }
 
 .now-update-time,
@@ -630,7 +630,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     align-items: start;
-    padding: 8rem 0 0 0;
+    padding: 8rem 0 10rem 0;
     gap: 4rem;
 }
 

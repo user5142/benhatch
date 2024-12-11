@@ -8,7 +8,7 @@ html {
 
 body {
     /* background-color: #f4f3f0; */
-    background-color: #FDFDFD;
+    background-color: #FFFFFF;
 }
 
 h3,
@@ -101,7 +101,7 @@ i {
 
 button {
     background-color: #46596c;
-    color: #FDFDFD;
+    color: #FFFFFF;
     height: 2.5rem;
     padding: .25rem 1.5rem;
     margin-top: .5rem;
@@ -218,7 +218,7 @@ button:active,
     left: 0;
     right: 0;
     /* background-color: #f4f3f0; */
-    background-color: #FDFDFD;
+    background-color: #FFFFFF;
     z-index: 999;
     transition: box-shadow 0.1s ease-in-out;
 }

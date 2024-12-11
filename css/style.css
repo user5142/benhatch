@@ -358,7 +358,7 @@ header ul li a:hover {
     flex-flow: column;
     gap: 4rem;
     align-items: start;
-    padding: 8rem 1rem 10rem 1rem;
+    padding: 8rem 1rem 12rem 1rem;
 }
 
 .email-subscribe {
@@ -409,7 +409,7 @@ header ul li a:hover {
         gap: 4rem;
         margin: 0 auto;
         width: 44rem;
-        padding: 8rem 1rem 10rem 1rem;
+        padding: 8rem 1rem 12rem 1rem;
     }
 }
 
@@ -422,11 +422,7 @@ header ul li a:hover {
         padding: 0;
     }
 
-    .project-card {
-        padding: 1.4rem 0;
-    }
-
-    .hero-left, .hero-right, .hero-articles {
+    .hero-left, .hero-right, .hero-articles, .hero-articles-container {
         width: 100%;
         min-width: auto;
         max-width: 100%;
@@ -443,17 +439,6 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 500px) {
-    .hero-wrapper {
-        margin: 0;
-    }
-
-    .mrmarket-description-1 {
-        display: none;
-    }
-
-    .mrmarket-description-2 {
-        display: inline;
-    }
 }
 
 /* Fun Facts */
@@ -547,7 +532,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     align-items: start;
-    padding: 8rem 0 10rem 0;
+    padding: 8rem 0 12rem 0;
     gap: 4rem;
 }
 
@@ -586,7 +571,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1000px) {
     .all-articles {
-        padding: 8rem 1rem 30rem 1rem;
+        padding: 8rem 1rem 12rem 1rem;
     }
 }
 
@@ -599,7 +584,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     .all-articles {
-        padding: 8rem 1rem 30rem 1rem;
+        padding: 8rem 1rem 12rem 1rem;
     }
 }
 

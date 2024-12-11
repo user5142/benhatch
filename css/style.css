@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    background-color: #f4f3f0;
+    /* background-color: #f4f3f0; */
+    background-color: #FDFDFD;
 }
 
 h3,
@@ -43,7 +44,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     color: #080806;
     line-height: 1.4;
@@ -216,7 +217,8 @@ button:active,
     top: 0;
     left: 0;
     right: 0;
-    background-color: #f4f3f0;
+    /* background-color: #f4f3f0; */
+    background-color: #FDFDFD;
     z-index: 999;
     transition: box-shadow 0.1s ease-in-out;
 }
@@ -250,11 +252,11 @@ header ul li a:hover {
     text-decoration: none;
 }
 
-.home a {
+#home a {
     font-family: 'DM Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
-    color: #69696F;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #080806;
     text-decoration: none;
 }
 
@@ -356,38 +358,7 @@ header ul li a:hover {
     flex-flow: column;
     gap: 4rem;
     align-items: start;
-    padding: 8rem 1rem 0 1rem;
-}
-
-.hero-left {
-    display: flex;
-    flex-flow: column;
-    gap: 4rem;
-    min-width: 44rem;
-    max-width: 44rem;
-}
-
-.hero-bio {
-    display: flex;
-    flex-flow: column;
-    gap: 1rem;
-}
-
-.hero-pfp {
-    width: 4.5rem;
-}
-
-.social-icons {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    gap: 1rem;
-}
-
-.hero-text {
-    display: flex;
-    flex-flow: column;
-    gap: .2rem;
+    padding: 8rem 1rem 10rem 1rem;
 }
 
 .email-subscribe {
@@ -413,7 +384,7 @@ header ul li a:hover {
     flex-flow: column;
 }
 
-.hero-right {
+.hero-articles-container {
     display: flex;
     flex-flow: column;
     gap: 1.5rem;
@@ -421,38 +392,8 @@ header ul li a:hover {
     max-width: 44rem;
 }
 
-.hero-right p {
+.hero-articles-container p {
     color: #69696F;
-}
-
-.projects-hero-container {
-    padding: 0 0 2rem 0;
-}
-
-.projects-hero-container a:hover {
-    text-decoration: none;
-}
-
-.project-card {
-    display: flex;
-    flex-flow: row;
-    gap: 1.5rem;
-    padding: 1.4rem 2rem;
-    border-radius: .6rem;
-    align-items: center;
-}
-
-.project-card:hover {
-    cursor: pointer;
-    background-color: rgba(234, 233, 231, 0.5);
-}
-
-.project-card-text h3 {
-    font-weight: 400;
-}
-
-.project-card-text h4 {
-    padding: 0;
 }
 
 .hero-articles {
@@ -463,36 +404,12 @@ header ul li a:hover {
     max-width: 44rem;
 }
 
-.hero-articles .read-more a {
-    display: inline-flex;
-    flex-flow: row;
-    gap: .5rem;
-    justify-content: end;
-    padding: 1rem 0 0 0;
-}
-
-.read-more {
-    text-align: end;
-}
-
-.hero-articles .read-more a:hover {
-    text-decoration: none;
-    opacity: .8;
-}
-
-.read-more p {
-    font-size: .8rem;
-}
-
-.hero .email-subscribe {
-    padding: 2rem 0 0 0;
-}
-
 @media only screen and (min-width: 700px) {
     .hero {
         gap: 4rem;
         margin: 0 auto;
         width: 44rem;
+        padding: 8rem 1rem 10rem 1rem;
     }
 }
 

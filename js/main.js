@@ -6,8 +6,7 @@ if (header != undefined) {
         <header>
             <ul>
                 <div class="nav-pages">
-                    <li id="home"><a href="https://benhatch.com/">home</a></li>
-                    <li><a href="https://benhatch.com/blog">blog</a></li>
+                    <li id="home"><a href="https://benhatch.com/">Ben Hatch</a></li>
                     <li><a href="https://benhatch.com/about">about</a></li>
                     <li><a href="https://benhatch.com/now">now</a></li>
                     <!-- <div class="nav-socials">
@@ -25,7 +24,6 @@ if (header != undefined) {
             </div>
         </header>
         <div id="burger-links">
-            <a href="https://benhatch.com/blog">blog</a>
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>
             <!-- <a href="https://www.youtube.com/@henbatch" target="_blank"><img src="images/youtube-icon.svg" alt="YouTube icon"></a> -->
@@ -41,8 +39,7 @@ if (header2 != undefined) {
         <header>
             <ul>
                 <div class="nav-pages">
-                    <li id="home"><a href="https://benhatch.com/">home</a></li>
-                    <li><a href="https://benhatch.com/blog">blog</a></li>
+                    <li id="home"><a href="https://benhatch.com/">Ben Hatch</a></li>
                     <li><a href="https://benhatch.com/about">about</a></li>
                     <li><a href="https://benhatch.com/now">now</a></li>
                     <!-- <div class="nav-socials">
@@ -59,7 +56,6 @@ if (header2 != undefined) {
             </div>
         </header>
         <div id="burger-links">
-            <a href="https://benhatch.com/blog">blog</a>
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>
             <!-- <a href="https://www.youtube.com/@henbatch" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a> -->

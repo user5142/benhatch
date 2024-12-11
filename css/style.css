@@ -402,6 +402,31 @@ header ul li a:hover {
     max-width: 44rem;
 }
 
+.hero-articles-container .read-more a {
+    display: inline-flex;
+    flex-flow: row;
+    gap: .5rem;
+    justify-content: end;
+    padding: 1rem 0 0 0;
+}
+
+.read-more {
+    text-align: end;
+}
+
+.hero-articles-container .read-more a:hover {
+    text-decoration: none;
+    opacity: .8;
+}
+
+.read-more p {
+    font-size: .8rem;
+}
+
+.hero .email-subscribe {
+    padding: 2rem 0 0 0;
+}
+
 @media only screen and (min-width: 700px) {
     .hero {
         gap: 4rem;
@@ -437,33 +462,6 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 500px) {
-}
-
-/* Fun Facts */
-
-.fun-facts {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 8rem 2rem 8rem 2rem;
-}
-
-.fun-facts #dynamic-fun {
-    padding: 1rem 0 0 0;
-    color: transparent;
-    max-width: 44rem;
-}
-
-@media only screen and (max-width: 500px) {
-    .fun-facts {
-        align-items: start;
-        padding: 4rem 1rem 5rem 1rem;
-    }
-
-    #dynamic-fun {
-        padding: 1rem 0;
-    }
 }
 
 /* About */
@@ -594,7 +592,7 @@ header ul li a:hover {
     gap: 2rem;
     width: 44rem;
     margin: 0 auto;
-    padding: 8rem 0 4rem 0;
+    padding: 8rem 1rem 4rem 1rem;
 }
 
 .article-header {

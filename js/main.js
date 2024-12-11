@@ -7,6 +7,7 @@ if (header != undefined) {
             <ul>
                 <div class="nav-pages">
                     <li id="home"><a href="https://benhatch.com/">Ben Hatch</a></li>
+                    <li><a href="https://benhatch.com/blog">blog</a></li>
                     <li><a href="https://benhatch.com/about">about</a></li>
                     <li><a href="https://benhatch.com/now">now</a></li>
                     <!-- <div class="nav-socials">
@@ -24,6 +25,7 @@ if (header != undefined) {
             </div>
         </header>
         <div id="burger-links">
+            <a href="https://benhatch.com/blog">blog</a>
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>
             <!-- <a href="https://www.youtube.com/@henbatch" target="_blank"><img src="images/youtube-icon.svg" alt="YouTube icon"></a> -->
@@ -40,6 +42,7 @@ if (header2 != undefined) {
             <ul>
                 <div class="nav-pages">
                     <li id="home"><a href="https://benhatch.com/">Ben Hatch</a></li>
+                    <li><a href="https://benhatch.com/blog">blog</a></li>
                     <li><a href="https://benhatch.com/about">about</a></li>
                     <li><a href="https://benhatch.com/now">now</a></li>
                     <!-- <div class="nav-socials">
@@ -56,6 +59,7 @@ if (header2 != undefined) {
             </div>
         </header>
         <div id="burger-links">
+            <a href="https://benhatch.com/blog">blog</a>
             <a href="https://benhatch.com/about">about</a>
             <a href="https://benhatch.com/now">now</a>
             <!-- <a href="https://www.youtube.com/@henbatch" target="_blank"><img src="../images/youtube-icon.svg" alt="YouTube icon"></a> -->
@@ -130,45 +134,6 @@ const projectsNav = document.querySelector("#burger-links");
 if (burgerIcon != null) {
   burgerIcon.addEventListener("click", burgerMenu);
   projectsNav.addEventListener("click", burgerMenu);
-};
-
-// Random fun facts
-const randomFunFact = () => {
-  const funFacts = [
-    "I received my undergraduate degree in Business Administration from the University of Vermont.",
-    "My favorite app is Todoist.",
-    "I pursued standup comedy for 2 years while living in Boston.",
-    "I grew up in Ashland, Massachusetts.",
-    "I co-managed a dog walking business in the North End of Boston.",
-    "My all-time favorite movie is The Bourne Identity.",
-    "My first passion in life was freestyle skiing.",
-    "I played football, basketball, baseball and soccer growing up.",
-    "I began my journey of learning to code in December of 2022.",
-    "I broke my wrist playing football my freshman year of high school.",
-    "My favorite band growing up was the Red Hot Chili Peppers.",
-    "My first job out of college was at HubSpot working as a Business Development Representative.",
-    "My childhood dog was a collie named Laddie.",
-    "My favorite pizza topping combo is pepper and onion.",
-    "I am 6 feet tall.",
-    "I was very into extreme sports growing up, including skiing, scootering, aggressive inline and skateboarding.",
-    "I have never met a celebrity.",
-    "I built my first website in 2013.",
-    "My favorite fruit is pineapple.",
-    "My favorite design tool is Figma.",
-    "This website is built from scratch with HTML, CSS and JavaScript."
-  ];
-
-  const funFactDisplay = document.querySelector("#dynamic-fun");
-  const randomNum = Math.floor(Math.random() * funFacts.length);
-  let funFact = funFacts[randomNum];
-  funFactDisplay.style.color = `#080806`;
-  funFactDisplay.innerHTML = funFact;
-};
-
-// Generate a random fun fact on button click
-const funButton = document.querySelector("#fun-button");
-if (funButton != null) {
-  funButton.addEventListener("click", randomFunFact);
 };
 
 // <li><div class="copy-to-clipboard" onclick="copyEmail()"><img id="checkmark-icon" src="images/Checkmark Icon.svg"><img id="copy-icon" src="images/Copy to Clipboard Icon.svg"><button id="contact-button"><div id="contact-button-text">hatch2k3@proton.me</div></button></div></li> 

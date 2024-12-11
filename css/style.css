@@ -528,7 +528,7 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     align-items: start;
-    padding: 8rem 0 8rem 0;
+    padding: 8rem 0 0 0;
     gap: 4rem;
 }
 
@@ -580,7 +580,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     .all-articles {
-        padding: 8rem 1rem 8rem 1rem;
+        padding: 8rem 1rem 0 1rem;
     }
 }
 

@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    /* background-color: #f4f3f0; */
     background-color: #FFFFFF;
 }
 
@@ -217,7 +216,6 @@ button:active,
     top: 0;
     left: 0;
     right: 0;
-    /* background-color: #f4f3f0; */
     background-color: #FFFFFF;
     z-index: 999;
     transition: box-shadow 0.1s ease-in-out;
@@ -287,7 +285,7 @@ header ul li a:hover {
 
 #burger-links {
     display: none;
-    background-color: #f4f3f0;
+    background-color: #FFFFFF;
     padding-bottom: 1rem;
 }
 

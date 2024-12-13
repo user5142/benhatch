@@ -51,7 +51,7 @@ if (header2 != undefined) {
                 </div>
             </ul>
             <div class="mobile-nav">
-                <a href="https://benhatch.com/">home</a>
+                <h3 id="home"><a href="https://benhatch.com/">Ben Hatch</a></h3>
                 <a id="hamburger-icon">
                     <img id="burger-icon" src="../images/bh-hamburger-2.svg" alt="hamburger icon"><img id="x-icon"
                         src="../images/bh-x-2.svg">

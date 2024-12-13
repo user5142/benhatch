@@ -402,6 +402,14 @@ header ul li a:hover {
     padding: 1rem 0 0 0;
 }
 
+.hero-articles {
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    min-width: 44rem;
+    max-width: 44rem;
+}
+
 .read-more {
     text-align: end;
 }

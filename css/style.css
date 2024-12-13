@@ -434,7 +434,7 @@ header ul li a:hover {
 }
 
 .hero .email-subscribe {
-    padding: 6rem 0 0 0;
+    padding: 4rem 0 0 0;
 }
 
 @media only screen and (min-width: 700px) {
@@ -945,7 +945,7 @@ footer {
     position: relative;
     justify-content: space-between;
     justify-content: center;
-    padding: 12rem 1rem 1.5rem 1rem;
+    padding: 8rem 1rem 1.5rem 1rem;
 }
 
 footer p {

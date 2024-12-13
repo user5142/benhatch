@@ -273,6 +273,10 @@ header ul li a:hover {
     max-width: 100%;
 }
 
+#x-icon {
+    display: none;
+}
+
 #burger-links {
     display: none;
     background-color: #F4F3F0;

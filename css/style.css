@@ -29,11 +29,6 @@ h1 {
     letter-spacing: 1px;
 }
 
-.grey {
-    font-weight: 400;
-    color: #69696F;
-}
-
 h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
@@ -181,7 +176,6 @@ button:active,
     }
 }
 
-
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 2.2rem;
@@ -277,10 +271,6 @@ header ul li a:hover {
 .mobile-nav img {
     width: 1.8rem;
     max-width: 100%;
-}
-
-#x-icon {
-    display: none;
 }
 
 #burger-links {
@@ -402,14 +392,6 @@ header ul li a:hover {
 
 .hero-articles-container p {
     color: #69696F;
-}
-
-.hero-articles {
-    display: flex;
-    flex-flow: column;
-    gap: 1.5rem;
-    min-width: 44rem;
-    max-width: 44rem;
 }
 
 .hero-articles-container .read-more a {
@@ -662,12 +644,6 @@ header ul li a:hover {
 
 .article .email-subscribe {
     padding: 4rem 0 0 0;
-}
-
-.one-hundred-videos {
-    display: flex;
-    flex-flow: column;
-    gap: .6rem;
 }
 
 @media only screen and (min-width: 700px) {

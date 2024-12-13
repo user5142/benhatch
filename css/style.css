@@ -607,14 +607,20 @@ header ul li a:hover {
 
 .article-info {
     display: flex;
-    flex-flow: column;
-    gap: .2rem;
+    flex-flow: row;
+    gap: 1.5rem;
 }
 
 .article-info p,
 .image-text {
     font-size: 1rem;
     font-weight: 200;
+}
+
+.writing-category, .writing-genre {
+    border: 1px solid #69696F;
+    border-radius: .2rem;
+    padding: 0 .4rem;
 }
 
 .article-body {

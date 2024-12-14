@@ -608,7 +608,8 @@ header ul li a:hover {
 .article-info {
     display: flex;
     flex-flow: row;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .article-info p,

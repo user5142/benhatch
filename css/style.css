@@ -300,16 +300,20 @@ header ul li a:hover {
     text-align: left;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 770px) {
     header {
         margin: 0 auto;
         width: 44rem;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 770px) {
     header {
-        padding: 0 3rem;
+        padding: 0 1rem;
+    }
+
+    #burger-links a {
+        padding: 1.4rem 1rem;
     }
 
     header ul {
@@ -330,16 +334,6 @@ header ul li a:hover {
 
     #burger-links a {
         padding: 1rem 3rem;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    header {
-        padding: 0 1rem;
-    }
-
-    #burger-links a {
-        padding: 1.4rem 1rem;
     }
 }
 
@@ -431,7 +425,7 @@ header ul li a:hover {
     padding: 4rem 0 0 0;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 770px) {
     .hero {
         gap: 2rem;
         margin: 0 auto;
@@ -440,7 +434,7 @@ header ul li a:hover {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 770px) {
     .hero-bio {
         padding: 0;
     }

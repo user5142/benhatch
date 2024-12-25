@@ -651,6 +651,11 @@ header ul li a:hover {
     border: none;
 }
 
+.story-break {
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
 .article .email-subscribe {
     padding: 4rem 0 0 0;
 }
